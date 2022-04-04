@@ -1,0 +1,73 @@
+    <header class="header">
+
+            <div class="menu">
+
+                <div class="nav"> </div>
+                <div class="logo"> </div>
+                <div class="contact"> </div>
+
+            </div>
+
+            <div class="slogan"> 
+
+                <h1>  </h1>
+
+            </div>
+    
+        </header>
+
+         <section class="section"> 
+        
+
+         <div class="pizzas">
+
+            <div class="artp">
+
+
+            </div>
+
+          </div>
+
+
+         <div class="wineries"> 
+            
+            <div class="artw">   </div>
+            
+         </div>    
+
+         <div class="juiceNatural">
+            
+            <div class="artn"> </div>
+
+         </div>
+
+         <div class="coffee">
+            
+            <div class="artc"></div>
+
+         </div>
+        
+         </section>  
+        
+
+           <aside class="aside">
+
+            <div class="promociones"> </div>
+
+
+           </aside>
+
+
+         
+
+         
+
+          <footer class="footer">
+
+          <div class="contactandlocation"> </div>
+          <div class="maps"> </div>
+          <div class="contratacionesyreservas"> </div>
+    
+    
+          </footer>
+        
