@@ -50,7 +50,9 @@
                 grid-column: span 2;
                 align-items: stretch;
                 justify-content: stretch;
-               }
+                }
+
+                .logo :hover { transform: rotate(360deg); transition: 2s;}
 
          
          .nav { grid-column:  span 8;  
