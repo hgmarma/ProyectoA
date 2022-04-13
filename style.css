@@ -5,15 +5,14 @@
     color: white;
     font-weight: bold;}
 
-    .space { height: 25px; }
+    
 
-   
+   p { background-color: rgb(6, 6, 6, .2)}
 
 
     @media (min-width: 1150px) and ( max-width: 1900px) { 
 
-        header { }
-
+      
 
 
     }
