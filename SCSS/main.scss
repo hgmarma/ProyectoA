@@ -1,6 +1,11 @@
 $color-titulo: yellow;
+$margin: 1rem;
 
 
 h1 { color: $color-titulo; 
+    
+    margin: $margin;
 
 }
+
+
