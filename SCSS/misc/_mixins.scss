@@ -1,0 +1,210 @@
+@mixin imgFondoFx ($url, $ht: 50vmax, $wh: 100%, $mg: 10px
+ ) { 
+    
+    background-image: $url;
+    height: $ht;
+    width: $wh;
+    margin: $mg;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content:center;
+   
+}
+
+@mixin imgFondoFx2 ($url, $ht: 50vmax, $wh: 100%, $mg: 5px, $opa: 100%
+ ) { 
+    
+    background-image: $url;
+    height: $ht;
+    width: $wh;
+    margin: $mg;
+    opacity: $opa;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+   
+   
+}
+
+
+@mixin imgArt  ($url, $wh: 1000px, $hg: 1000px )  { 
+   background-image: $url;
+   width: $wh; 
+    height: $hg;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+   
+   
+  
+}
+
+
+@mixin separador ($color: black, $ht: 5vmax, $wh: 100%, 
+$mgTop: 50px, $mgBottom: 50px, $opa: 100%) 
+
+{ 
+    
+    background-color: $color;
+    height: $ht;
+    width: $wh;
+    margin-top: $mgTop;
+    margin-bottom: $mgBottom;
+    opacity: $opa;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    @content;
+
+    
+   
+
+}   
+
+@mixin separadorIMG ($url, $ht: 5vmax, $wh: 100%, 
+$mgTop: 50px, $mgBottom: 50px, $opa: 100%) 
+
+{ 
+    background-image: $url;
+    height: $ht;
+    width: $wh;
+    margin-top: $mgTop;
+    margin-bottom: $mgBottom;
+    opacity: $opa;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    @content;
+}   
+
+
+@mixin titleSlogan1 ($color: black, $fontSize: 60px )  {
+
+    color: $color; 
+    font-size: $fontSize; 
+    font-family: 'Ms Madi', cursive;
+    font-weight: bold;
+    text-align: center;
+    
+
+ } 
+
+@mixin artShadowFx ()
+
+     {  box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2);
+
+
+        
+    }
+
+
+@mixin emptySpace ($ht:1vh, $wh:100%, $color: white,) {     
+
+    height: $ht;
+    width: $wh;
+    background-color: $color;
+
+}
+
+@mixin centrado { display: flex; 
+    width: 100%;
+    justify-content: center; 
+    align-items: center;}
+
+    
+@mixin parrafo ($color: black, $fontSize: 15px, $textshadow: 1px 1px 1px white,
+  $mg: 1px, $pg: 1px, )
+
+{     color: $color; 
+      font-size: $fontSize; 
+      text-shadow: $textshadow ;
+      margin: $mg ;
+      padding: $pg ;
+      letter-spacing: 2px;
+      word-spacing: 4px;
+      text-align: center;
+      font-family: 'Oswald', sans-serif; 
+      font-weight: bold;
+      text-decoration: none ;
+      
+      }   
+
+
+@mixin subtitle ($color: black, $fontsize: 15px, 
+$bgcolor: rgb(0, 0, 0, .3) ) 
+
+{  
+
+    color: $color; 
+    font-size: $fontsize; 
+    background-color: $bgcolor ;
+    font-family: 'Oswald', sans-serif; 
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+
+@mixin flex ( $direction, $corte, $just, $align) {
+
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap:  $corte;
+    justify-content: $just;
+    align-items: $align;
+    
+}
+
+
+@mixin grid ($column: 1, $row: 1, 
+ $gap: 10px ) 
+{   
+    display: grid;
+    grid-template-columns: repeat($column, 1fr);
+    grid-template-rows: repeat($row, 1fr);
+    grid-gap: $gap;
+    
+
+}
+
+@mixin gridpos ($rowstart , $rowend , 
+$columnstart, $columnend ) 
+  
+ {   
+
+    grid-row-start: $rowstart;
+    grid-row-end: $rowend; 
+    grid-column-start: $columnstart;
+    grid-column-end: $columnend; 
+   
+}
+
+
+
+@mixin mp ()   { margin: 0; 
+    padding: 0; }
+
+    
+
+@mixin hw ($hg: 50px, $wh: 50px) {height: $hg; width: $wh;}
+
+@mixin slider () { 
+
+    width: 50%;
+    height: 100px;
+    animation-name: translate;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-delay: 0s; }
+
+    
+
+
+
+
+
+
+
+    
+
+

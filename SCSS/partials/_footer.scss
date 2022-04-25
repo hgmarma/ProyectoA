@@ -1,0 +1,36 @@
+.footer { 
+
+    @include grid ( 1, 1 );
+    @include gridpos (4, 5, 1, 13);
+
+
+    .socialRed { 
+    
+    @include flex (row, nowrap, space-evenly, center);
+    @include separador ();
+    i { @include hw (); color: $color;  }
+    
+
+    h1 { @include titleSlogan1 (white, 50px);
+    
+          
+            
+            } 
+    
+    div {  @include titleSlogan1 (white, 50px) }
+
+   
+
+    }
+
+
+
+
+   
+
+
+
+
+
+
+}

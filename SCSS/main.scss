@@ -1,3 +1,37 @@
-@import 
+/* FONT */
+
+@import url('https://kit.fontawesome.com/e7e352d968.js');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Oswald:wght@200;300;400&display=swap');
+
+
+
+/* MISC */
+
+@import  './misc/normalize';
+@import  './misc/varials';
+@import './misc/boostrap';
+@import './misc/mixins';
+@import './misc/mediaqueries';
+
+/* PARTIALS */
+
+@import './partials/header.scss';
+@import './partials/footer.scss';
+
+/*VIEWS*/
+
+
+@import './views/home';
+@import './views/pizzas';
+@import './views/wines';
+@import './views/localandcontact';
+@import './views/naturaljuice';
+
+
+
+    
+
+
+
 
 

@@ -1,0 +1,9 @@
+@mixin mobile ($responsive: 480px,){ 
+    
+    @media screen and (max-width: $responsive) 
+
+    { @content
+    
+}
+    
+}
