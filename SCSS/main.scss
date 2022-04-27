@@ -7,25 +7,25 @@
 
 /* MISC */
 
-@import  './misc/_normalize';
-@import  './misc/_varials';
-@import './misc/_boostrap';
-@import './misc/_mixins';
-@import './misc/_mediaqueries';
+@import  './misc/normalize';
+@import  './misc/varials';
+@import './misc/mediaqueries';
+@import './misc/mixins';
+@import './misc/boostrap';
 
 /* PARTIALS */
 
-@import './partials/_header.scss';
-@import './partials/_footer.scss';
+@import './partials/header.scss';
+@import './partials/footer.scss';
 
 /*VIEWS*/
 
 
-@import './views/_home';
-@import './views/_pizzas';
-@import './views/_wines';
-@import './views/_localandcontact';
-@import './views/_naturaljuice';
+@import './views/home';
+@import './views/pizzas';
+@import './views/wines';
+@import './views/localandcontact';
+@import './views/naturaljuice';
 
 
 

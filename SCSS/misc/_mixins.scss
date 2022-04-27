@@ -12,6 +12,12 @@
    
 }
 
+@mixin logo () { width: 150px; 
+    height: 150px; 
+    border-radius: 100%; 
+    border-width: 1px;
+     border-color: black; }
+
 @mixin imgFondoFx2 ($url, $ht: 50vmax, $wh: 100%, $mg: 5px, $opa: 100%
  ) { 
     

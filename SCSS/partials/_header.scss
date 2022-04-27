@@ -8,13 +8,14 @@
 
         @include grid (12, 5);
         @include gridpos (1, 2, 1, 13);
-        @include imgFondoFx (url(../../Multimedia/fondos/vinedo.jpg), 40vmax,); 
+        @include imgFondoFx (url('../../Multimedia/fondos/vinedo.jpg'), 40vmax,); 
         @include artShadowFx ();
 
         
 
      .logo {
-        @include gridpos (1, 2, 1, 2);
+        @include gridpos (1, 2, 1, 2); 
+       
         &:hover { transform: rotate(360deg); 
          transition: 2s;}
      }
