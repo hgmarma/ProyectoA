@@ -1,180 +1,59 @@
+.container {
+   @include grid (12, 4);
+   height: 100vmax;
+
+} 
+
 .inicioP {
 
        @include grid (12, 5);
        @include gridpos (1, 2, 1, 13);
-        @include imgFondoFx (url(../../Multimedia/fondos/piso-de-gente-cenando-pizza-con-vino-tinto-familia-o-amigos-por-plano-tomando-y-comiendo-varias-clases-bebiendo-sobre-mesa-172931154.jpg), 40vmax,); 
-        @include artShadowFx ();
+       
 
+       
 
+    .logo {
+       @include gridpos (1, 2, 1, 2); 
+      
+       &:hover { transform: rotate(360deg); 
+        transition: 2s;}
+    }
 
-       .logo {
-       @include gridpos (1, 2, 1, 2);
-        &:hover { transform: rotate(360deg); 
-         transition: 2s;} }
-
-       .nav {
+    .nav {
        @include gridpos (1, 2, 2, 13);
-        @include flex (row, nowrap, space-evenly, center);
+       @include flex (row, nowrap, space-evenly, center);
+       
+       
+      
 
-        li {list-style-type: none;
+       li {list-style-type: none;}
 
-        a {
-         @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);
-         } }
+       li a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  } }
 
-         }
-
-       .slogan {
+       
+       
+    .slogan {
 
        @include gridpos (3, 4, 2, 12);
 
-      .slogantitle {
-         @include titleSlogan1 (white, );
+       .slogantitle {  @include titleSlogan1 (white, );
+       
+           &:hover {scale: 200px, 200px; 
+               transition: 2s; 
+               font-size: 75px;}
+            }
+       
+            }
 
-         &:hover {
-            scale: 200px, 200px;
-            transition: 2s;
-            font-size: 75px;
-         }
-         }
-
-         } 
-   
-      }
-
-
-
-.menu {
-   @include grid (1, 12);
-   @include gridpos (2, 3, 1, 13);
-   height: 310vmax;
+       .fondo { position: absolute;
+         left: 0;
+         top: 0;
+         background-color: black;
+         z-index: -1;
+         display: flex;
+         justify-content: center;
+         
+       }
 
 
-   .home_slider {
-      @include gridpos (1, 2, 1, 13);
-
-      .item_slider1 img {
-         width: 100%;
-         position: relative;
-      }
-   }
-        
-
-.article {
-   @include grid (2, 1, 50px);
-   @include gridpos (2, 3, 1, 13);
-
-   h1 {
-      @include parrafo (white, 75px);
-   }
-
-   p {
-      @include parrafo (black, 50px);
-
-      &:hover {
-         text-shadow: 10px 10px 20px black;
-         font-size: 55px;
-         transition: 1s;
-      }
-   }
-
-   .margharite {
-      @include imgArt (url('../../Multimedia/PIZZAS/pizza-margherita-alfa-forni-1536x1536.jpg'));
-      @include parrafo (white, 45px);
-      @include artShadowFx ();
-
-      &:hover {
-         text-shadow: 10px 10px 20px black;
-         font-size: 55px;
-         transition: 1s;
-      }
-   }
-
-   .quattroformaggi {
-      @include imgArt (url('../../Multimedia/PIZZAS/17431-pizza-suprema-ai-formaggi-K-20220125.jpg'));
-      @include parrafo (white, 45px);
-      @include artShadowFx ();
-
-      &:hover {
-         text-shadow: 10px 10px 20px black;
-         font-size: 55px;
-         transition: 1s;
-      }
-   }
-
-   .funghi {
-      @include imgArt (url('../../Multimedia/PIZZAS/istockphoto-1350259421-612x612.jpg'));
-      @include parrafo (white, 45px);
-      @include artShadowFx ();
-
-      &:hover {
-         text-shadow: 10px 10px 20px black;
-         font-size: 55px;
-         transition: 1s;
-      }
-   }
-
-   .provolone {
-      @include imgArt (url('../../Multimedia/PIZZAS/1d4a0f7eac01dfb706b40f042fd6ecf3.jpg'));
-      @include artShadowFx ();
-
-      h1 {
-         color: black
-      }
-
-      &:hover {
-         text-shadow: 10px 10px 20px black;
-         font-size: 55px;
-         transition: 1s;
-      }
-   }
-
-   .dellacasa {
-      @include imgArt (url('../../Multimedia/PIZZAS/istockphoto-474338200-612x612.jpg'));
-      @include artShadowFx ();
-
-      h1 {
-         color: black
-      }
-
-      ;
-
-      &:hover {
-         text-shadow: 10px 10px 20px black;
-         font-size: 55px;
-         transition: 1s;
-      }
-   }
-
-   .veggie {
-      @include imgArt (url('../../Multimedia/PIZZAS/pizza-napoletana-vegana-3.jpg'));
-      @include artShadowFx ();
-
-      &:hover {
-         text-shadow: 10px 10px 20px black;
-         font-size: 55px;
-         transition: 1s;
-      }
-   }
-
-}
-
-}
-
-
-.footerP {
-   @include grid (1, 1);
-   @include gridpos (5, 6, 1, 13);
-
-   .socialRed {
-      @include flex (row, nowrap, space-evenly, center);
-      @include separador ();
-
-      i {
-         @include hw ();
-         color: $color;
-      }
-
-      h1 {
-         @include titleSlogan1 (white, 50px);
-      } } } 
+       }

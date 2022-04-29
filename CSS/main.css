@@ -217,6 +217,13 @@
       font-size: 50px;
       transition: 1s; }
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px;
+  height: 100vmax; }
+
 .inicioP {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -225,16 +232,7 @@
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 1;
-  grid-column-end: 13;
-  background-image: url(../../Multimedia/fondos/piso-de-gente-cenando-pizza-con-vino-tinto-familia-o-amigos-por-plano-tomando-y-comiendo-varias-clases-bebiendo-sobre-mesa-172931154.jpg);
-  height: 40vmax;
-  width: 100%;
-  margin: 10px;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  justify-content: center;
-  box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
+  grid-column-end: 13; }
   .inicioP .logo {
     grid-row-start: 1;
     grid-row-end: 2;
@@ -255,18 +253,18 @@
     align-items: center; }
     .inicioP .nav li {
       list-style-type: none; }
-      .inicioP .nav li a {
-        color: white;
-        font-size: 30px;
-        text-shadow: 1px 1px 1px white;
-        margin: 10px;
-        padding: 10px;
-        letter-spacing: 2px;
-        word-spacing: 4px;
-        text-align: center;
-        font-family: 'Oswald', sans-serif;
-        font-weight: bold;
-        text-decoration: none; }
+    .inicioP .nav li a {
+      color: white;
+      font-size: 30px;
+      text-shadow: 1px 1px 1px white;
+      margin: 10px;
+      padding: 10px;
+      letter-spacing: 2px;
+      word-spacing: 4px;
+      text-align: center;
+      font-family: 'Oswald', sans-serif;
+      font-weight: bold;
+      text-decoration: none; }
   .inicioP .slogan {
     grid-row-start: 3;
     grid-row-end: 4;
@@ -282,199 +280,14 @@
         scale: 200px, 200px;
         transition: 2s;
         font-size: 75px; }
-
-.menu {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  grid-gap: 10px;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 1;
-  grid-column-end: 13;
-  height: 310vmax; }
-  .menu .home_slider {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 13; }
-    .menu .home_slider .item_slider1 img {
-      width: 100%;
-      position: relative; }
-  .menu .article {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    grid-gap: 50px;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 13; }
-    .menu .article h1 {
-      color: white;
-      font-size: 75px;
-      text-shadow: 1px 1px 1px white;
-      margin: 1px;
-      padding: 1px;
-      letter-spacing: 2px;
-      word-spacing: 4px;
-      text-align: center;
-      font-family: 'Oswald', sans-serif;
-      font-weight: bold;
-      text-decoration: none; }
-    .menu .article p {
-      color: black;
-      font-size: 50px;
-      text-shadow: 1px 1px 1px white;
-      margin: 1px;
-      padding: 1px;
-      letter-spacing: 2px;
-      word-spacing: 4px;
-      text-align: center;
-      font-family: 'Oswald', sans-serif;
-      font-weight: bold;
-      text-decoration: none; }
-      .menu .article p:hover {
-        text-shadow: 10px 10px 20px black;
-        font-size: 55px;
-        transition: 1s; }
-    .menu .article .margharite {
-      background-image: url("../../Multimedia/PIZZAS/pizza-margherita-alfa-forni-1536x1536.jpg");
-      width: 1000px;
-      height: 1000px;
-      background-size: 100% auto;
-      background-repeat: no-repeat;
-      color: white;
-      font-size: 45px;
-      text-shadow: 1px 1px 1px white;
-      margin: 1px;
-      padding: 1px;
-      letter-spacing: 2px;
-      word-spacing: 4px;
-      text-align: center;
-      font-family: 'Oswald', sans-serif;
-      font-weight: bold;
-      text-decoration: none;
-      box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
-      .menu .article .margharite:hover {
-        text-shadow: 10px 10px 20px black;
-        font-size: 55px;
-        transition: 1s; }
-    .menu .article .quattroformaggi {
-      background-image: url("../../Multimedia/PIZZAS/17431-pizza-suprema-ai-formaggi-K-20220125.jpg");
-      width: 1000px;
-      height: 1000px;
-      background-size: 100% auto;
-      background-repeat: no-repeat;
-      color: white;
-      font-size: 45px;
-      text-shadow: 1px 1px 1px white;
-      margin: 1px;
-      padding: 1px;
-      letter-spacing: 2px;
-      word-spacing: 4px;
-      text-align: center;
-      font-family: 'Oswald', sans-serif;
-      font-weight: bold;
-      text-decoration: none;
-      box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
-      .menu .article .quattroformaggi:hover {
-        text-shadow: 10px 10px 20px black;
-        font-size: 55px;
-        transition: 1s; }
-    .menu .article .funghi {
-      background-image: url("../../Multimedia/PIZZAS/istockphoto-1350259421-612x612.jpg");
-      width: 1000px;
-      height: 1000px;
-      background-size: 100% auto;
-      background-repeat: no-repeat;
-      color: white;
-      font-size: 45px;
-      text-shadow: 1px 1px 1px white;
-      margin: 1px;
-      padding: 1px;
-      letter-spacing: 2px;
-      word-spacing: 4px;
-      text-align: center;
-      font-family: 'Oswald', sans-serif;
-      font-weight: bold;
-      text-decoration: none;
-      box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
-      .menu .article .funghi:hover {
-        text-shadow: 10px 10px 20px black;
-        font-size: 55px;
-        transition: 1s; }
-    .menu .article .provolone {
-      background-image: url("../../Multimedia/PIZZAS/1d4a0f7eac01dfb706b40f042fd6ecf3.jpg");
-      width: 1000px;
-      height: 1000px;
-      background-size: 100% auto;
-      background-repeat: no-repeat;
-      box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
-      .menu .article .provolone h1 {
-        color: black; }
-      .menu .article .provolone:hover {
-        text-shadow: 10px 10px 20px black;
-        font-size: 55px;
-        transition: 1s; }
-    .menu .article .dellacasa {
-      background-image: url("../../Multimedia/PIZZAS/istockphoto-474338200-612x612.jpg");
-      width: 1000px;
-      height: 1000px;
-      background-size: 100% auto;
-      background-repeat: no-repeat;
-      box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
-      .menu .article .dellacasa h1 {
-        color: black; }
-      .menu .article .dellacasa:hover {
-        text-shadow: 10px 10px 20px black;
-        font-size: 55px;
-        transition: 1s; }
-    .menu .article .veggie {
-      background-image: url("../../Multimedia/PIZZAS/pizza-napoletana-vegana-3.jpg");
-      width: 1000px;
-      height: 1000px;
-      background-size: 100% auto;
-      background-repeat: no-repeat;
-      box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
-      .menu .article .veggie:hover {
-        text-shadow: 10px 10px 20px black;
-        font-size: 55px;
-        transition: 1s; }
-
-.footerP {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  grid-gap: 10px;
-  grid-row-start: 5;
-  grid-row-end: 6;
-  grid-column-start: 1;
-  grid-column-end: 13; }
-  .footerP .socialRed {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
+  .inicioP .fondo {
+    position: absolute;
+    left: 0;
+    top: 0;
     background-color: black;
-    height: 5vmax;
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    opacity: 100%;
-    background-size: 100% auto;
-    background-repeat: no-repeat; }
-    .footerP .socialRed i {
-      height: 50px;
-      width: 50px;
-      color: white; }
-    .footerP .socialRed h1 {
-      color: white;
-      font-size: 50px;
-      font-family: 'Ms Madi', cursive;
-      font-weight: bold;
-      text-align: center; }
+    z-index: -1;
+    display: flex;
+    justify-content: center; }
 
 .inicioW {
   display: grid;
