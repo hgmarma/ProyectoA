@@ -177,6 +177,20 @@
       font-family: 'Ms Madi', cursive;
       font-weight: bold;
       text-align: center; }
+    .footer .socialRed .rutas li {
+      list-style-type: none; }
+    .footer .socialRed .rutas li a {
+      color: white;
+      font-size: 30px;
+      text-shadow: 1px 1px 1px white;
+      margin: 10px;
+      padding: 10px;
+      letter-spacing: 2px;
+      word-spacing: 4px;
+      text-align: center;
+      font-family: 'Oswald', sans-serif;
+      font-weight: bold;
+      text-decoration: none; }
 
 .menu {
   display: grid;
@@ -212,8 +226,6 @@
   grid-row-end: 3;
   grid-column-start: 1;
   grid-column-end: 13; }
-  .menuTitle h1 {
-    background-image: url(../../Multimedia/fondos/4t.jpg); }
 
 /* VIEWS */
 .intro {
@@ -238,7 +250,7 @@
   text-decoration: none;
   margin-top: 5vmax; }
   .intro .introPizzas {
-    background-image: url("../../Multimedia/fondos/pizza.jpg");
+    background-image: url("../Multimedia/fondos/pizza.jpg");
     height: 51vmax;
     width: 100%;
     margin: 5px;
@@ -248,7 +260,7 @@
     background-attachment: fixed;
     box-shadow: 10px 12px 12px 11px black; }
   .intro .introWines {
-    background-image: url("../../Multimedia/fondos/Courtesy_of_Beaucastel_Winery_Beaucastel_Winery.jpg");
+    background-image: url("../Multimedia/fondos/Courtesy_of_Beaucastel_Winery_Beaucastel_Winery.jpg");
     height: 50vmax;
     width: 100%;
     margin: 5px;
@@ -258,7 +270,7 @@
     background-attachment: fixed;
     box-shadow: 10px 12px 12px 11px black; }
   .intro .introJuiceNatural {
-    background-image: url("../../Multimedia/fondos/beneficios-de-los-jugos-naturales.jpg");
+    background-image: url("../Multimedia/fondos/beneficios-de-los-jugos-naturales.jpg");
     height: 50vmax;
     width: 100%;
     margin: 5px;
@@ -268,7 +280,7 @@
     background-attachment: fixed;
     box-shadow: 10px 12px 12px 11px black; }
   .intro .introCoffe {
-    background-image: url("../../Multimedia/fondos/iStock-938993594-1000x600.jpg");
+    background-image: url("../Multimedia/fondos/iStock-938993594-1000x600.jpg");
     height: 50vmax;
     width: 100%;
     margin: 5px;
