@@ -19,9 +19,15 @@
     
     div {  @include titleSlogan1 (white, 50px) }
 
+    .rutas {
+
+        li {list-style-type: none;}
+
+        li a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px); }}}
+
    
 
-    }
+    
 
 
 

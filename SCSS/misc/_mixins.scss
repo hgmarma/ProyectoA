@@ -1,58 +1,40 @@
-@mixin imgFondoFx ($url, $ht: 50vmax, $wh: 100%, $mg: 10px
- ) { 
-    
-    background-image: $url;
+@mixin imgFondoFx ($url, $ht: 50vmax, $wh: 100%, $mg: 10px) {  background-image: $url;
     height: $ht;
     width: $wh;
     margin: $mg;
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    justify-content:center;
-   
-}
+    justify-content:center;}
 
 @mixin logo () { width: 150px; 
     height: 150px; 
     border-radius: 100%; 
     border-width: 1px;
-     border-color: black; }
+     border-color: black;}
 
-@mixin imgFondoFx2 ($url, $ht: 50vmax, $wh: 100%, $mg: 5px, $opa: 100%
- ) { 
-    
-    background-image: $url;
+@mixin imgFondoFx2 ($url, $ht: 50vmax, $wh: 100%, $mg: 5px, $opa: 100%) 
+{  background-image: $url;
     height: $ht;
     width: $wh;
     margin: $mg;
     opacity: $opa;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-   
-   
-}
+    background-attachment: fixed;}
 
 
-@mixin imgArt  ($url, $wh: 1000px, $hg: 1000px )  { 
-   background-image: $url;
+@mixin imgArt  ($url, $wh: 1000px, $hg: 1000px) 
+ { background-image: $url;
    width: $wh; 
     height: $hg;
     background-size: 100% auto;
-    background-repeat: no-repeat;
-   
-   
-  
-}
+    background-repeat: no-repeat;}
 
 
 @mixin separador ($color: black, $ht: 5vmax, $wh: 100%, 
 $mgTop: 50px, $mgBottom: 50px, $opa: 100%) 
-
-{ 
-    
-    background-color: $color;
+{  background-color: $color;
     height: $ht;
     width: $wh;
     margin-top: $mgTop;
@@ -60,12 +42,7 @@ $mgTop: 50px, $mgBottom: 50px, $opa: 100%)
     opacity: $opa;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    @content;
-
-    
-   
-
-}   
+    @content;}   
 
 @mixin separadorIMG ($url, $ht: 5vmax, $wh: 100%, 
 $mgTop: 50px, $mgBottom: 50px, $opa: 100%) 
@@ -84,24 +61,16 @@ $mgTop: 50px, $mgBottom: 50px, $opa: 100%)
 }   
 
 
-@mixin titleSlogan1 ($color: black, $fontSize: 60px )  {
-
-    color: $color; 
+@mixin titleSlogan1 ($color: black, $fontSize: 60px)  
+{   color: $color; 
     font-size: $fontSize; 
     font-family: 'Ms Madi', cursive;
     font-weight: bold;
-    text-align: center;
-    
-
- } 
+    text-align: center;} 
 
 @mixin artShadowFx ()
 
-     {  box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2);
-
-
-        
-    }
+     {  box-shadow: 10px 12px 12px 11px black;}
 
 
 @mixin emptySpace ($ht:1vh, $wh:100%, $color: white,) {     
@@ -121,8 +90,8 @@ $mgTop: 50px, $mgBottom: 50px, $opa: 100%)
 @mixin parrafo ($color: black, $fontSize: 15px, $textshadow: 1px 1px 1px white,
   $mg: 1px, $pg: 1px, )
 
-{     color: $color; 
-      font-size: $fontSize; 
+{ color: $color; 
+ font-size: $fontSize; 
       text-shadow: $textshadow ;
       margin: $mg ;
       padding: $pg ;
@@ -131,24 +100,18 @@ $mgTop: 50px, $mgBottom: 50px, $opa: 100%)
       text-align: center;
       font-family: 'Oswald', sans-serif; 
       font-weight: bold;
-      text-decoration: none ;
-      
-      }   
+      text-decoration: none ;}   
 
 
 @mixin subtitle ($color: black, $fontsize: 15px, 
 $bgcolor: rgb(0, 0, 0, .3) ) 
 
-{  
-
-    color: $color; 
+{   color: $color; 
     font-size: $fontsize; 
     background-color: $bgcolor ;
     font-family: 'Oswald', sans-serif; 
     font-weight: bold;
-    font-size: x-large;
-    
-}
+    font-size: x-large;}
 
 @mixin flex ( $direction, $corte, $just, $align) {
 
@@ -156,52 +119,37 @@ $bgcolor: rgb(0, 0, 0, .3) )
     flex-direction: $direction;
     flex-wrap:  $corte;
     justify-content: $just;
-    align-items: $align;
-    
-}
+    align-items: $align;}
 
 
 @mixin grid ($column: 1, $row: 1, 
- $gap: 10px ) 
+ $gap: 5px ) 
 {   
     display: grid;
     grid-template-columns: repeat($column, 1fr);
     grid-template-rows: repeat($row, 1fr);
-    grid-gap: $gap;
-    
-
-}
+    grid-gap: $gap;}
 
 @mixin gridpos ($rowstart , $rowend , 
 $columnstart, $columnend ) 
   
- {   
-
-    grid-row-start: $rowstart;
+ {   grid-row-start: $rowstart;
     grid-row-end: $rowend; 
     grid-column-start: $columnstart;
-    grid-column-end: $columnend; 
-   
-}
+    grid-column-end: $columnend;}
 
-
-
-@mixin mp ()   { margin: 0; 
-    padding: 0; }
-
-    
+@mixin mp () {margin: 0;  padding: 0;}
 
 @mixin hw ($hg: 50px, $wh: 50px) {height: $hg; width: $wh;}
 
-@mixin slider () { 
-
-    width: 50%;
+@mixin slider () 
+{   width: 50%;
     height: 100px;
     animation-name: translate;
     animation-iteration-count: 1;
     animation-timing-function: linear;
     animation-duration: 20s;
-    animation-delay: 0s; }
+    animation-delay: 0s;}
 
     
 

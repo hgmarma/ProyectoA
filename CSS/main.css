@@ -8,22 +8,19 @@
   padding: 0;
   box-sizing: border-box; }
 
-.carousel-control-next, .carousel-control-prev {
-  bottom: 67rem; }
-
 /* PARTIALS */
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  grid-gap: 10px;
+  grid-gap: 5px;
   height: 100vmax; }
 
 .inicio {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  grid-gap: 10px;
+  grid-gap: 5px;
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 1;
@@ -36,7 +33,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   justify-content: center;
-  box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
+  box-shadow: 10px 12px 12px 11px black; }
   .inicio .logo {
     grid-row-start: 1;
     grid-row-end: 2;
@@ -85,11 +82,67 @@
         transition: 2s;
         font-size: 75px; }
 
+.inicioP {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 5px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  box-shadow: 10px 12px 12px 11px black; }
+  .inicioP .logo {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2; }
+    .inicioP .logo:hover {
+      transform: rotate(360deg);
+      transition: 2s; }
+  .inicioP .nav {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 13;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center; }
+    .inicioP .nav li {
+      list-style-type: none; }
+    .inicioP .nav li a {
+      color: white;
+      font-size: 30px;
+      text-shadow: 1px 1px 1px white;
+      margin: 10px;
+      padding: 10px;
+      letter-spacing: 2px;
+      word-spacing: 4px;
+      text-align: center;
+      font-family: 'Oswald', sans-serif;
+      font-weight: bold;
+      text-decoration: none; }
+  .inicioP .titleP {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 12; }
+    .inicioP .titleP .title {
+      color: white;
+      font-size: 60px;
+      font-family: 'Ms Madi', cursive;
+      font-weight: bold;
+      text-align: center; }
+      .inicioP .titleP .title:hover {
+        box-shadow: 10px 12px 12px 11px black; }
+
 .footer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  grid-gap: 10px;
+  grid-gap: 5px;
   grid-row-start: 4;
   grid-row-end: 5;
   grid-column-start: 1;
@@ -125,7 +178,44 @@
       font-weight: bold;
       text-align: center; }
 
-/*VIEWS*/
+.menu {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 5px;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 13; }
+
+.menuTitle {
+  color: white;
+  font-size: 60px;
+  text-shadow: 1px 1px 1px white;
+  margin: 1px;
+  padding: 1px;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: black;
+  height: 5vmax;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  opacity: 100%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 13; }
+  .menuTitle h1 {
+    background-image: url(../../Multimedia/fondos/4t.jpg); }
+
+/* VIEWS */
 .intro {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -156,7 +246,7 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
+    box-shadow: 10px 12px 12px 11px black; }
   .intro .introWines {
     background-image: url("../../Multimedia/fondos/Courtesy_of_Beaucastel_Winery_Beaucastel_Winery.jpg");
     height: 50vmax;
@@ -166,7 +256,7 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
+    box-shadow: 10px 12px 12px 11px black; }
   .intro .introJuiceNatural {
     background-image: url("../../Multimedia/fondos/beneficios-de-los-jugos-naturales.jpg");
     height: 50vmax;
@@ -176,7 +266,7 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
+    box-shadow: 10px 12px 12px 11px black; }
   .intro .introCoffe {
     background-image: url("../../Multimedia/fondos/iStock-938993594-1000x600.jpg");
     height: 50vmax;
@@ -186,7 +276,7 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
+    box-shadow: 10px 12px 12px 11px black; }
   .intro .text:hover {
     text-shadow: 10px 10px 20px black;
     transition: 1s; }
@@ -217,83 +307,11 @@
       font-size: 50px;
       transition: 1s; }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-gap: 10px;
-  height: 100vmax; }
-
-.inicioP {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-gap: 10px;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-column-start: 1;
-  grid-column-end: 13; }
-  .inicioP .logo {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2; }
-    .inicioP .logo:hover {
-      transform: rotate(360deg);
-      transition: 2s; }
-  .inicioP .nav {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 13;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center; }
-    .inicioP .nav li {
-      list-style-type: none; }
-    .inicioP .nav li a {
-      color: white;
-      font-size: 30px;
-      text-shadow: 1px 1px 1px white;
-      margin: 10px;
-      padding: 10px;
-      letter-spacing: 2px;
-      word-spacing: 4px;
-      text-align: center;
-      font-family: 'Oswald', sans-serif;
-      font-weight: bold;
-      text-decoration: none; }
-  .inicioP .slogan {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 2;
-    grid-column-end: 12; }
-    .inicioP .slogan .slogantitle {
-      color: white;
-      font-size: 60px;
-      font-family: 'Ms Madi', cursive;
-      font-weight: bold;
-      text-align: center; }
-      .inicioP .slogan .slogantitle:hover {
-        scale: 200px, 200px;
-        transition: 2s;
-        font-size: 75px; }
-  .inicioP .fondo {
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: black;
-    z-index: -1;
-    display: flex;
-    justify-content: center; }
-
 .inicioW {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  grid-gap: 10px;
+  grid-gap: 5px;
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 1;
@@ -306,7 +324,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   justify-content: center;
-  box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
+  box-shadow: 10px 12px 12px 11px black; }
   .inicioW .logo {
     grid-row-start: 1;
     grid-row-end: 2;
@@ -359,7 +377,7 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(12, 1fr);
-  grid-gap: 10px;
+  grid-gap: 5px;
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 1;
@@ -428,7 +446,7 @@
       font-family: 'Oswald', sans-serif;
       font-weight: bold;
       text-decoration: none;
-      box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
+      box-shadow: 10px 12px 12px 11px black; }
       .menuW .articleW .luigiBosca h1 {
         color: black; }
       .menuW .articleW .luigiBosca:hover {
@@ -452,7 +470,7 @@
       font-family: 'Oswald', sans-serif;
       font-weight: bold;
       text-decoration: none;
-      box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
+      box-shadow: 10px 12px 12px 11px black; }
       .menuW .articleW .laperla h1 {
         color: black; }
       .menuW .articleW .laperla:hover {
@@ -476,7 +494,7 @@
       font-family: 'Oswald', sans-serif;
       font-weight: bold;
       text-decoration: none;
-      box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
+      box-shadow: 10px 12px 12px 11px black; }
       .menuW .articleW .lalinda h1 {
         color: black; }
       .menuW .articleW .lalinda:hover {
@@ -489,7 +507,7 @@
       height: 1000px;
       background-size: 100% auto;
       background-repeat: no-repeat;
-      box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
+      box-shadow: 10px 12px 12px 11px black; }
       .menuW .articleW .mosquitaMuerta h1 {
         color: black; }
       .menuW .articleW .mosquitaMuerta:hover {
@@ -502,7 +520,7 @@
       height: 1000px;
       background-size: 100% auto;
       background-repeat: no-repeat;
-      box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
+      box-shadow: 10px 12px 12px 11px black; }
       .menuW .articleW .streetdog h1 {
         color: black; }
       .menuW .articleW .streetdog:hover {
@@ -515,7 +533,7 @@
       height: 1000px;
       background-size: 100% auto;
       background-repeat: no-repeat;
-      box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2); }
+      box-shadow: 10px 12px 12px 11px black; }
       .menuW .articleW .pispi h1 {
         color: black; }
       .menuW .articleW .pispi:hover {
@@ -527,7 +545,7 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  grid-gap: 10px;
+  grid-gap: 5px;
   grid-row-start: 5;
   grid-row-end: 6;
   grid-column-start: 1;

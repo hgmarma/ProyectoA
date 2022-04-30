@@ -4,11 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Oswald:wght@200;300;400&display=swap');
 
 
-
 /* MISC */
 
-@import  './misc/normalize';
-@import  './misc/varials';
+@import './misc/normalize';
+@import './misc/varials';
 @import './misc/mediaqueries';
 @import './misc/mixins';
 @import './misc/boostrap';
@@ -17,9 +16,9 @@
 
 @import './partials/header.scss';
 @import './partials/footer.scss';
+@import './partials/section.scss';
 
-/*VIEWS*/
-
+/* VIEWS */
 
 @import './views/home';
 @import './views/pizzas';

@@ -1,19 +1,11 @@
-.container {
-    @include grid (12, 4);
-    height: 100vmax;
+.container {@include grid (12, 4);
+    height: 100vmax;} 
 
-} 
-
-.inicio {
-
-        @include grid (12, 5);
+.inicio {@include grid (12, 5);
         @include gridpos (1, 2, 1, 13);
         @include imgFondoFx (url('../../Multimedia/fondos/vinedo.jpg'), 40vmax,); 
         @include artShadowFx ();
         
-
-        
-
      .logo {
         @include gridpos (1, 2, 1, 2); 
        
@@ -46,7 +38,46 @@
              }
         
              }
+               }
+
+        
+
+        .inicioP  {@include grid (12, 5);
+         @include gridpos (1, 2, 1, 13);
+         @include artShadowFx ();
+         
+      .logo {
+         @include gridpos (1, 2, 1, 2); 
+        
+         &:hover { transform: rotate(360deg); 
+          transition: 2s;}
+      }
+ 
+      .nav {
+         @include gridpos (1, 2, 2, 13);
+         @include flex (row, nowrap, space-evenly, center);
+         
+         
+        
+ 
+         li {list-style-type: none;}
+ 
+         li a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  } }
+ 
+         
+         
+      .titleP {
+ 
+         @include gridpos (3, 4, 2, 12);
+ 
+         .title {  @include titleSlogan1 (white,);
+         
+             &:hover {@include artShadowFx ();}
+              }
+         
+              }
+   
+ 
+ 
+         }
   
-
-
-        }
