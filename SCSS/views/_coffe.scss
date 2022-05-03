@@ -1,7 +1,7 @@
 .container { 
-    .inicioN { @include grid (12, 5);
+        .inicioC { @include grid (12, 5);
                 @include gridpos (1, 2, 1, 13);
-                @include imgFondoFx (url('../../Multimedia/fondos/beneficios-de-los-jugos-naturales.jpg'), 40vmax,); 
+                @include imgFondoFx (url('../Multimedia/fondos/coffee.jpg'), 40vmax,); 
                 @include artShadowFx ();
                 background-color: rgba(0, 0, 0, .3);
           
@@ -28,9 +28,9 @@
            
           } 
     
-             .menu {.banderaN 
+             .menu {.banderaC 
                       { @include gridpos (1, 2, 1, 13);
-                         background-color: rgb(197, 204, 0) ;
+                         background-color: rgb(79, 79, 67) ;
                          height: 100px;
                          margin: 0;
                       }

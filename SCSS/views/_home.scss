@@ -4,11 +4,8 @@
                 @include gridpos  ( 3, 4, 1, 13);
                 @include parrafo (black, 35px, 1px 1px 1px rgb(250, 250, 250));
                 margin-top: 5vmax;
+             
                 
-                
-              
-    
-
              .introPizzas { @include imgFondoFx2 (url('../Multimedia/fondos/pizza.jpg'), 51vmax, 100% ); @include artShadowFx () ;  }
          
              .introWines { @include imgFondoFx2 (url('../Multimedia/fondos/Courtesy_of_Beaucastel_Winery_Beaucastel_Winery.jpg'), 50vmax, 100% ); @include artShadowFx () ; }
@@ -23,19 +20,24 @@
                     transition: 1s; } }
               }
 
-
+              .banderaC 
+              { @include gridpos (5, 6, 1, 13);
+                 background-color: rgb(79, 79, 67) ;
+                 height: 100px;
+                 margin: 0;
+                 align-items: flex-end;
+              }
         .sloganFinal {  @include titleSlogan1 (black, 100px) ;
-        @include gridpos ( 2, 2, 1, 13,) ; 
-        background-color: rgb(250, 250, 250);
-        &:hover {  text-shadow: 10px 10px 20px black;
-            font-size: 75px; transition: 1s; }
-        
+           @include gridpos ( 2, 2, 1, 13,) ; 
+          background-color: rgb(250, 250, 250);
 
+         &:hover {  text-shadow: 10px 10px 20px black;
+            font-size: 75px; transition: 1s; }
          p { 
             @include titleSlogan1 (black, 50px);
             &:hover  {  text-shadow: 10px 10px 20px black;
                 font-size: 50px; transition: 1s; }
-         }
+            }
     
          }
     
