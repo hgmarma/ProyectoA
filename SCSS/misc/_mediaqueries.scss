@@ -1,9 +1,44 @@
-@mixin mobile ($responsive: 480px,){ 
-    
-    @media screen and (max-width: $responsive) 
 
-    { @content
+@media  (min-width:1500px) and (max-width: 1950px) {
+    .sloganFinal { h1 {font-size: 95px; }
+    p  { font-size: 45px; } }
+    .text { h1 {font-size: 45px;} 
+    p { font-size: 30px;} }
+    .socialRed { h1 {font-size: 45px;} div {height: 45px ; width: 45px ;}}
+    
+        
     
 }
+
+@media (min-width: 1250px) and (max-width: 1499px) {
+    .sloganFinal { h1 {font-size: 85px; }
+    p  {font-size: 40px; } }
+    .text {  h1 {font-size: 40px;} 
+     p { font-size: 25px;} }
+     .socialRed { h1 {font-size: 40px;} div {height: 40px ; width: 40px ;}}
+     .galery  { .leyenda .img { display: flex; flex-direction: row; 
+        flex-wrap: nowrap;} }
+}
+
+@media (min-width: 823px) and (max-width: 1250px) {
+    .offdisplay {display: none;}
+    .sloganFinal { h1 {font-size: 80px; }
+    p  {  font-size: 30px; } }
+    .text {h1 {font-size: 35px;}
+     p { font-size: 20px;} } 
+     .socialRed { h1 {font-size: 35px;} div {height: 35px ; width: 35px ;}}
+}
+
+@media (min-width: 300px) and (max-width: 823px) {
+    .offdisplay {display: none;}
+    .slogantitle {display: none;}
+    .logo   {display: none;}
+    .nav { ul { padding: 0; margin: 1px;}}
+    .sloganFinal { h1 {font-size: 75px; }
+    p  { font-size: 18px; } }
+    .text {h1 {font-size: 35px;} 
+    p { font-size: 15px;} }
+    .socialRed { h1 {display: none;} div {height: 30px ; width: 30px; margin:1px; padding:0;}}
+    .rutas { ul { margin: 0; padding: 0;}}
     
 }

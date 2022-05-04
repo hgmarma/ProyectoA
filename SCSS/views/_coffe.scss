@@ -14,10 +14,12 @@
             @include gridpos (1, 2, 2, 13);
             @include flex (row, nowrap, space-evenly, center);
             
-            li {list-style-type: none;}
+            li {list-style-type: none;
     
-            li a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  }
-            }
+             a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  }
+             &:hover {@include textshadow (); 
+               border: solid white; cursor: pointer; transition: 1s; border-radius: 25px;}
+           }}
             
          .slogan {
     

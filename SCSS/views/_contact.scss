@@ -1,4 +1,4 @@
-.container { 
+.container {
     .inicioCon { @include grid (12, 5);
                 @include gridpos (1, 2, 1, 13);
                 @include imgFondoFx (url('../../Multimedia/fondos/brindis.jpg'), 50vmax,); 
@@ -14,30 +14,89 @@
             @include gridpos (1, 2, 2, 13);
             @include flex (row, nowrap, space-evenly, center);
             
-            li {list-style-type: none;}
-    
-            li a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  }
-            }
+            li {list-style-type: none;
+            a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  }
+             &:hover {@include textshadow (); 
+                border: solid white; cursor: pointer; transition: 1s; border-radius: 25px;}
+            } }
             
          .slogan {@include gridpos (3, 4, 2, 12);
              .slogantitle {  @include titleSlogan1 (white,);}
-            }
-        } 
-    } 
-            .slider { width: 100%;
+           }
+       } 
+
+       .containerformu { @include gridpos (2, 4, 1, 13) ;
+              @include grid (1, 1);
+              margin-top: 4vmax;
+              
+          .formulario { @include flex (column, wrap, center, center);
+                width: 900px;
                 margin: auto;
-                overflow: hidden;
+                background-color: rgba(0, 0, 0, 0.8);
+                padding: 10px 20px;
+                box-sizing: border-box;
+                margin-top: 20px;
+                    border-radius: 7px;
+
+                h2 { color: white;
+                    text-align: center;
+                    margin: 0;
+                    font-size: 30px;
+                    margin-bottom: 20px;
+                }
+                input, textarea, select { width: 100%; margin-bottom: 20px;
+                    padding: 7px;
+                    box-sizing: border-box;
+                    font-size: 17px;
+                    border: none;
+                }
+
+                textarea { min-height: 400px;
+                    max-height: 500px;
+                    max-width: 860px;
+                }
+
+                #boton1{
+                    background-color: green;
+                    color: white;
+                    padding: 20px;
+                    margin-top: 10px;
+                    font-size: 25px;
+                    font-weight: bold;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        &:hover { cursor: pointer;}
+                }  
+                #boton2{
+                    background-color: yellow;
+                    color: black;
+                    padding: 20px;
+                    font-weight: bold;
+                    font-size: 25px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        &:hover { cursor: pointer;}
+                }  
+            }
+        }
+
+} 
+            .slider { width: 100%;
                 animation: cambio 20s infinite alternate;
                 animation-timing-function: ease-in-out;
+                background-color: black;
+                
 
 
                 ul { padding: 0;
                     display: flex;
                     width: 400%;
+                    overflow: hidden;
 
                     li { list-style: none; 
                         width: 100%;
-                        img {width: 100%;}
+                        img {width: 100%; height: 800px;}
+                        h1  {@include titleSlogan1(white, 200px,);
+                            width: 100%;
+                           }
                     }
                 }  
             } 

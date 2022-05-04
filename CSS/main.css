@@ -8,13 +8,93 @@
   padding: 0;
   box-sizing: border-box; }
 
+@media (min-width: 1500px) and (max-width: 1950px) {
+  .sloganFinal h1 {
+    font-size: 95px; }
+  .sloganFinal p {
+    font-size: 45px; }
+  .text h1 {
+    font-size: 45px; }
+  .text p {
+    font-size: 30px; }
+  .socialRed h1 {
+    font-size: 45px; }
+  .socialRed div {
+    height: 45px;
+    width: 45px; } }
+
+@media (min-width: 1250px) and (max-width: 1499px) {
+  .sloganFinal h1 {
+    font-size: 85px; }
+  .sloganFinal p {
+    font-size: 40px; }
+  .text h1 {
+    font-size: 40px; }
+  .text p {
+    font-size: 25px; }
+  .socialRed h1 {
+    font-size: 40px; }
+  .socialRed div {
+    height: 40px;
+    width: 40px; }
+  .galery .leyenda .img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; } }
+
+@media (min-width: 823px) and (max-width: 1250px) {
+  .offdisplay {
+    display: none; }
+  .sloganFinal h1 {
+    font-size: 80px; }
+  .sloganFinal p {
+    font-size: 30px; }
+  .text h1 {
+    font-size: 35px; }
+  .text p {
+    font-size: 20px; }
+  .socialRed h1 {
+    font-size: 35px; }
+  .socialRed div {
+    height: 35px;
+    width: 35px; } }
+
+@media (min-width: 300px) and (max-width: 823px) {
+  .offdisplay {
+    display: none; }
+  .slogantitle {
+    display: none; }
+  .logo {
+    display: none; }
+  .nav ul {
+    padding: 0;
+    margin: 1px; }
+  .sloganFinal h1 {
+    font-size: 75px; }
+  .sloganFinal p {
+    font-size: 18px; }
+  .text h1 {
+    font-size: 35px; }
+  .text p {
+    font-size: 15px; }
+  .socialRed h1 {
+    display: none; }
+  .socialRed div {
+    height: 30px;
+    width: 30px;
+    margin: 1px;
+    padding: 0; }
+  .rutas ul {
+    margin: 0;
+    padding: 0; } }
+
 /* PARTIALS */
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   grid-gap: 5px;
-  height: 100vmax; }
+  height: 125vmax; }
 
 .inicio {
   display: grid;
@@ -52,21 +132,27 @@
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.2); }
+    background-color: rgba(0, 0, 0, 0.1); }
     .inicio .nav li {
       list-style-type: none; }
-    .inicio .nav li a {
-      color: white;
-      font-size: 30px;
-      text-shadow: 1px 1px 1px white;
-      margin: 10px;
-      padding: 10px;
-      letter-spacing: 2px;
-      word-spacing: 4px;
-      text-align: center;
-      font-family: 'Oswald', sans-serif;
-      font-weight: bold;
-      text-decoration: none; }
+      .inicio .nav li a {
+        color: white;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px white;
+        margin: 10px;
+        padding: 10px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        text-decoration: none; }
+      .inicio .nav li:hover {
+        text-shadow: 25px 25px 50px black;
+        border: solid white;
+        cursor: pointer;
+        transition: 1s;
+        border-radius: 25px; }
   .inicio .slogan {
     grid-row-start: 3;
     grid-row-end: 4;
@@ -74,14 +160,14 @@
     grid-column-end: 12; }
     .inicio .slogan .slogantitle {
       color: white;
-      font-size: 100px;
+      font-size: 70px;
       font-family: 'Ms Madi', cursive;
       font-weight: bold;
       text-align: center; }
       .inicio .slogan .slogantitle:hover {
         scale: 200px, 200px;
         transition: 2s;
-        font-size: 75px; }
+        font-size: 80px; }
 
 .inicioP {
   display: grid;
@@ -112,18 +198,24 @@
     align-items: center; }
     .inicioP .nav li {
       list-style-type: none; }
-    .inicioP .nav li a {
-      color: white;
-      font-size: 30px;
-      text-shadow: 1px 1px 1px white;
-      margin: 10px;
-      padding: 10px;
-      letter-spacing: 2px;
-      word-spacing: 4px;
-      text-align: center;
-      font-family: 'Oswald', sans-serif;
-      font-weight: bold;
-      text-decoration: none; }
+      .inicioP .nav li a {
+        color: white;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px white;
+        margin: 10px;
+        padding: 10px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        text-decoration: none; }
+      .inicioP .nav li:hover {
+        text-shadow: 25px 25px 50px black;
+        border: solid white;
+        cursor: pointer;
+        transition: 1s;
+        border-radius: 25px; }
   .inicioP .titleP {
     grid-row-start: 3;
     grid-row-end: 4;
@@ -178,7 +270,7 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: black;
-    height: 5vmax;
+    height: 7vmax;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -231,12 +323,12 @@
         font-family: 'Oswald', sans-serif;
         font-weight: bold;
         text-decoration: none; }
-        .footerI .rutas li a:hover {
-          text-shadow: 25px 25px 50px black;
-          border: solid white;
-          cursor: pointer;
-          transition: 1s;
-          border-radius: 25px; }
+      .footerI .rutas li:hover {
+        text-shadow: 25px 25px 50px black;
+        border: solid white;
+        cursor: pointer;
+        transition: 1s;
+        border-radius: 25px; }
 
 .footerP {
   display: grid;
@@ -262,7 +354,7 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: black;
-    height: 5vmax;
+    height: 7vmax;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -315,12 +407,12 @@
         font-family: 'Oswald', sans-serif;
         font-weight: bold;
         text-decoration: none; }
-        .footerP .rutas li a:hover {
-          text-shadow: 25px 25px 50px black;
-          border: solid white;
-          cursor: pointer;
-          transition: 1s;
-          border-radius: 25px; }
+      .footerP .rutas li:hover {
+        text-shadow: 25px 25px 50px black;
+        border: solid white;
+        cursor: pointer;
+        transition: 1s;
+        border-radius: 25px; }
 
 .footerW {
   display: grid;
@@ -346,7 +438,7 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: black;
-    height: 5vmax;
+    height: 7vmax;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -399,12 +491,12 @@
         font-family: 'Oswald', sans-serif;
         font-weight: bold;
         text-decoration: none; }
-        .footerW .rutas li a:hover {
-          text-shadow: 25px 25px 50px black;
-          border: solid white;
-          cursor: pointer;
-          transition: 1s;
-          border-radius: 25px; }
+      .footerW .rutas li:hover {
+        text-shadow: 25px 25px 50px black;
+        border: solid white;
+        cursor: pointer;
+        transition: 1s;
+        border-radius: 25px; }
 
 .footerN {
   display: grid;
@@ -430,7 +522,7 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: black;
-    height: 5vmax;
+    height: 7vmax;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -483,12 +575,12 @@
         font-family: 'Oswald', sans-serif;
         font-weight: bold;
         text-decoration: none; }
-        .footerN .rutas li a:hover {
-          text-shadow: 25px 25px 50px black;
-          border: solid white;
-          cursor: pointer;
-          transition: 1s;
-          border-radius: 25px; }
+      .footerN .rutas li:hover {
+        text-shadow: 25px 25px 50px black;
+        border: solid white;
+        cursor: pointer;
+        transition: 1s;
+        border-radius: 25px; }
 
 .footerC {
   display: grid;
@@ -506,7 +598,8 @@
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  justify-content: center; }
+  justify-content: center;
+  height: 25vmax; }
   .footerC .socialRed {
     display: flex;
     flex-direction: row;
@@ -514,7 +607,7 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: black;
-    height: 5vmax;
+    height: 7vmax;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -567,12 +660,89 @@
         font-family: 'Oswald', sans-serif;
         font-weight: bold;
         text-decoration: none; }
-        .footerC .rutas li a:hover {
-          text-shadow: 25px 25px 50px black;
-          border: solid white;
-          cursor: pointer;
-          transition: 1s;
-          border-radius: 25px; }
+      .footerC .rutas li:hover {
+        text-shadow: 25px 25px 50px black;
+        border: solid white;
+        cursor: pointer;
+        transition: 1s;
+        border-radius: 25px; }
+
+.footerCon {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 5px;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  margin-bottom: 5vmax; }
+  .footerCon .socialRed {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    height: 7vmax;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0%;
+    margin-right: 0%;
+    opacity: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin-bottom: 10px; }
+    .footerCon .socialRed i {
+      height: 50px;
+      width: 50px;
+      color: white; }
+      .footerCon .socialRed i:hover {
+        text-shadow: 25px 25px 50px black;
+        border: solid white;
+        cursor: pointer;
+        transition: 1s;
+        border-radius: 25px; }
+    .footerCon .socialRed h1 {
+      color: white;
+      font-size: 50px;
+      font-family: 'Ms Madi', cursive;
+      font-weight: bold;
+      text-align: center; }
+    .footerCon .socialRed div {
+      color: white;
+      font-size: 50px;
+      font-family: 'Ms Madi', cursive;
+      font-weight: bold;
+      text-align: center; }
+  .footerCon .rutas {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center; }
+    .footerCon .rutas li {
+      list-style-type: none; }
+      .footerCon .rutas li a {
+        color: white;
+        font-size: 25px;
+        text-shadow: 1px 1px 1px white;
+        margin: 10px;
+        padding: 10px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        text-decoration: none; }
+      .footerCon .rutas li:hover {
+        text-shadow: 25px 25px 50px black;
+        border: solid white;
+        cursor: pointer;
+        transition: 1s;
+        border-radius: 25px; }
 
 .menu {
   display: grid;
@@ -673,7 +843,7 @@
   background-color: #fafafa; }
   .sloganFinal:hover {
     text-shadow: 10px 10px 20px black;
-    font-size: 75px;
+    font-size: 90px;
     transition: 1s; }
   .sloganFinal p {
     color: black;
@@ -683,7 +853,6 @@
     text-align: center; }
     .sloganFinal p:hover {
       text-shadow: 10px 10px 20px black;
-      font-size: 50px;
       transition: 1s; }
 
 .container .menu {
@@ -756,7 +925,7 @@
     justify-content: center;
     align-items: center;
     background-color: black;
-    height: 5vmax;
+    height: 7vmax;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -939,18 +1108,24 @@
     align-items: center; }
     .container .inicioCon .nav li {
       list-style-type: none; }
-    .container .inicioCon .nav li a {
-      color: white;
-      font-size: 30px;
-      text-shadow: 1px 1px 1px white;
-      margin: 10px;
-      padding: 10px;
-      letter-spacing: 2px;
-      word-spacing: 4px;
-      text-align: center;
-      font-family: 'Oswald', sans-serif;
-      font-weight: bold;
-      text-decoration: none; }
+      .container .inicioCon .nav li a {
+        color: white;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px white;
+        margin: 10px;
+        padding: 10px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        text-decoration: none; }
+      .container .inicioCon .nav li:hover {
+        text-shadow: 25px 25px 50px black;
+        border: solid white;
+        cursor: pointer;
+        transition: 1s;
+        border-radius: 25px; }
   .container .inicioCon .slogan {
     grid-row-start: 3;
     grid-row-end: 4;
@@ -963,20 +1138,88 @@
       font-weight: bold;
       text-align: center; }
 
+.container .containerformu {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 5px;
+  margin-top: 4vmax; }
+  .container .containerformu .formulario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px; }
+    .container .containerformu .formulario h2 {
+      color: white;
+      text-align: center;
+      margin: 0;
+      font-size: 30px;
+      margin-bottom: 20px; }
+    .container .containerformu .formulario input, .container .containerformu .formulario textarea, .container .containerformu .formulario select {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 7px;
+      box-sizing: border-box;
+      font-size: 17px;
+      border: none; }
+    .container .containerformu .formulario textarea {
+      min-height: 400px;
+      max-height: 500px;
+      max-width: 860px; }
+    .container .containerformu .formulario #boton1 {
+      background-color: green;
+      color: white;
+      padding: 20px;
+      margin-top: 10px;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+      .container .containerformu .formulario #boton1:hover {
+        cursor: pointer; }
+    .container .containerformu .formulario #boton2 {
+      background-color: yellow;
+      color: black;
+      padding: 20px;
+      font-weight: bold;
+      font-size: 25px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+      .container .containerformu .formulario #boton2:hover {
+        cursor: pointer; }
+
 .slider {
   width: 100%;
-  margin: auto;
-  overflow: hidden;
   animation: cambio 20s infinite alternate;
-  animation-timing-function: ease-in-out; }
+  animation-timing-function: ease-in-out;
+  background-color: black; }
   .slider ul {
     padding: 0;
     display: flex;
-    width: 400%; }
+    width: 400%;
+    overflow: hidden; }
     .slider ul li {
       list-style: none;
       width: 100%; }
       .slider ul li img {
+        width: 100%;
+        height: 800px; }
+      .slider ul li h1 {
+        color: white;
+        font-size: 200px;
+        font-family: 'Ms Madi', cursive;
+        font-weight: bold;
+        text-align: center;
         width: 100%; }
 
 @keyframes cambio {
@@ -1036,18 +1279,24 @@
     align-items: center; }
     .container .inicioN .nav li {
       list-style-type: none; }
-    .container .inicioN .nav li a {
-      color: white;
-      font-size: 30px;
-      text-shadow: 1px 1px 1px white;
-      margin: 10px;
-      padding: 10px;
-      letter-spacing: 2px;
-      word-spacing: 4px;
-      text-align: center;
-      font-family: 'Oswald', sans-serif;
-      font-weight: bold;
-      text-decoration: none; }
+      .container .inicioN .nav li a {
+        color: white;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px white;
+        margin: 10px;
+        padding: 10px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        text-decoration: none; }
+      .container .inicioN .nav li:hover {
+        text-shadow: 25px 25px 50px black;
+        border: solid white;
+        cursor: pointer;
+        transition: 1s;
+        border-radius: 25px; }
   .container .inicioN .slogan {
     grid-row-start: 3;
     grid-row-end: 4;
@@ -1108,18 +1357,24 @@
     align-items: center; }
     .container .inicioC .nav li {
       list-style-type: none; }
-    .container .inicioC .nav li a {
-      color: white;
-      font-size: 30px;
-      text-shadow: 1px 1px 1px white;
-      margin: 10px;
-      padding: 10px;
-      letter-spacing: 2px;
-      word-spacing: 4px;
-      text-align: center;
-      font-family: 'Oswald', sans-serif;
-      font-weight: bold;
-      text-decoration: none; }
+      .container .inicioC .nav li a {
+        color: white;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px white;
+        margin: 10px;
+        padding: 10px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        text-decoration: none; }
+      .container .inicioC .nav li:hover {
+        text-shadow: 25px 25px 50px black;
+        border: solid white;
+        cursor: pointer;
+        transition: 1s;
+        border-radius: 25px; }
   .container .inicioC .slogan {
     grid-row-start: 3;
     grid-row-end: 4;

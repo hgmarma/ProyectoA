@@ -38,7 +38,7 @@
 }
 
 
-@mixin separador ($color: black, $ht: 5vmax, $wh: 100%, 
+@mixin separador ($color: black, $ht: 7vmax, $wh: 100%, 
 $mgTop: 50px, $mgBottom: 50px, $opa: 100%) 
 {  background-color: $color;
     height: $ht;
