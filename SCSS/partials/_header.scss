@@ -1,7 +1,7 @@
 .container {@include grid (12, 5); height: 160vmax;} 
 
 .inicio {@include grid (12, 5); @include gridpos (1, 2, 1, 13);
-         @include imgFondoFx (url('../../Multimedia/fondos/vinedo.jpg'), 50vmax,); 
+         @include imgFondoFx (url('../Multimedia/fondos/vinedo.jpg'), 50vmax,); 
          @include artShadowFx ();
 
        .logo {@include gridpos (1, 2, 1, 2); 
