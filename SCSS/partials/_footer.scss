@@ -62,7 +62,7 @@
 
     @include grid ( 1, 1 );
     @include gridpos (4, 5, 1, 13);
-    @include imgFondoFx (url(../../Multimedia/fondos/valle-de-uco.png));
+    @include imgFondoFx (url(../Multimedia/fondos/valle-de-uco.png));
 
 
     .socialRed { @include flex (row, nowrap, space-evenly, center);
@@ -93,7 +93,7 @@
 
     @include grid ( 1, 1 );
     @include gridpos (4, 5, 1, 13);
-    @include imgFondoFx (url(../../Multimedia/fondos/jugos.jpg));
+    @include imgFondoFx (url(../Multimedia/fondos/jugos.jpg));
 
 
     .socialRed { @include flex (row, nowrap, space-evenly, center);
@@ -124,7 +124,7 @@
 
         @include grid ( 1, 1 );
         @include gridpos (4, 5, 1, 13);
-        @include imgFondoFx (url(../../Multimedia/fondos/European-Specialty-Coffee-Market-by-Pointbleu-Design-Blog.jpg));
+        @include imgFondoFx (url(../Multimedia/fondos/European-Specialty-Coffee-Market-by-Pointbleu-Design-Blog.jpg));
         height: 25vmax;
     
         .socialRed { @include flex (row, nowrap, space-evenly, center);
