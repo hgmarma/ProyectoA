@@ -1,4 +1,4 @@
-.container {@include grid (12, 5); height: 125vmax;} 
+.container {@include grid (12, 5); height: 160vmax;} 
 
 .inicio {@include grid (12, 5); @include gridpos (1, 2, 1, 13);
          @include imgFondoFx (url('../../Multimedia/fondos/vinedo.jpg'), 50vmax,); 
@@ -17,7 +17,7 @@
                   }
              }
                  .slogan {@include gridpos (3, 4, 2, 12);
-                       .slogantitle {  @include titleSlogan1 (white, 70px ); 
+                       .slogantitle {  @include titleSlogan1 (white, 85px ); z-index: 1; 
                            &:hover {scale: 200px, 200px; transition: 2s; font-size: 80px;}
                         }
                      }
@@ -37,7 +37,7 @@
                   }
  
               .titleP {@include gridpos (3, 4, 2, 12);
-                 .title {@include titleSlogan1 (white, 100px);
+                 .title {@include titleSlogan1 (white, 75px); z-index: 1; 
                     &:hover {@include textshadow ();}
                   }
                }

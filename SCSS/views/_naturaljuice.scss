@@ -25,7 +25,7 @@
     
             @include gridpos (3, 4, 2, 12);
     
-            .slogantitle {  @include titleSlogan1 (white,);}
+            .slogantitle {  @include titleSlogan1 (white,85px); z-index: 1;}
              }
            
           } 

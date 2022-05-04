@@ -21,13 +21,15 @@
             } }
             
          .slogan {@include gridpos (3, 4, 2, 12);
-             .slogantitle {  @include titleSlogan1 (white,);}
+             .slogantitle {  @include titleSlogan1 (white, 85px); z-index: 1;}
            }
        } 
 
        .containerformu { @include gridpos (2, 4, 1, 13) ;
               @include grid (1, 1);
               margin-top: 4vmax;
+              @include imgFondoFx (url(../../Multimedia/Vinos/fondovinin.jpg));
+              background-attachment: inherit;
               
           .formulario { @include flex (column, wrap, center, center);
                 width: 900px;
