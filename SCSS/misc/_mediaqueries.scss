@@ -1,5 +1,5 @@
 
-@media  (min-width:1500px) and (max-width: 1950px) {
+@media  (min-width:1500px) and (max-width: 2100px) {
     .container header.inicioP  {height: 75vmax; }
     div.container header.inicio div.slogan h1.slogantitle  {font-size: 75px;}
     div.container header.inicioC div.slogan h1.slogantitle  {font-size: 80px;}
@@ -13,16 +13,17 @@
     div.container section.menu div.forno p {font-size: 40px;}
     div.container div.menu .imgIntro  {width: 60%;}
     div.container div.menu .imgIntro img {width: 100%;}
-    .socialRed { h1 {font-size: 45px;} div {height: 45px ; width: 45px ;}}
-    .container section.menu div.galery { width: 100%;} 
-    .container section.menu div.galery div.img { width: 55% ;}
+    .container section.menu div.galery { width: 100%; margin-bottom: 100px;} 
+    .container section.menu div.galery div.leyenda {width: 25% ; height: 400px; margin:auto; }
+    .container section.menu div.galery div.img { width: 55% ; margin-bottom: auto;}
              .container aside.containerformu div.formulario    {width: 1500px;}
              .container aside.containerformu div.formulario form { width: 1000px; }
              .container aside.containerformu div.formulario form textarea { min-height: 200px; max-height: 200px;
                 max-width: 1460px;}
                 .container aside.containerformu div.formulario form input { margin-bottom: 15px;
                     padding: 5px; box-sizing: border-box; font-size: 15px; border: none;}
-}
+                    .socialRed { h1 {font-size: 45px;} div {height: 45px ; width: 45px ;}}
+    }
 
 @media (min-width: 1250px) and (max-width: 1499px) {
     .container header.inicioP  {height: 85vmax; }
@@ -35,12 +36,15 @@
           section.intro div.text { h1 {font-size: 30px;} p { font-size: 20px;} }
           div.container section.menu div.forno h1 { font-size: 80px;}
           div.container section.menu div.forno p {font-size: 35px;}
-          .container section.menu div.galery div.img { width: 65% ;}
+          div.container section.menu .galery div.leyenda p { font-size: 20px;}
+          div.container section.menu div.galery div.img { width: 65%;}
           div.container div.menu .imgIntro {width: 70%;}
           div.container div.menu .imgIntro img {width: 100%;}
           .socialRed { h1 {font-size: 40px;} div {height: 40px ; width: 40px ;}}
-        .container section.menu div.galery { width: 100%; justify-content: center; align-items: center;} 
-        .container section.menu div.galery div.img { width: 50% ;}
+          .container section.menu div.galery { width: 100%; margin-bottom: 50px;}
+        .container section.menu div.galery { width: 100%; justify-content: center; align-items: center; margin-bottom: 100px;} 
+        .container section.menu div.galery div.img { width: 50%; margin: auto;}
+        .container section.menu div.galery div.leyenda { width: 50% ; height: 400px; margin: auto; }
              .container aside.containerformu div.formulario    {width: 1500px;}
              .container aside.containerformu div.formulario form { width: 1000px; }
              .container aside.containerformu div.formulario form textarea { min-height: 200px; max-height: 200px;
@@ -64,12 +68,10 @@
            div.container section.menu div.forno p {font-size: 30px;}
            div.container div.menu .imgIntro  {width: 80%;}
            div.container div.menu .imgIntro img {width: 100%;}
-           .container section.menu div.galery div.img { width: 100% ;}
-           .container section.menu div.galery{ width: 100%; justify-content: center; align-items: center;} 
-           .container section.menu div.galery div.img { width: 100%; justify-content: center; align-items: center;}
-     .container section.menu div.galery div.leyenda { width: 100% ; height: 300px; margin-bottom: 50px; }
-     .container section.menu div.galery div.leyenda h1 { font-size: 25px;}
-     .container section.menu .galery div.leyenda p { font-size: 20px;}
+           .container section.menu div.galery{ width: 100%; justify-content: center; align-items: center; margin-bottom: 100px;} 
+           .container section.menu div.galery div.img { width: 100% ; margin: auto;}
+           .container section.menu div.galery div.img { width: 100%; justify-content: center; align-items: center; }
+           .container section.menu div.galery div.leyenda { width: 50% ; height: 400px; margin:auto;}
         .container aside.containerformu div.formulario    {width: 1500px;}
         .container aside.containerformu div.formulario form { width: 1000px; }
         .container aside.containerformu div.formulario form textarea { min-height: 200px; max-height: 200px;
@@ -94,19 +96,18 @@
     p { font-size: 15px;} }
     div.container section.menu div.forno h1 { font-size: 60px;}
     div.container section.menu div.forno p {font-size: 25px;}
-    .container section.menu div.galery div.img { width: 100% ;}
     div.container div.menu .imgIntro img {width: 100%;}
     div.container div.menu .imgIntro img {width: 100%;}
     .socialRed { h1 {display: none;} div {height: 30px ; width: 30px; margin:1px; padding:0;}}
     .rutas { ul { margin: 0; padding: 0;}}
-    .container section.menu div.galery { width: 100%; justify-content: center; align-items: center;} 
-    .container section.menu div.galery div.img { width: 100%; justify-content: start; align-items: center;}
-    .container section.menu div.galery div.leyenda { width: 100% ; height: 300px; margin-bottom: 50px; justify-content: center; align-items: center; }
+    .container section.menu div.galery { width: 100%; justify-content: center; align-items: center; margin-bottom: 100px;} 
+    .container section.menu div.galery div.img { width: 100%; margin: auto;}
+    .container section.menu div.galery div.leyenda { width: 50% ; height: 400px; margin: auto; }
     .container section.menu div.galery div.leyenda h1 { font-size: 25px;}
     .container section.menu div.galery div.leyenda p { font-size: 20px;}
     .container aside.containerformu div.formulario    {width: 1500px;}
     .container aside.containerformu div.formulario form { width: 1000px; }
-    .container aside.containerformu div.formulario form textarea { min-height: 200px; max-height: 200px;
+    .container aside.containerformu div.formulario form textarea { min-height: 400px; max-height: 200px;
        max-width: 1460px;}
        .container aside.containerformu div.formulario form input { margin-bottom: 15px;
            padding: 5px; box-sizing: border-box; font-size: 15px; border: none;}

@@ -33,7 +33,7 @@
             }
         }
         
-        .img { width: 25%;
+        .img { @include centrado (25%);
            position: relative;
            height: 500px;
            margin-bottom: 25px;
