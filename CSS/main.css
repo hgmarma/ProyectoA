@@ -8,6 +8,7 @@
   padding: 0;
   box-sizing: border-box; }
 
+/*Desktop*/
 @media (min-width: 1500px) and (max-width: 2100px) {
   .container header.inicioP {
     height: 75vmax; }
@@ -46,13 +47,11 @@
     width: 55%;
     margin-bottom: auto; }
   .container aside.containerformu div.formulario {
-    width: 1500px; }
-  .container aside.containerformu div.formulario form {
-    width: 1000px; }
+    width: 100%;
+    margin: auto; }
   .container aside.containerformu div.formulario form textarea {
-    min-height: 200px;
-    max-height: 200px;
-    max-width: 1460px; }
+    margin: auto;
+    padding: auto; }
   .container aside.containerformu div.formulario form input {
     margin-bottom: 15px;
     padding: 5px;
@@ -65,6 +64,7 @@
     height: 45px;
     width: 45px; } }
 
+/*Notebook*/
 @media (min-width: 1250px) and (max-width: 1499px) {
   .container header.inicioP {
     height: 85vmax; }
@@ -117,13 +117,11 @@
     height: 400px;
     margin: auto; }
   .container aside.containerformu div.formulario {
-    width: 1500px; }
-  .container aside.containerformu div.formulario form {
-    width: 1000px; }
+    width: 100%;
+    margin: auto; }
   .container aside.containerformu div.formulario form textarea {
-    min-height: 200px;
-    max-height: 200px;
-    max-width: 1460px; }
+    margin: auto;
+    padding: auto; }
   .container aside.containerformu div.formulario form input {
     margin-bottom: 15px;
     padding: 5px;
@@ -133,6 +131,7 @@
   .slider ul li img {
     height: 500px; } }
 
+/*Tablet*/
 @media (min-width: 823px) and (max-width: 1250px) {
   .container header.inicioP {
     height: 95vmax; }
@@ -179,13 +178,11 @@
     height: 400px;
     margin: auto; }
   .container aside.containerformu div.formulario {
-    width: 1500px; }
-  .container aside.containerformu div.formulario form {
-    width: 1000px; }
+    width: 100%;
+    margin: auto; }
   .container aside.containerformu div.formulario form textarea {
-    min-height: 200px;
-    max-height: 200px;
-    max-width: 1460px; }
+    margin: auto;
+    padding: auto; }
   .container aside.containerformu div.formulario form input {
     margin-bottom: 15px;
     padding: 5px;
@@ -198,6 +195,7 @@
     height: 35px;
     width: 35px; } }
 
+/*Mobile*/
 @media (min-width: 300px) and (max-width: 823px) {
   .container header.inicioP {
     height: 110vmax; }
@@ -259,13 +257,11 @@
   .container section.menu div.galery div.leyenda p {
     font-size: 20px; }
   .container aside.containerformu div.formulario {
-    width: 1500px; }
-  .container aside.containerformu div.formulario form {
-    width: 1000px; }
+    width: 100%;
+    margin: auto; }
   .container aside.containerformu div.formulario form textarea {
-    min-height: 400px;
-    max-height: 200px;
-    max-width: 1460px; }
+    margin: auto;
+    padding: auto; }
   .container aside.containerformu div.formulario form input {
     margin-bottom: 15px;
     padding: 5px;
@@ -1504,7 +1500,7 @@ body {
       z-index: 1; }
 
 .container .containerformu {
-  grid-row-start: 2;
+  grid-row-start: 3;
   grid-row-end: 4;
   grid-column-start: 1;
   grid-column-end: 13;
@@ -1512,17 +1508,7 @@ body {
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
   grid-gap: 5px;
-  margin-top: 4vmax;
-  background-image: url(../Multimedia/Vinos/fondovinin.jpg);
-  height: 50vmax;
-  width: 100%;
-  margin: 10px;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  justify-content: center;
-  object-fit: cover;
-  background-attachment: inherit; }
+  margin-top: 4vmax; }
   .container .containerformu .formulario {
     display: flex;
     flex-direction: column;
@@ -1534,8 +1520,10 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     padding: 10px 20px;
     box-sizing: border-box;
-    margin-top: 20px;
-    border-radius: 7px; }
+    margin-top: 5vmax;
+    margin-bottom: 5vmax;
+    border: solid white;
+    border-radius: 10px; }
     .container .containerformu .formulario h2 {
       color: white;
       text-align: center;
@@ -1552,7 +1540,7 @@ body {
     .container .containerformu .formulario textarea {
       min-height: 400px;
       max-height: 500px;
-      max-width: 860px; }
+      max-width: auto; }
     .container .containerformu .formulario #boton1 {
       background-color: green;
       color: white;
@@ -1573,24 +1561,28 @@ body {
       .container .containerformu .formulario #boton2:hover {
         cursor: pointer; }
 
-.slider {
+.container .slider {
   width: 100%;
   animation: cambio 20s infinite alternate;
   animation-timing-function: ease-in-out;
-  background-color: black; }
-  .slider ul {
+  background-color: black;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 13; }
+  .container .slider ul {
     padding: 0;
     display: flex;
     width: 400%;
     overflow: hidden; }
-    .slider ul li {
+    .container .slider ul li {
       list-style: none;
       width: 100%; }
-      .slider ul li img {
+      .container .slider ul li img {
         width: 100%;
         height: 800px;
         object-fit: cover; }
-      .slider ul li h1 {
+      .container .slider ul li h1 {
         color: white;
         font-size: 200px;
         font-family: 'Ms Madi', cursive;
