@@ -1,3 +1,5 @@
+body { background-color: rgb(245, 245, 245);}
+
 .container {@include grid (12, 5); height: 160vmax;} 
 
 .inicio {@include grid (12, 5); @include gridpos (1, 2, 1, 13);
@@ -23,36 +25,127 @@
                      }
    }
 
-          .inicioP  {@include grid (12, 4); @include gridpos (1, 2, 1, 13);
-             .logo { @include gridpos (1, 2, 1, 2); 
-                  &:hover {transform: rotate(360deg); transition: 2s;}
-              }
- 
-                .nav { @include gridpos (1, 2, 2, 13); @include flex (row, nowrap, space-evenly, center);
-                    li {list-style-type: none;
-                    a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  
-                    } &:hover {@include textshadow (); 
-                     border: solid white; cursor: pointer; transition: 1s; border-radius: 25px;}
-                    }
-                  }
- 
-              .titleP {@include gridpos (3, 4, 2, 12);
-                 .title {@include titleSlogan1 (white, 75px); z-index: 1; 
-                    &:hover {@include textshadow ();}
-                  }
-               }
+   .inicioP  {@include grid (12, 4); @include gridpos (1, 2, 1, 13); height: 55vmax;
+      .logo { @include gridpos (1, 2, 1, 2); 
+           &:hover {transform: rotate(360deg); transition: 2s;}
+       }
 
-              .fondo { @include centrado ();
-                background-color: black;
-                position: absolute;
-                top: 0;
-                left: 0;
-                z-index: -1;
-                @include artShadowFx () ;
-                  .video {
-                     @include centrado ();
-                  }
-               }   
-            }
+         .nav { @include gridpos (1, 2, 2, 13); @include flex (row, nowrap, space-evenly, center);
+             li {list-style-type: none;
+             a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  
+             } &:hover {@include textshadow (); 
+              border: solid white; cursor: pointer; transition: 1s; border-radius: 25px;}
+             }
+           }
+
+       .titleP {@include gridpos (3, 4, 2, 12);
+          .title {@include titleSlogan1 (white, 75px); z-index: 1; 
+             &:hover {@include textshadow ();}
+           }
+        }
+
+       .fondo { @include centrado ();
+         background-color: black;
+         position: absolute;
+         top: 0;
+         left: 0;
+         z-index: -1;
+         object-fit: cover;
+         @include artShadowFx () ;
+           .video {
+              @include centrado ();
+           }
+        }   
+     }
+
+     .inicioW { @include grid (12, 5);
+      @include gridpos (1, 2, 1, 13);
+      @include imgFondoFx (url('../Multimedia/Vinos/vinos-family.jpg'), 47vmax,); 
+      @include artShadowFx ();
+      background-color: rgba(0, 0, 0, .3);
+
+.logo {
+  @include gridpos (1, 2, 1, 2);
+  &:hover { transform: rotate(360deg); 
+   transition: 2s;} }
+
+.nav {
+  @include gridpos (1, 2, 2, 13);
+  @include flex (row, nowrap, space-evenly, center);
+  
+  li {list-style-type: none;}
+
+  li a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  }
+  }
+  
+.slogan {
+
+  @include gridpos (3, 4, 2, 12);
+
+  .slogantitle {  @include titleSlogan1 (white,85px); z-index: 1;}
+   }
+ 
+} 
+.inicioN { @include grid (12, 5);
+   @include gridpos (1, 2, 1, 13);
+   @include imgFondoFx (url('../Multimedia/fondos/beneficios-de-los-jugos-naturales.jpg'), 40vmax,); 
+   @include artShadowFx ();
+   background-color: rgba(0, 0, 0, .3);
+
+.logo {
+@include gridpos (1, 2, 1, 2);
+&:hover { transform: rotate(360deg); 
+transition: 2s;} }
+
+.nav {
+@include gridpos (1, 2, 2, 13);
+@include flex (row, nowrap, space-evenly, center);
+
+li {list-style-type: none;
+
+a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  }
+&:hover {@include textshadow (); 
+  border: solid white; cursor: pointer; transition: 1s; border-radius: 25px;}
+}}
+
+.slogan {
+
+@include gridpos (3, 4, 2, 12);
+
+.slogantitle {  @include titleSlogan1 (white,85px); z-index: 1;}
+}
+
+} 
+     
+     .inicioC { @include grid (12, 5);
+      @include gridpos (1, 2, 1, 13);
+      @include imgFondoFx (url('../Multimedia/fondos/coffee.jpg'), 47vmax,); 
+      @include artShadowFx ();
+      background-color: rgba(0, 0, 0, .3);
+
+.logo {
+  @include gridpos (1, 2, 1, 2);
+  &:hover { transform: rotate(360deg); 
+   transition: 2s;} }
+
+.nav {
+  @include gridpos (1, 2, 2, 13);
+  @include flex (row, nowrap, space-evenly, center);
+  
+  li {list-style-type: none;
+
+   a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  }
+   &:hover {@include textshadow (); 
+     border: solid white; cursor: pointer; transition: 1s; border-radius: 25px;}
+ }}
+  
+.slogan {
+
+  @include gridpos (3, 4, 2, 12);
+
+  .slogantitle {  @include titleSlogan1 (white,75px);z-index: 1;}
+   }
+ 
+} 
             
          

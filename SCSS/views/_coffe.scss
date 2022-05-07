@@ -1,34 +1,5 @@
 .container { 
-        .inicioC { @include grid (12, 5);
-                @include gridpos (1, 2, 1, 13);
-                @include imgFondoFx (url('../Multimedia/fondos/coffee.jpg'), 47vmax,); 
-                @include artShadowFx ();
-                background-color: rgba(0, 0, 0, .3);
-          
-         .logo {
-            @include gridpos (1, 2, 1, 2);
-            &:hover { transform: rotate(360deg); 
-             transition: 2s;} }
-     
-         .nav {
-            @include gridpos (1, 2, 2, 13);
-            @include flex (row, nowrap, space-evenly, center);
-            
-            li {list-style-type: none;
-    
-             a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  }
-             &:hover {@include textshadow (); 
-               border: solid white; cursor: pointer; transition: 1s; border-radius: 25px;}
-           }}
-            
-         .slogan {
-    
-            @include gridpos (3, 4, 2, 12);
-    
-            .slogantitle {  @include titleSlogan1 (white,75px);z-index: 1;}
-             }
-           
-          } 
+
     
              .menu {.banderaC 
                       { @include gridpos (1, 2, 1, 13);

@@ -9,23 +9,41 @@
   box-sizing: border-box; }
 
 @media (min-width: 1500px) and (max-width: 1950px) {
-  .sloganFinal h1 {
-    font-size: 95px; }
-  .sloganFinal p {
-    font-size: 45px; }
-  .text h1 {
-    font-size: 45px; }
-  .text p {
-    font-size: 30px; }
+  .container header.inicioP {
+    height: 75vmax; }
+  div.container header.inicio div.slogan h1.slogantitle {
+    font-size: 75px; }
+  div.container header.inicioC div.slogan h1.slogantitle {
+    font-size: 80px; }
+  div.container header.inicioN div.slogan h1.slogantitle {
+    font-size: 80px; }
+  div.container header.inicioCon div.slogan h1.slogantitle {
+    font-size: 80px; }
+  aside.sloganFinal div.contSlogan h1 {
+    font-size: 90px; }
+  aside.sloganFinal div.contSlogan p {
+    font-size: 40px; }
+  section.intro div.text h1 {
+    font-size: 35px; }
+  section.intro div.text p {
+    font-size: 25px; }
+  div.container section.menu div.forno h1 {
+    font-size: 90px; }
+  div.container section.menu div.forno p {
+    font-size: 40px; }
+  div.container div.menu .imgIntro {
+    width: 60%; }
+  div.container div.menu .imgIntro img {
+    width: 100%; }
   .socialRed h1 {
     font-size: 45px; }
   .socialRed div {
     height: 45px;
     width: 45px; }
-  .container section.menu .galery {
+  .container section.menu div.galery {
     width: 100%; }
-  .container section.menu .galery div.img {
-    width: 50%; }
+  .container section.menu div.galery div.img {
+    width: 55%; }
   .container aside.containerformu div.formulario {
     width: 1500px; }
   .container aside.containerformu div.formulario form {
@@ -42,22 +60,44 @@
     border: none; } }
 
 @media (min-width: 1250px) and (max-width: 1499px) {
-  .sloganFinal h1 {
-    font-size: 85px; }
-  .sloganFinal p {
-    font-size: 40px; }
-  .text h1 {
-    font-size: 40px; }
-  .text p {
-    font-size: 25px; }
+  .container header.inicioP {
+    height: 85vmax; }
+  div.container header.inicio div.slogan h1.slogantitle {
+    font-size: 70px; }
+  div.container header.inicioC div.slogan h1.slogantitle {
+    font-size: 70px; }
+  div.container header.inicioN div.slogan h1.slogantitle {
+    font-size: 70px; }
+  div.container header.inicioCon div.slogan h1.slogantitle {
+    font-size: 70px; }
+  aside.sloganFinal div.contSlogan h1 {
+    font-size: 80px; }
+  aside.sloganFinal div.contSlogan p {
+    font-size: 35px; }
+  section.intro div.text h1 {
+    font-size: 30px; }
+  section.intro div.text p {
+    font-size: 20px; }
+  div.container section.menu div.forno h1 {
+    font-size: 80px; }
+  div.container section.menu div.forno p {
+    font-size: 35px; }
+  .container section.menu div.galery div.img {
+    width: 65%; }
+  div.container div.menu .imgIntro {
+    width: 70%; }
+  div.container div.menu .imgIntro img {
+    width: 100%; }
   .socialRed h1 {
     font-size: 40px; }
   .socialRed div {
     height: 40px;
     width: 40px; }
-  .container section.menu .galery {
-    width: 100%; }
-  .container section.menu .galery div.img {
+  .container section.menu div.galery {
+    width: 100%;
+    justify-content: center;
+    align-items: center; }
+  .container section.menu div.galery div.img {
     width: 50%; }
   .container aside.containerformu div.formulario {
     width: 1500px; }
@@ -77,32 +117,49 @@
     height: 500px; } }
 
 @media (min-width: 823px) and (max-width: 1250px) {
+  .container header.inicioP {
+    height: 95vmax; }
   .offdisplay {
     display: none; }
-  .sloganFinal h1 {
-    font-size: 80px; }
-  .sloganFinal p {
+  div.container header.inicio div.slogan h1.slogantitle {
+    font-size: 60px; }
+  div.container header.inicioC div.slogan h1.slogantitle {
+    font-size: 60px; }
+  div.container header.inicioN div.slogan h1.slogantitle {
+    font-size: 60px; }
+  div.container header.inicioCon div.slogan h1.slogantitle {
+    font-size: 60px; }
+  aside.sloganFinal div.contSlogan h1 {
+    font-size: 70px; }
+  aside.sloganFinal div.contSlogan p {
     font-size: 30px; }
-  .text h1 {
-    font-size: 35px; }
-  .text p {
-    font-size: 20px; }
-  .socialRed h1 {
-    font-size: 35px; }
-  .socialRed div {
-    height: 35px;
-    width: 35px; }
-  .container section.menu .galery {
+  section.intro div.text h1 {
+    font-size: 25px; }
+  section.intro div.text p {
+    font-size: 15px; }
+  div.container section.menu div.forno h1 {
+    font-size: 70px; }
+  div.container section.menu div.forno p {
+    font-size: 30px; }
+  div.container div.menu .imgIntro {
+    width: 80%; }
+  div.container div.menu .imgIntro img {
+    width: 100%; }
+  .container section.menu div.galery div.img {
+    width: 100%; }
+  .container section.menu div.galery {
     width: 100%;
     justify-content: center;
     align-items: center; }
-  .container section.menu .galery div.img {
-    width: 50%; }
-  .container section.menu .galery div.leyenda {
-    width: 50%;
+  .container section.menu div.galery div.img {
+    width: 100%;
+    justify-content: center;
+    align-items: center; }
+  .container section.menu div.galery div.leyenda {
+    width: 100%;
     height: 300px;
     margin-bottom: 50px; }
-  .container section.menu .galery div.leyenda h1 {
+  .container section.menu div.galery div.leyenda h1 {
     font-size: 25px; }
   .container section.menu .galery div.leyenda p {
     font-size: 20px; }
@@ -119,26 +176,49 @@
     padding: 5px;
     box-sizing: border-box;
     font-size: 15px;
-    border: none; } }
+    border: none; }
+  .socialRed h1 {
+    font-size: 35px; }
+  .socialRed div {
+    height: 35px;
+    width: 35px; } }
 
 @media (min-width: 300px) and (max-width: 823px) {
+  .container header.inicioP {
+    height: 110vmax; }
   .offdisplay {
     display: none; }
-  .slogan .slogantitle h1 {
+  div.container header.inicio div.slogan h1.slogantitle {
+    font-size: 50px; }
+  div.container header.inicioC div.slogan h1.slogantitle {
+    font-size: 50px; }
+  div.container header.inicioN div.slogan h1.slogantitle {
+    font-size: 50px; }
+  div.container header.inicioCon div.slogan h1.slogantitle {
     font-size: 50px; }
   .logo {
     display: none; }
   .nav ul {
     padding: 0;
     margin: 1px; }
-  .sloganFinal h1 {
-    font-size: 75px; }
-  .sloganFinal p {
-    font-size: 18px; }
-  .text h1 {
-    font-size: 35px; }
-  .text p {
+  aside.sloganFinal div.contSlogan h1 {
+    font-size: 60px; }
+  aside.sloganFinal div.contSlogan p {
+    font-size: 25px; }
+  section.intro div.text h1 {
+    font-size: 20px; }
+  section.intro div.text p {
     font-size: 15px; }
+  div.container section.menu div.forno h1 {
+    font-size: 60px; }
+  div.container section.menu div.forno p {
+    font-size: 25px; }
+  .container section.menu div.galery div.img {
+    width: 100%; }
+  div.container div.menu .imgIntro img {
+    width: 100%; }
+  div.container div.menu .imgIntro img {
+    width: 100%; }
   .socialRed h1 {
     display: none; }
   .socialRed div {
@@ -149,19 +229,23 @@
   .rutas ul {
     margin: 0;
     padding: 0; }
-  .container section.menu .galery {
+  .container section.menu div.galery {
     width: 100%;
     justify-content: center;
     align-items: center; }
-  .container section.menu .galery div.img {
-    width: 50%; }
-  .container section.menu .galery div.leyenda {
-    width: 50%;
+  .container section.menu div.galery div.img {
+    width: 100%;
+    justify-content: start;
+    align-items: center; }
+  .container section.menu div.galery div.leyenda {
+    width: 100%;
     height: 300px;
-    margin-bottom: 50px; }
-  .container section.menu .galery div.leyenda h1 {
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center; }
+  .container section.menu div.galery div.leyenda h1 {
     font-size: 25px; }
-  .container section.menu .galery div.leyenda p {
+  .container section.menu div.galery div.leyenda p {
     font-size: 20px; }
   .container aside.containerformu div.formulario {
     width: 1500px; }
@@ -179,6 +263,9 @@
     border: none; } }
 
 /* PARTIALS */
+body {
+  background-color: whitesmoke; }
+
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -195,7 +282,7 @@
   grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: 13;
-  background-image: url("../../Multimedia/fondos/vinedo.jpg");
+  background-image: url("../Multimedia/fondos/vinedo.jpg");
   height: 50vmax;
   width: 100%;
   margin: 10px;
@@ -203,6 +290,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   justify-content: center;
+  object-fit: cover;
   box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5); }
   .inicio .logo {
     grid-row-start: 1;
@@ -268,7 +356,8 @@
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 1;
-  grid-column-end: 13; }
+  grid-column-end: 13;
+  height: 55vmax; }
   .inicioP .logo {
     grid-row-start: 1;
     grid-row-end: 2;
@@ -331,12 +420,220 @@
     top: 0;
     left: 0;
     z-index: -1;
+    object-fit: cover;
     box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5); }
     .inicioP .fondo .video {
       width: 100%;
       display: flex;
       justify-content: center;
       align-items: center; }
+
+.inicioW {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 5px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  background-image: url("../Multimedia/Vinos/vinos-family.jpg");
+  height: 47vmax;
+  width: 100%;
+  margin: 10px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  justify-content: center;
+  object-fit: cover;
+  box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3); }
+  .inicioW .logo {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2; }
+    .inicioW .logo:hover {
+      transform: rotate(360deg);
+      transition: 2s; }
+  .inicioW .nav {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 13;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center; }
+    .inicioW .nav li {
+      list-style-type: none; }
+    .inicioW .nav li a {
+      color: white;
+      font-size: 30px;
+      text-shadow: 1px 1px 1px white;
+      margin: 10px;
+      padding: 10px;
+      letter-spacing: 2px;
+      word-spacing: 4px;
+      text-align: center;
+      font-family: 'Oswald', sans-serif;
+      font-weight: bold;
+      text-decoration: none; }
+  .inicioW .slogan {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 12; }
+    .inicioW .slogan .slogantitle {
+      color: white;
+      font-size: 85px;
+      font-family: 'Ms Madi', cursive;
+      font-weight: bold;
+      text-align: center;
+      z-index: 1; }
+
+.inicioN {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 5px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  background-image: url("../Multimedia/fondos/beneficios-de-los-jugos-naturales.jpg");
+  height: 40vmax;
+  width: 100%;
+  margin: 10px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  justify-content: center;
+  object-fit: cover;
+  box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3); }
+  .inicioN .logo {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2; }
+    .inicioN .logo:hover {
+      transform: rotate(360deg);
+      transition: 2s; }
+  .inicioN .nav {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 13;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center; }
+    .inicioN .nav li {
+      list-style-type: none; }
+      .inicioN .nav li a {
+        color: white;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px white;
+        margin: 10px;
+        padding: 10px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        text-decoration: none; }
+      .inicioN .nav li:hover {
+        text-shadow: 25px 25px 50px black;
+        border: solid white;
+        cursor: pointer;
+        transition: 1s;
+        border-radius: 25px; }
+  .inicioN .slogan {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 12; }
+    .inicioN .slogan .slogantitle {
+      color: white;
+      font-size: 85px;
+      font-family: 'Ms Madi', cursive;
+      font-weight: bold;
+      text-align: center;
+      z-index: 1; }
+
+.inicioC {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 5px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  background-image: url("../Multimedia/fondos/coffee.jpg");
+  height: 47vmax;
+  width: 100%;
+  margin: 10px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  justify-content: center;
+  object-fit: cover;
+  box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3); }
+  .inicioC .logo {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2; }
+    .inicioC .logo:hover {
+      transform: rotate(360deg);
+      transition: 2s; }
+  .inicioC .nav {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 13;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center; }
+    .inicioC .nav li {
+      list-style-type: none; }
+      .inicioC .nav li a {
+        color: white;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px white;
+        margin: 10px;
+        padding: 10px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        text-decoration: none; }
+      .inicioC .nav li:hover {
+        text-shadow: 25px 25px 50px black;
+        border: solid white;
+        cursor: pointer;
+        transition: 1s;
+        border-radius: 25px; }
+  .inicioC .slogan {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 12; }
+    .inicioC .slogan .slogantitle {
+      color: white;
+      font-size: 75px;
+      font-family: 'Ms Madi', cursive;
+      font-weight: bold;
+      text-align: center;
+      z-index: 1; }
 
 .footerI {
   display: grid;
@@ -354,7 +651,8 @@
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  justify-content: center; }
+  justify-content: center;
+  object-fit: cover; }
   .footerI .socialRed {
     display: flex;
     flex-direction: row;
@@ -402,7 +700,9 @@
     justify-content: space-evenly;
     align-items: center; }
     .footerI .rutas li {
-      list-style-type: none; }
+      list-style-type: none;
+      justify-content: center;
+      align-items: center; }
       .footerI .rutas li a {
         color: white;
         font-size: 25px;
@@ -438,7 +738,8 @@
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  justify-content: center; }
+  justify-content: center;
+  object-fit: cover; }
   .footerP .socialRed {
     display: flex;
     flex-direction: row;
@@ -486,7 +787,9 @@
     justify-content: space-evenly;
     align-items: center; }
     .footerP .rutas li {
-      list-style-type: none; }
+      list-style-type: none;
+      justify-content: center;
+      align-items: center; }
       .footerP .rutas li a {
         color: white;
         font-size: 25px;
@@ -515,14 +818,15 @@
   grid-row-end: 5;
   grid-column-start: 1;
   grid-column-end: 13;
-  background-image: url(../../Multimedia/fondos/valle-de-uco.png);
+  background-image: url(../Multimedia/fondos/valle-de-uco.png);
   height: 50vmax;
   width: 100%;
   margin: 10px;
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  justify-content: center; }
+  justify-content: center;
+  object-fit: cover; }
   .footerW .socialRed {
     display: flex;
     flex-direction: row;
@@ -570,7 +874,9 @@
     justify-content: space-evenly;
     align-items: center; }
     .footerW .rutas li {
-      list-style-type: none; }
+      list-style-type: none;
+      justify-content: center;
+      align-items: center; }
       .footerW .rutas li a {
         color: white;
         font-size: 25px;
@@ -599,14 +905,15 @@
   grid-row-end: 5;
   grid-column-start: 1;
   grid-column-end: 13;
-  background-image: url(../../Multimedia/fondos/jugos.jpg);
+  background-image: url(../Multimedia/fondos/jugos.jpg);
   height: 50vmax;
   width: 100%;
   margin: 10px;
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  justify-content: center; }
+  justify-content: center;
+  object-fit: cover; }
   .footerN .socialRed {
     display: flex;
     flex-direction: row;
@@ -654,7 +961,9 @@
     justify-content: space-evenly;
     align-items: center; }
     .footerN .rutas li {
-      list-style-type: none; }
+      list-style-type: none;
+      justify-content: center;
+      align-items: center; }
       .footerN .rutas li a {
         color: white;
         font-size: 25px;
@@ -683,7 +992,7 @@
   grid-row-end: 5;
   grid-column-start: 1;
   grid-column-end: 13;
-  background-image: url(../../Multimedia/fondos/European-Specialty-Coffee-Market-by-Pointbleu-Design-Blog.jpg);
+  background-image: url(../Multimedia/fondos/European-Specialty-Coffee-Market-by-Pointbleu-Design-Blog.jpg);
   height: 50vmax;
   width: 100%;
   margin: 10px;
@@ -691,7 +1000,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   justify-content: center;
-  height: 25vmax; }
+  object-fit: cover; }
   .footerC .socialRed {
     display: flex;
     flex-direction: row;
@@ -739,7 +1048,9 @@
     justify-content: space-evenly;
     align-items: center; }
     .footerC .rutas li {
-      list-style-type: none; }
+      list-style-type: none;
+      justify-content: center;
+      align-items: center; }
       .footerC .rutas li a {
         color: white;
         font-size: 25px;
@@ -816,7 +1127,9 @@
     justify-content: space-evenly;
     align-items: center; }
     .footerCon .rutas li {
-      list-style-type: none; }
+      list-style-type: none;
+      justify-content: center;
+      align-items: center; }
       .footerCon .rutas li a {
         color: white;
         font-size: 25px;
@@ -845,169 +1158,7 @@
   grid-row-end: 3;
   grid-column-start: 1;
   grid-column-end: 13; }
-
-/* VIEWS */
-.intro {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-gap: 40px;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  grid-column-start: 1;
-  grid-column-end: 13;
-  color: black;
-  font-size: 35px;
-  text-shadow: 1px 1px 1px #fafafa;
-  margin: 1px;
-  padding: 1px;
-  letter-spacing: 2px;
-  word-spacing: 4px;
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
-  font-weight: bold;
-  text-decoration: none;
-  margin-top: 5vmax; }
-  .intro .introPizzas {
-    background-image: url("../Multimedia/fondos/pizza.jpg");
-    height: 51vmax;
-    width: 100%;
-    margin: 5px;
-    opacity: 100%;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5); }
-  .intro .introWines {
-    background-image: url("../Multimedia/fondos/Courtesy_of_Beaucastel_Winery_Beaucastel_Winery.jpg");
-    height: 50vmax;
-    width: 100%;
-    margin: 5px;
-    opacity: 100%;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5); }
-  .intro .introJuiceNatural {
-    background-image: url("../Multimedia/fondos/beneficios-de-los-jugos-naturales.jpg");
-    height: 50vmax;
-    width: 100%;
-    margin: 5px;
-    opacity: 100%;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5); }
-  .intro .introCoffe {
-    background-image: url("../Multimedia/fondos/iStock-938993594-1000x600.jpg");
-    height: 50vmax;
-    width: 100%;
-    margin: 5px;
-    opacity: 100%;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5); }
-  .intro .text:hover {
-    text-shadow: 10px 10px 20px black;
-    transition: 1s; }
-
-.banderaC {
-  grid-row-start: 5;
-  grid-row-end: 6;
-  grid-column-start: 1;
-  grid-column-end: 13;
-  background-color: #4f4f43;
-  height: 100px;
-  margin: 0;
-  align-items: flex-end; }
-
-.sloganFinal {
-  color: black;
-  font-size: 100px;
-  font-family: 'Ms Madi', cursive;
-  font-weight: bold;
-  text-align: center;
-  grid-row-start: 2;
-  grid-row-end: 2;
-  grid-column-start: 1;
-  grid-column-end: 13;
-  background-color: #fafafa; }
-  .sloganFinal:hover {
-    text-shadow: 10px 10px 20px black;
-    font-size: 90px;
-    transition: 1s; }
-  .sloganFinal p {
-    color: black;
-    font-size: 50px;
-    font-family: 'Ms Madi', cursive;
-    font-weight: bold;
-    text-align: center; }
-    .sloganFinal p:hover {
-      text-shadow: 10px 10px 20px black;
-      transition: 1s; }
-
-.container .menu {
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 1;
-  grid-column-end: 13; }
-  .container .menu .bandera {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 13;
-    background-image: url(../Multimedia/fondos/Archivo_000.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    height: 100px;
-    margin: 0; }
-  .container .menu .forno {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 13; }
-    .container .menu .forno h1 {
-      color: black;
-      font-size: 100px;
-      font-family: 'Ms Madi', cursive;
-      font-weight: bold;
-      text-align: center;
-      text-shadow: 25px 25px 50px black; }
-    .container .menu .forno p {
-      color: black;
-      font-size: 50px;
-      text-shadow: 1px 1px 1px white;
-      margin: 1px;
-      padding: 1px;
-      letter-spacing: 2px;
-      word-spacing: 4px;
-      text-align: center;
-      font-family: 'Oswald', sans-serif;
-      font-weight: bold;
-      text-decoration: none;
-      text-shadow: 25px 25px 50px black; }
-  .container .menu .imgIntro {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 13;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px; }
-    .container .menu .imgIntro img {
-      width: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 25px; }
-      .container .menu .imgIntro img:hover {
-        transform: scale(1.1, 1);
-        transition: 3s;
-        box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5); }
-  .container .menu .varieta {
+  .menu .varieta {
     grid-row-start: 4;
     grid-row-end: 5;
     grid-column-start: 1;
@@ -1037,8 +1188,9 @@
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     text-decoration: none;
-    margin: 50px; }
-  .container .menu .galery {
+    margin-top: 0;
+    margin-bottom: 10vmax; }
+  .menu .galery {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
@@ -1047,7 +1199,7 @@
     justify-content: space-around;
     border-radius: 3px;
     object-fit: cover; }
-    .container .menu .galery .leyenda {
+    .menu .galery .leyenda {
       width: 15%;
       display: flex;
       justify-content: center;
@@ -1070,87 +1222,192 @@
       margin-bottom: 100px;
       justify-content: start;
       align-items: center; }
-      .container .menu .galery .leyenda:hover {
+      .menu .galery .leyenda:hover {
         text-shadow: 25px 25px 50px black;
         box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5);
         transition: 1s;
         border: solid black;
         border-radius: 10px;
         font-size: 22px; }
-    .container .menu .galery .img {
+    .menu .galery .img {
       width: 25%;
       position: relative;
       height: 500px;
       margin-bottom: 25px; }
-      .container .menu .galery .img img {
+      .menu .galery .img img {
         box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5);
         height: 100%;
         object-fit: cover;
         border-radius: 5%; }
 
-.container .inicioW {
+/* VIEWS */
+.intro {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-gap: 5px;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 40px;
+  grid-row-start: 3;
+  grid-row-end: 4;
   grid-column-start: 1;
   grid-column-end: 13;
-  background-image: url("../Multimedia/Vinos/vinos-family.jpg");
-  height: 47vmax;
-  width: 100%;
-  margin: 10px;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  justify-content: center;
-  box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5);
-  background-color: rgba(0, 0, 0, 0.3); }
-  .container .inicioW .logo {
+  color: black;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px whitesmoke;
+  margin: 1px;
+  padding: 1px;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 5vmax; }
+  .intro .introPizzas {
+    background-image: url("../Multimedia/fondos/pizza.jpg");
+    height: 51vmax;
+    width: 100%;
+    margin: 5px;
+    opacity: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+    box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5); }
+  .intro .introWines {
+    background-image: url("../Multimedia/fondos/Courtesy_of_Beaucastel_Winery_Beaucastel_Winery.jpg");
+    height: 50vmax;
+    width: 100%;
+    margin: 5px;
+    opacity: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+    box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5); }
+  .intro .introJuiceNatural {
+    background-image: url("../Multimedia/fondos/beneficios-de-los-jugos-naturales.jpg");
+    height: 50vmax;
+    width: 100%;
+    margin: 5px;
+    opacity: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+    box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5); }
+  .intro .introCoffe {
+    background-image: url("../Multimedia/fondos/iStock-938993594-1000x600.jpg");
+    height: 50vmax;
+    width: 100%;
+    margin: 5px;
+    opacity: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+    box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5); }
+  .intro .text:hover {
+    text-shadow: 10px 10px 20px black;
+    transition: 1s; }
+
+.banderaC {
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  background-color: #4f4f43;
+  height: 100px;
+  margin: 0;
+  align-items: flex-end; }
+
+.sloganFinal {
+  color: black;
+  font-size: 100px;
+  font-family: 'Ms Madi', cursive;
+  font-weight: bold;
+  text-align: center;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 13; }
+  .sloganFinal:hover {
+    text-shadow: 10px 10px 20px black;
+    transition: 1s; }
+  .sloganFinal p {
+    color: black;
+    font-size: 50px;
+    font-family: 'Ms Madi', cursive;
+    font-weight: bold;
+    text-align: center; }
+    .sloganFinal p:hover {
+      text-shadow: 10px 10px 20px black;
+      transition: 1s; }
+
+.menu {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 13; }
+  .menu .bandera {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
-    grid-column-end: 2; }
-    .container .inicioW .logo:hover {
-      transform: rotate(360deg);
-      transition: 2s; }
-  .container .inicioW .nav {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
     grid-column-end: 13;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center; }
-    .container .inicioW .nav li {
-      list-style-type: none; }
-    .container .inicioW .nav li a {
-      color: white;
-      font-size: 30px;
+    background-image: url(../Multimedia/fondos/Archivo_000.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 100px;
+    margin: 0; }
+  .menu .forno {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 13; }
+    .menu .forno:hover {
+      text-shadow: 10px 10px 20px black;
+      transition: 1s; }
+    .menu .forno h1 {
+      color: black;
+      font-size: 100px;
+      font-family: 'Ms Madi', cursive;
+      font-weight: bold;
+      text-align: center; }
+    .menu .forno p {
+      color: black;
+      font-size: 50px;
       text-shadow: 1px 1px 1px white;
-      margin: 10px;
-      padding: 10px;
+      margin: 1px;
+      padding: 1px;
       letter-spacing: 2px;
       word-spacing: 4px;
       text-align: center;
       font-family: 'Oswald', sans-serif;
       font-weight: bold;
       text-decoration: none; }
-  .container .inicioW .slogan {
+      .menu .forno p:hover {
+        text-shadow: 10px 10px 20px black;
+        transition: 1s; }
+  .menu .imgIntro {
     grid-row-start: 3;
     grid-row-end: 4;
-    grid-column-start: 2;
-    grid-column-end: 12; }
-    .container .inicioW .slogan .slogantitle {
-      color: white;
-      font-size: 85px;
-      font-family: 'Ms Madi', cursive;
-      font-weight: bold;
-      text-align: center;
-      z-index: 1; }
+    grid-column-start: 1;
+    grid-column-end: 13;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vmax;
+    margin-bottom: 0;
+    object-fit: cover; }
+    .menu .imgIntro img {
+      width: 99%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .menu .imgIntro img:hover {
+        transform: scale(1.1, 1);
+        transition: 3s;
+        box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5); }
 
 .container .menu .banderaW {
   grid-row-start: 1;
@@ -1170,7 +1427,7 @@
   grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: 13;
-  background-image: url("../../Multimedia/fondos/brindis.jpg");
+  background-image: url("../Multimedia/fondos/brindis.jpg");
   height: 50vmax;
   width: 100%;
   margin: 10px;
@@ -1178,6 +1435,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   justify-content: center;
+  object-fit: cover;
   box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5);
   background-color: rgba(0, 0, 0, 0.3); }
   .container .inicioCon .logo {
@@ -1241,7 +1499,7 @@
   grid-template-rows: repeat(1, 1fr);
   grid-gap: 5px;
   margin-top: 4vmax;
-  background-image: url(../../Multimedia/Vinos/fondovinin.jpg);
+  background-image: url(../Multimedia/Vinos/fondovinin.jpg);
   height: 50vmax;
   width: 100%;
   margin: 10px;
@@ -1249,6 +1507,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   justify-content: center;
+  object-fit: cover;
   background-attachment: inherit; }
   .container .containerformu .formulario {
     display: flex;
@@ -1315,7 +1574,8 @@
       width: 100%; }
       .slider ul li img {
         width: 100%;
-        height: 800px; }
+        height: 800px;
+        object-fit: cover; }
       .slider ul li h1 {
         color: white;
         font-size: 200px;
@@ -1342,77 +1602,7 @@
   100% {
     margin-left: -300%; } }
 
-.container .inicioN {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-gap: 5px;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-column-start: 1;
-  grid-column-end: 13;
-  background-image: url("../../Multimedia/fondos/beneficios-de-los-jugos-naturales.jpg");
-  height: 40vmax;
-  width: 100%;
-  margin: 10px;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  justify-content: center;
-  box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5);
-  background-color: rgba(0, 0, 0, 0.3); }
-  .container .inicioN .logo {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2; }
-    .container .inicioN .logo:hover {
-      transform: rotate(360deg);
-      transition: 2s; }
-  .container .inicioN .nav {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 13;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center; }
-    .container .inicioN .nav li {
-      list-style-type: none; }
-      .container .inicioN .nav li a {
-        color: white;
-        font-size: 30px;
-        text-shadow: 1px 1px 1px white;
-        margin: 10px;
-        padding: 10px;
-        letter-spacing: 2px;
-        word-spacing: 4px;
-        text-align: center;
-        font-family: 'Oswald', sans-serif;
-        font-weight: bold;
-        text-decoration: none; }
-      .container .inicioN .nav li:hover {
-        text-shadow: 25px 25px 50px black;
-        border: solid white;
-        cursor: pointer;
-        transition: 1s;
-        border-radius: 25px; }
-  .container .inicioN .slogan {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 2;
-    grid-column-end: 12; }
-    .container .inicioN .slogan .slogantitle {
-      color: white;
-      font-size: 85px;
-      font-family: 'Ms Madi', cursive;
-      font-weight: bold;
-      text-align: center;
-      z-index: 1; }
-
-.container .menu .banderaN {
+.menu .banderaN {
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 1;
@@ -1420,76 +1610,6 @@
   background-color: #c5cc00;
   height: 100px;
   margin: 0; }
-
-.container .inicioC {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-gap: 5px;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-column-start: 1;
-  grid-column-end: 13;
-  background-image: url("../Multimedia/fondos/coffee.jpg");
-  height: 47vmax;
-  width: 100%;
-  margin: 10px;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  justify-content: center;
-  box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5);
-  background-color: rgba(0, 0, 0, 0.3); }
-  .container .inicioC .logo {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2; }
-    .container .inicioC .logo:hover {
-      transform: rotate(360deg);
-      transition: 2s; }
-  .container .inicioC .nav {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 13;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center; }
-    .container .inicioC .nav li {
-      list-style-type: none; }
-      .container .inicioC .nav li a {
-        color: white;
-        font-size: 30px;
-        text-shadow: 1px 1px 1px white;
-        margin: 10px;
-        padding: 10px;
-        letter-spacing: 2px;
-        word-spacing: 4px;
-        text-align: center;
-        font-family: 'Oswald', sans-serif;
-        font-weight: bold;
-        text-decoration: none; }
-      .container .inicioC .nav li:hover {
-        text-shadow: 25px 25px 50px black;
-        border: solid white;
-        cursor: pointer;
-        transition: 1s;
-        border-radius: 25px; }
-  .container .inicioC .slogan {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 2;
-    grid-column-end: 12; }
-    .container .inicioC .slogan .slogantitle {
-      color: white;
-      font-size: 75px;
-      font-family: 'Ms Madi', cursive;
-      font-weight: bold;
-      text-align: center;
-      z-index: 1; }
 
 .container .menu .banderaC {
   grid-row-start: 1;

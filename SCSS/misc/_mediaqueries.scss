@@ -1,12 +1,21 @@
 
 @media  (min-width:1500px) and (max-width: 1950px) {
-    .sloganFinal { h1 {font-size: 95px; }
-    p  { font-size: 45px; } }
-    .text { h1 {font-size: 45px;} 
-    p { font-size: 30px;} }
+    .container header.inicioP  {height: 75vmax; }
+    div.container header.inicio div.slogan h1.slogantitle  {font-size: 75px;}
+    div.container header.inicioC div.slogan h1.slogantitle  {font-size: 80px;}
+    div.container header.inicioN div.slogan h1.slogantitle  {font-size: 80px;}
+    div.container header.inicioCon div.slogan h1.slogantitle  {font-size: 80px;}
+    aside.sloganFinal div.contSlogan h1 {  font-size: 90px; }
+    aside.sloganFinal div.contSlogan p { font-size: 40px; } 
+    section.intro div.text { h1 {font-size: 35px;} 
+    p { font-size: 25px;} }
+    div.container section.menu div.forno h1 { font-size: 90px;}
+    div.container section.menu div.forno p {font-size: 40px;}
+    div.container div.menu .imgIntro  {width: 60%;}
+    div.container div.menu .imgIntro img {width: 100%;}
     .socialRed { h1 {font-size: 45px;} div {height: 45px ; width: 45px ;}}
-    .container section.menu .galery { width: 100%;} 
-             .container section.menu .galery div.img { width: 50% ;}
+    .container section.menu div.galery { width: 100%;} 
+    .container section.menu div.galery div.img { width: 55% ;}
              .container aside.containerformu div.formulario    {width: 1500px;}
              .container aside.containerformu div.formulario form { width: 1000px; }
              .container aside.containerformu div.formulario form textarea { min-height: 200px; max-height: 200px;
@@ -16,60 +25,85 @@
 }
 
 @media (min-width: 1250px) and (max-width: 1499px) {
-    .sloganFinal { h1 {font-size: 85px; }
-    p  {font-size: 40px; } }
-    .text {  h1 {font-size: 40px;} 
-     p { font-size: 25px;} }
-     .socialRed { h1 {font-size: 40px;} div {height: 40px ; width: 40px ;}}
-        .container section.menu .galery { width: 100%;} 
-             .container section.menu .galery div.img { width: 50% ;}
+    .container header.inicioP  {height: 85vmax; }
+    div.container header.inicio div.slogan h1.slogantitle  {font-size: 70px;}
+    div.container header.inicioC div.slogan h1.slogantitle  {font-size: 70px;}
+    div.container header.inicioN div.slogan h1.slogantitle  {font-size: 70px;}
+    div.container header.inicioCon div.slogan h1.slogantitle  {font-size: 70px;}
+        aside.sloganFinal div.contSlogan h1 {  font-size: 80px; }
+        aside.sloganFinal div.contSlogan p { font-size: 35px; } 
+          section.intro div.text { h1 {font-size: 30px;} p { font-size: 20px;} }
+          div.container section.menu div.forno h1 { font-size: 80px;}
+          div.container section.menu div.forno p {font-size: 35px;}
+          .container section.menu div.galery div.img { width: 65% ;}
+          div.container div.menu .imgIntro {width: 70%;}
+          div.container div.menu .imgIntro img {width: 100%;}
+          .socialRed { h1 {font-size: 40px;} div {height: 40px ; width: 40px ;}}
+        .container section.menu div.galery { width: 100%; justify-content: center; align-items: center;} 
+        .container section.menu div.galery div.img { width: 50% ;}
              .container aside.containerformu div.formulario    {width: 1500px;}
              .container aside.containerformu div.formulario form { width: 1000px; }
              .container aside.containerformu div.formulario form textarea { min-height: 200px; max-height: 200px;
                 max-width: 1460px;}
                 .container aside.containerformu div.formulario form input { margin-bottom: 15px;
                     padding: 5px; box-sizing: border-box; font-size: 15px; border: none;}
-                    .slider ul li img  {height: 500px;}
-                 
+                    .slider ul li img  {height: 500px;}        
 }
 
 @media (min-width: 823px) and (max-width: 1250px) {
+    .container header.inicioP  {height: 95vmax; }
     .offdisplay {display: none;}
-    .sloganFinal { h1 {font-size: 80px; }
-    
-    p  {  font-size: 30px; } }
-    .text {h1 {font-size: 35px;}
-     p { font-size: 20px;} } 
-     .socialRed { h1 {font-size: 35px;} div {height: 35px ; width: 35px ;} }
-     .container section.menu .galery{ width: 100%; justify-content: center; align-items: center;} 
-     .container section.menu .galery div.img { width: 50%;}
-     .container section.menu .galery div.leyenda { width: 50% ; height: 300px; margin-bottom: 50px; }
-     .container section.menu .galery div.leyenda h1 { font-size: 25px;}
-    .container section.menu .galery div.leyenda p { font-size: 20px;}
-    .container aside.containerformu div.formulario    {width: 1500px;}
-    .container aside.containerformu div.formulario form { width: 1000px; }
-    .container aside.containerformu div.formulario form textarea { min-height: 200px; max-height: 200px;
-       max-width: 1460px;}
+    div.container header.inicio div.slogan h1.slogantitle {font-size: 60px;}
+    div.container header.inicioC div.slogan h1.slogantitle  {font-size: 60px;}
+    div.container header.inicioN div.slogan h1.slogantitle  {font-size: 60px;}
+    div.container header.inicioCon div.slogan h1.slogantitle  {font-size: 60px;}
+        aside.sloganFinal div.contSlogan h1 {  font-size: 70px; }
+        aside.sloganFinal div.contSlogan p { font-size: 30px; } 
+           section.intro div.text { h1 {font-size: 25px;} p { font-size: 15px;} }
+           div.container section.menu div.forno h1 { font-size: 70px;}
+           div.container section.menu div.forno p {font-size: 30px;}
+           div.container div.menu .imgIntro  {width: 80%;}
+           div.container div.menu .imgIntro img {width: 100%;}
+           .container section.menu div.galery div.img { width: 100% ;}
+           .container section.menu div.galery{ width: 100%; justify-content: center; align-items: center;} 
+           .container section.menu div.galery div.img { width: 100%; justify-content: center; align-items: center;}
+     .container section.menu div.galery div.leyenda { width: 100% ; height: 300px; margin-bottom: 50px; }
+     .container section.menu div.galery div.leyenda h1 { font-size: 25px;}
+     .container section.menu .galery div.leyenda p { font-size: 20px;}
+        .container aside.containerformu div.formulario    {width: 1500px;}
+        .container aside.containerformu div.formulario form { width: 1000px; }
+        .container aside.containerformu div.formulario form textarea { min-height: 200px; max-height: 200px;
+        max-width: 1460px;}
        .container aside.containerformu div.formulario form input { margin-bottom: 15px;
-           padding: 5px; box-sizing: border-box; font-size: 15px; border: none;}
+           padding: 5px; box-sizing: border-box; font-size: 15px; border: none;} 
+           .socialRed { h1 {font-size: 35px;} div {height: 35px ; width: 35px ;} }
 }
 
 @media (min-width: 300px) and (max-width: 823px) {
+    .container header.inicioP  {height: 110vmax; }
     .offdisplay {display: none;}
-    .slogan .slogantitle h1 {font-size: 50px;}
+    div.container header.inicio div.slogan h1.slogantitle  {font-size: 50px;}
+    div.container header.inicioC div.slogan h1.slogantitle  {font-size: 50px;}
+    div.container header.inicioN div.slogan h1.slogantitle  {font-size: 50px;}
+    div.container header.inicioCon div.slogan h1.slogantitle  {font-size: 50px;}
     .logo   {display: none;}
     .nav { ul { padding: 0; margin: 1px;}}
-    .sloganFinal { h1 {font-size: 75px; }
-    p  { font-size: 18px; } }
-    .text {h1 {font-size: 35px;} 
+    aside.sloganFinal div.contSlogan h1 {  font-size: 60px; }
+    aside.sloganFinal div.contSlogan p { font-size: 25px; } 
+    section.intro div.text { h1 {font-size: 20px;} 
     p { font-size: 15px;} }
+    div.container section.menu div.forno h1 { font-size: 60px;}
+    div.container section.menu div.forno p {font-size: 25px;}
+    .container section.menu div.galery div.img { width: 100% ;}
+    div.container div.menu .imgIntro img {width: 100%;}
+    div.container div.menu .imgIntro img {width: 100%;}
     .socialRed { h1 {display: none;} div {height: 30px ; width: 30px; margin:1px; padding:0;}}
     .rutas { ul { margin: 0; padding: 0;}}
-    .container section.menu .galery { width: 100%; justify-content: center; align-items: center;} 
-    .container section.menu .galery div.img { width: 50%;}
-    .container section.menu .galery div.leyenda { width: 50% ; height: 300px; margin-bottom: 50px; }
-    .container section.menu .galery div.leyenda h1 { font-size: 25px;}
-    .container section.menu .galery div.leyenda p { font-size: 20px;}
+    .container section.menu div.galery { width: 100%; justify-content: center; align-items: center;} 
+    .container section.menu div.galery div.img { width: 100%; justify-content: start; align-items: center;}
+    .container section.menu div.galery div.leyenda { width: 100% ; height: 300px; margin-bottom: 50px; justify-content: center; align-items: center; }
+    .container section.menu div.galery div.leyenda h1 { font-size: 25px;}
+    .container section.menu div.galery div.leyenda p { font-size: 20px;}
     .container aside.containerformu div.formulario    {width: 1500px;}
     .container aside.containerformu div.formulario form { width: 1000px; }
     .container aside.containerformu div.formulario form textarea { min-height: 200px; max-height: 200px;

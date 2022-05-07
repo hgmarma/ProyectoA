@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     justify-content:center;
+    object-fit: cover;
 }
 
 @mixin logo (){
@@ -26,6 +27,7 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    object-fit: cover;
 }
 
 
@@ -35,6 +37,7 @@
     height: $hg;
     background-size: 100% auto;
     background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 
@@ -64,6 +67,7 @@ $mgTop: 50px, $mgBottom: 50px, $opa: 100%)
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    object-fit: cover;
     @content;
 }   
 

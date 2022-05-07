@@ -1,5 +1,50 @@
 .menu { @include grid ( 1, 1 );
     @include gridpos ( 2, 3, 1, 13);       
+    .varieta { @include gridpos (4, 5, 1, 13);
+        @include centrado ();
+        @include separador ();
+        @include parrafo (white, 50px);
+    margin-top: 0; margin-bottom: 10vmax;}
+
+    .galery { display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        justify-content: space-around;
+        border-radius: 3px; 
+        object-fit: cover;
+
+        .leyenda {@include centrado (15%);
+            @include parrafo (black,20px);
+            display: flex;
+            flex-flow: column wrap;
+            position: relative;
+            height: 500px;
+            margin-bottom: 100px;
+            justify-content: start;
+            align-items: center;
+            &:hover {  @include textshadow ();
+                @include artShadowFx ();
+                transition: 1s;
+                border: solid black;
+                border-radius: 10px;
+                font-size: 22px;
+            }
+        }
+        
+        .img { width: 25%;
+           position: relative;
+           height: 500px;
+           margin-bottom: 25px;
+           
+          img {@include artShadowFx ();
+              height: 100%;
+              object-fit: cover;
+              border-radius: 5%;
+            } 
+        }   
+    }
 }
 
 
