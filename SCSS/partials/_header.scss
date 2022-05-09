@@ -1,10 +1,18 @@
 body { background-color: rgb(245, 245, 245);}
 
-.container {@include grid (12, 5); height: 160vmax;} 
+body::-webkit-scrollbar {width: 7px; }
+
+body::-webkit-scrollbar-thumb { background-color: rgb(61, 0, 61); }
+
+.container {@include grid (12, 5); height: 160vmax; margin-left:0;
+} 
+
 
 .inicio {@include grid (12, 5); @include gridpos (1, 2, 1, 13);
          @include imgFondoFx (url('../Multimedia/fondos/vinedo.jpg'), 50vmax,); 
          @include artShadowFx ();
+         
+         
 
        .logo {@include gridpos (1, 2, 1, 2); 
             &:hover {transform: rotate(360deg); transition: 2s;}
@@ -60,7 +68,7 @@ body { background-color: rgb(245, 245, 245);}
 
      .inicioW { @include grid (12, 5);
       @include gridpos (1, 2, 1, 13);
-      @include imgFondoFx (url('../Multimedia/Vinos/vinos-family.jpg'), 47vmax,); 
+      @include imgFondoFx (url('../../Multimedia/Vinos/vinos-family.jpg'), 47vmax,); 
       @include artShadowFx ();
       background-color: rgba(0, 0, 0, .3);
 
@@ -86,9 +94,9 @@ body { background-color: rgb(245, 245, 245);}
    }
  
 } 
-.inicioN { @include grid (12, 5);
+.inicioN { @include grid (12, 5); 
    @include gridpos (1, 2, 1, 13);
-   @include imgFondoFx (url('../Multimedia/fondos/beneficios-de-los-jugos-naturales.jpg'), 40vmax,); 
+   @include imgFondoFx (url('../../Multimedia/fondos/beneficios-de-los-jugos-naturales.jpg'), 40vmax,); 
    @include artShadowFx ();
    background-color: rgba(0, 0, 0, .3);
 
@@ -119,7 +127,7 @@ a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  }
      
      .inicioC { @include grid (12, 5);
       @include gridpos (1, 2, 1, 13);
-      @include imgFondoFx (url('../Multimedia/fondos/coffee.jpg'), 47vmax,); 
+      @include imgFondoFx (url('../../Multimedia/fondos/coffee.jpg'), 47vmax,); 
       @include artShadowFx ();
       background-color: rgba(0, 0, 0, .3);
 

@@ -1,4 +1,4 @@
-@mixin imgFondoFx ($url, $ht: 50vmax, $wh: 100%, $mg: 10px){  
+@mixin imgFondoFx ($url, $ht: 50vmax, $wh: 100%, $mg: 0){  
     background-image: $url;
     height: $ht;
     width: $wh;
@@ -6,7 +6,6 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    justify-content:center;
     object-fit: cover;
 }
 
