@@ -78,16 +78,16 @@
 @media (min-width: 300px) and (max-width: 823px) {
     .container header.inicioP  {height: 110vmax; }
     .offdisplay {display: none;}
-    div.container header.inicio div.slogan h1.slogantitle  {font-size: 50px;}
-    div.container header.inicioC div.slogan h1.slogantitle  {font-size: 50px;}
-    div.container header.inicioN div.slogan h1.slogantitle  {font-size: 50px;}
-    div.container header.inicioCon div.slogan h1.slogantitle  {font-size: 50px;}
+    div.container header.inicio div.slogan h1.slogantitle  {font-size: 45px;}
+    div.container header.inicioC div.slogan h1.slogantitle  {font-size: 45px;}
+    div.container header.inicioN div.slogan h1.slogantitle  {font-size: 45px;}
+    div.container header.inicioCon div.slogan h1.slogantitle  {font-size: 45px;}
     .logo   {display: none;}
     .nav { ul { padding: 0; margin: 1px;}}
-    aside.sloganFinal div.contSlogan h1 {  font-size: 60px; }
-    aside.sloganFinal div.contSlogan p { font-size: 25px; } 
-    section.intro div.text { h1 {font-size: 20px;} 
-    p { font-size: 15px;} }
+    .container section.intro { display: flex; flex-direction: column; background-attachment: inherit;}
+    aside.sloganFinal div.contSlogan h1 {  font-size: 50px; }
+    aside.sloganFinal div.contSlogan p { font-size: 20px; } 
+    section.intro div.text { h1 {font-size: 20px;} p { font-size: 15px;} }
     div.container section.menu div.forno h1 { font-size: 60px;}
     div.container section.menu div.forno p {font-size: 25px;}
     div.container div.menu .imgIntro img {width: 100%;}

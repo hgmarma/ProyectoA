@@ -202,22 +202,26 @@
   .offdisplay {
     display: none; }
   div.container header.inicio div.slogan h1.slogantitle {
-    font-size: 50px; }
+    font-size: 45px; }
   div.container header.inicioC div.slogan h1.slogantitle {
-    font-size: 50px; }
+    font-size: 45px; }
   div.container header.inicioN div.slogan h1.slogantitle {
-    font-size: 50px; }
+    font-size: 45px; }
   div.container header.inicioCon div.slogan h1.slogantitle {
-    font-size: 50px; }
+    font-size: 45px; }
   .logo {
     display: none; }
   .nav ul {
     padding: 0;
     margin: 1px; }
+  .container section.intro {
+    display: flex;
+    flex-direction: column;
+    background-attachment: inherit; }
   aside.sloganFinal div.contSlogan h1 {
-    font-size: 60px; }
+    font-size: 50px; }
   aside.sloganFinal div.contSlogan p {
-    font-size: 25px; }
+    font-size: 20px; }
   section.intro div.text h1 {
     font-size: 20px; }
   section.intro div.text p {
