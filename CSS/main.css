@@ -290,7 +290,7 @@
     margin: auto; }
   div.container section.menu div.galery div.leyenda {
     width: 50%;
-    height: 400px;
+    height: auto;
     margin: auto; }
   div.container section.menu div.galery div.leyenda h1 {
     font-size: 20px; }
@@ -389,7 +389,7 @@
     margin: auto; }
   div.container section.menu div.galery div.leyenda {
     width: 50%;
-    height: 400px;
+    height: auto;
     margin: auto; }
   div.container section.menu div.galery div.leyenda h1 {
     font-size: 20px; }
