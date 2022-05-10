@@ -6,13 +6,13 @@
                 margin-top: 5vmax;
              
                 
-             .introPizzas { @include imgFondoFx2 (url('../Multimedia/fondos/pizza.jpg'), 50vmax, 100% ); @include artShadowFx () ;  }
+             .introPizzas { @include imgFondoFx2 (url('../Multimedia/fondos/pizza.jpg'), auto, 100% ); @include artShadowFx () ;  }
          
-             .introWines { @include imgFondoFx2 (url('../Multimedia/fondos/Courtesy_of_Beaucastel_Winery_Beaucastel_Winery.jpg'), 50vmax, 100% ); @include artShadowFx () ; }
+             .introWines { @include imgFondoFx2 (url('../Multimedia/fondos/Courtesy_of_Beaucastel_Winery_Beaucastel_Winery.jpg'), auto, 100% ); @include artShadowFx () ; }
          
-             .introJuiceNatural { @include imgFondoFx2 (url('../Multimedia/fondos/beneficios-de-los-jugos-naturales.jpg'), 50vmax, 100% ); @include artShadowFx () ; }
+             .introJuiceNatural { @include imgFondoFx2 (url('../Multimedia/fondos/beneficios-de-los-jugos-naturales1.jpg'), auto, 100% ); @include artShadowFx () ; }
          
-             .introCoffe { @include imgFondoFx2 (url('../Multimedia/fondos/iStock-938993594-1000x600.jpg'), 50vmax, 100% );  @include artShadowFx ( ) ; } 
+             .introCoffe { @include imgFondoFx2 (url('../Multimedia/fondos/iStock-938993594-1000x600.jpg'), auto, 100% );  @include artShadowFx ( ) ; } 
                 
                  .text{ 
              
