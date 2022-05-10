@@ -6,7 +6,7 @@
                 margin-top: 5vmax;
              
                 
-             .introPizzas { @include imgFondoFx2 (url('../Multimedia/fondos/pizza.jpg'), 51vmax, 100% ); @include artShadowFx () ;  }
+             .introPizzas { @include imgFondoFx2 (url('../Multimedia/fondos/pizza.jpg'), 50vmax, 100% ); @include artShadowFx () ;  }
          
              .introWines { @include imgFondoFx2 (url('../Multimedia/fondos/Courtesy_of_Beaucastel_Winery_Beaucastel_Winery.jpg'), 50vmax, 100% ); @include artShadowFx () ; }
          
