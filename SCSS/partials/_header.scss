@@ -1,6 +1,6 @@
 body { background-color: rgb(245, 245, 245);}
 
-body::-webkit-scrollbar {width: 7px; }
+body::-webkit-scrollbar {width: 7px;}
 
 body::-webkit-scrollbar-thumb { background-color: rgb(61, 0, 61); }
 
@@ -10,17 +10,15 @@ body::-webkit-scrollbar-thumb { background-color: rgb(61, 0, 61); }
 
 .inicio {@include grid (12, 5); @include gridpos (1, 2, 1, 13);
          @include imgFondoFx (url('../Multimedia/fondos/vinedo.jpg'), 50vmax,); 
-         @include artShadowFx ();
+         @include artShadowFx (); 
          
-         
-
        .logo {@include gridpos (1, 2, 1, 2); 
             &:hover {transform: rotate(360deg); transition: 2s;}
          }
 
        .nav {@include gridpos (1, 2, 2, 13); @include flex (row, nowrap, space-evenly, center);
          background-color: rgba(0, 0, 0, .1);
-                 li {list-style-type: none;
+                 li {list-style-type: none; display: flex; justify-content: center;
                   a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);
                      } &:hover {@include textshadow (); 
                         border: solid white; cursor: pointer; transition: 1s; border-radius: 25px;}
@@ -34,12 +32,13 @@ body::-webkit-scrollbar-thumb { background-color: rgb(61, 0, 61); }
    }
 
    .inicioP  {@include grid (12, 4); @include gridpos (1, 2, 1, 13); height: 55vmax;
+      
       .logo { @include gridpos (1, 2, 1, 2); 
            &:hover {transform: rotate(360deg); transition: 2s;}
        }
 
          .nav { @include gridpos (1, 2, 2, 13); @include flex (row, nowrap, space-evenly, center);
-             li {list-style-type: none;
+             li {list-style-type: none; display: flex; justify-content: center;
              a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  
              } &:hover {@include textshadow (); 
               border: solid white; cursor: pointer; transition: 1s; border-radius: 25px;}
@@ -61,14 +60,14 @@ body::-webkit-scrollbar-thumb { background-color: rgb(61, 0, 61); }
          object-fit: cover;
          @include artShadowFx () ;
            .video {
-              @include centrado ();
+              @include centrado (); overflow: hidden;
            }
         }   
      }
 
      .inicioW { @include grid (12, 5);
       @include gridpos (1, 2, 1, 13);
-      @include imgFondoFx (url('../../Multimedia/Vinos/vinos-family.jpg'), 47vmax,); 
+      @include imgFondoFx (url('../Multimedia/Vinos/vinos-family.jpg'), 47vmax,); 
       @include artShadowFx ();
       background-color: rgba(0, 0, 0, .3);
 
@@ -81,7 +80,7 @@ body::-webkit-scrollbar-thumb { background-color: rgb(61, 0, 61); }
   @include gridpos (1, 2, 2, 13);
   @include flex (row, nowrap, space-evenly, center);
   
-  li {list-style-type: none;
+  li {list-style-type: none; display: flex; justify-content: center;
   a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);
   } &:hover {@include textshadow (); 
      border: solid white; cursor: pointer; transition: 1s; border-radius: 25px;}
@@ -98,7 +97,7 @@ body::-webkit-scrollbar-thumb { background-color: rgb(61, 0, 61); }
 } 
 .inicioN { @include grid (12, 5); 
    @include gridpos (1, 2, 1, 13);
-   @include imgFondoFx (url('../../Multimedia/fondos/beneficios-de-los-jugos-naturales.jpg'), 40vmax,); 
+   @include imgFondoFx (url('../Multimedia/fondos/beneficios-de-los-jugos-naturales.jpg'), 40vmax,); 
    @include artShadowFx ();
    background-color: rgba(0, 0, 0, .3);
 
@@ -111,7 +110,7 @@ transition: 2s;} }
 @include gridpos (1, 2, 2, 13);
 @include flex (row, nowrap, space-evenly, center);
 
-li {list-style-type: none;
+li {list-style-type: none; display: flex; justify-content: center;
 
 a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  }
 &:hover {@include textshadow (); 
@@ -126,10 +125,40 @@ a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  }
 }
 
 } 
+
+.inicioC { @include grid (12, 5);
+   @include gridpos (1, 2, 1, 13);
+   @include imgFondoFx (url('../Multimedia/fondos/coffee.jpg'), 47vmax,); 
+   @include artShadowFx ();
+   background-color: rgba(0, 0, 0, .3);
+
+.logo {
+@include gridpos (1, 2, 1, 2);
+&:hover { transform: rotate(360deg); 
+transition: 2s;} }
+
+.nav {
+@include gridpos (1, 2, 2, 13);
+@include flex (row, nowrap, space-evenly, center);
+
+li {list-style-type: none; display: flex; justify-content: center;
+a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);}
+&:hover {@include textshadow (); 
+  border: solid white; cursor: pointer; transition: 1s; border-radius: 25px;}
+}}
+
+.slogan {
+
+@include gridpos (3, 4, 2, 12);
+
+.slogantitle {  @include titleSlogan1 (white,75px);z-index: 1;}
+}
+
+} 
      
-     .inicioC { @include grid (12, 5);
+     .inicioCon { @include grid (12, 5);
       @include gridpos (1, 2, 1, 13);
-      @include imgFondoFx (url('../../Multimedia/fondos/coffee.jpg'), 47vmax,); 
+      @include imgFondoFx (url('../Multimedia/fondos/coffee.jpg'), 47vmax,); 
       @include artShadowFx ();
       background-color: rgba(0, 0, 0, .3);
 
@@ -142,9 +171,8 @@ a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  }
   @include gridpos (1, 2, 2, 13);
   @include flex (row, nowrap, space-evenly, center);
   
-  li {list-style-type: none;
-
-   a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);  }
+  li {list-style-type: none; display: flex; justify-content: center;
+   a { @include parrafo (white, 30px, 1px 1px 1px white, 10px, 10px);}
    &:hover {@include textshadow (); 
      border: solid white; cursor: pointer; transition: 1s; border-radius: 25px;}
  }}

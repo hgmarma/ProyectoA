@@ -2,7 +2,7 @@
 
     @include grid ( 1, 1 );
     @include gridpos (4, 5, 1, 13);
-    @include imgFondoFx (url(../Multimedia/fondos/bar-photocredits-peter.jpg));
+    @include imgFondoFx (url('../Multimedia/fondos/bar-photocredits-peter.jpg'));
   
 
     .socialRed { @include flex (row, nowrap, space-evenly, center);
@@ -17,7 +17,7 @@
     
     div {  @include titleSlogan1 (white, 50px); }
 
-    .rutas {background-color: rgba(0, 0, 0, 0.5); height: 12vmax;
+    .rutas {background-color: rgba(0, 0, 0, 0.5); height: 16vmax;
         @include flex (row, nowrap, space-evenly, center);
 
        
@@ -32,7 +32,7 @@
 
     @include grid ( 1, 1 );
     @include gridpos (4, 5, 1, 13);
-    @include imgFondoFx (url(../../Multimedia/fondos/piso-de-gente-cenando-pizza-con-vino-tinto-familia-o-amigos-por-plano-tomando-y-comiendo-varias-clases-bebiendo-sobre-mesa-172931154.jpg));
+    @include imgFondoFx (url('../Multimedia/fondos/piso-de-gente-cenando-pizza-con-vino-tinto-familia-o-amigos-por-plano-tomando-y-comiendo-varias-clases-bebiendo-sobre-mesa-172931154.jpg'));
 
 
     .socialRed { @include flex (row, nowrap, space-evenly, center);
@@ -47,7 +47,7 @@
     
     div {  @include titleSlogan1 (white, 50px); }
 
-    .rutas {background-color: rgba(0, 0, 0, 0.5); height: 12vmax;
+    .rutas {background-color: rgba(0, 0, 0, 0.5); height: 16vmax;
         @include flex (row, nowrap, space-evenly, center);
 
        
@@ -64,7 +64,7 @@
 
     @include grid ( 1, 1 );
     @include gridpos (4, 5, 1, 13);
-    @include imgFondoFx (url(../../Multimedia/fondos/valle-de-uco.png));
+    @include imgFondoFx (url('../Multimedia/fondos/valle-de-uco.png'));
 
 
     .socialRed { @include flex (row, nowrap, space-evenly, center);
@@ -79,7 +79,7 @@
     
     div {  @include titleSlogan1 (white, 50px); }
 
-    .rutas { background-color: rgba(0, 0, 0, 0.5); height: 12vmax;
+    .rutas { background-color: rgba(0, 0, 0, 0.5); height: 16vmax;
         @include flex (row, nowrap, space-evenly, center);
 
        
@@ -96,7 +96,7 @@
 
     @include grid ( 1, 1 );
     @include gridpos (4, 5, 1, 13);
-    @include imgFondoFx (url(../../Multimedia/fondos/jugos.jpg));
+    @include imgFondoFx (url('../Multimedia/fondos/jugos.jpg'));
 
 
     .socialRed { @include flex (row, nowrap, space-evenly, center);
@@ -111,7 +111,7 @@
     
     div {  @include titleSlogan1 (white, 50px); }
 
-    .rutas { background-color: rgba(0, 0, 0, 0.5); height: 12vmax;
+    .rutas { background-color: rgba(0, 0, 0, 0.5); height: 16vmax;
         @include flex (row, nowrap, space-evenly, center);
 
        
@@ -127,7 +127,7 @@
 
         @include grid ( 1, 1 );
         @include gridpos (4, 5, 1, 13);
-        @include imgFondoFx (url(../../Multimedia/fondos/European-Specialty-Coffee-Market-by-Pointbleu-Design-Blog.jpg));
+        @include imgFondoFx (url('../Multimedia/fondos/European-Specialty-Coffee-Market-by-Pointbleu-Design-Blog.jpg'));
         
     
         .socialRed { @include flex (row, nowrap, space-evenly, center);
@@ -144,7 +144,7 @@
 
             } 
     
-        .rutas { background-color: rgba(0, 0, 0, 0.5); height: 12vmax;
+        .rutas { background-color: rgba(0, 0, 0, 0.5); height: 16vmax;
             @include flex (row, nowrap, space-evenly, center);
     
            
@@ -175,7 +175,7 @@
                div {  @include titleSlogan1 (white, 50px);}
             } 
     
-            .rutas { background-color: rgba(0, 0, 0, 0.5); height: 12vmax;
+            .rutas { background-color: rgba(0, 0, 0, 0.5); height: 16vmax;
                 @include flex (row, nowrap, space-evenly, center);
    
                 li {list-style-type: none; justify-content: center; align-items: center;

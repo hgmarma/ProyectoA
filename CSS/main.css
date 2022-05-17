@@ -26,8 +26,64 @@
     font-size: 90px; }
   aside.sloganFinal div.contSlogan p {
     font-size: 40px; }
+  header.inicio div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicio div.nav li ul a {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center; }
+  header.inicioP div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioP div.nav li ul a {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center; }
+  header.inicioW div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioW div.nav li ul a {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center; }
+  header.inicioN div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioN div.nav li ul a {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center; }
+  header.inicioC div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioC div.nav li ul a {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center; }
+  header.inicioCon div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioCon div.nav li ul a {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center; }
   div.container section.menu h1.varieta {
-    font-size: 45px; }
+    font-size: 45px;
+    margin-top: 5vmax;
+    position: relative; }
   div.container section.intro div.text h1 {
     font-size: 35px; }
   div.container section.intro div.text p {
@@ -36,8 +92,6 @@
     font-size: 90px; }
   div.container section.menu div.forno p {
     font-size: 40px; }
-  div.container div.menu .imgIntro {
-    width: 60%; }
   div.container div.menu .imgIntro img {
     width: 100%; }
   div.container section.menu div.galery {
@@ -62,11 +116,52 @@
     box-sizing: border-box;
     font-size: 15px;
     border: none; }
-  .socialRed h1 {
-    font-size: 45px; }
-  .socialRed div {
-    height: 45px;
-    width: 45px; }
+  div.container footer.footerI div.socialRed h1 {
+    font-size: 1.2em; }
+  div.container footer.footerI div.socialRed div i {
+    height: 1.2em;
+    width: 1.2em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerP div.socialRed h1 {
+    font-size: 1.2em; }
+  div.container footer.footerP div.socialRed div i {
+    height: 1.2em;
+    width: 1.2em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerW div.socialRed h1 {
+    font-size: 1.2em; }
+  div.container footer.footerW div.socialRed div i {
+    height: 1.2em;
+    width: 1.2em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerN div.socialRed h1 {
+    font-size: 1.2em; }
+  div.container footer.footerN div.socialRed div i {
+    height: 1.2em;
+    width: 1.2em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerC div.socialRed h1 {
+    font-size: 1.2em; }
+  div.container footer.footerC div.socialRed div i {
+    height: 1.2em;
+    width: 1.2em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerCon div.socialRed h1 {
+    font-size: 1.2em; }
+  div.container footer.footerCon div.socialRed div i {
+    height: 1.2em;
+    width: 1.2em;
+    margin: auto;
+    padding: auto; }
+  div.rutas div i {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center; }
   div.container div.slider ul li h1 {
     font-size: 150px; } }
 
@@ -88,8 +183,64 @@
     font-size: 80px; }
   aside.sloganFinal div.contSlogan p {
     font-size: 35px; }
+  header.inicio div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicio div.nav li ul a {
+    font-size: 1.4em;
+    display: flex;
+    justify-content: center; }
+  header.inicioP div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioP div.nav li ul a {
+    font-size: 1.4em;
+    display: flex;
+    justify-content: center; }
+  header.inicioW div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioW div.nav li ul a {
+    font-size: 1.4em;
+    display: flex;
+    justify-content: center; }
+  header.inicioN div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioN div.nav li ul a {
+    font-size: 1.4em;
+    display: flex;
+    justify-content: center; }
+  header.inicioC div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioC div.nav li ul a {
+    font-size: 1.4em;
+    display: flex;
+    justify-content: center; }
+  header.inicioCon div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioCon div.nav li ul a {
+    font-size: 1.4em;
+    display: flex;
+    justify-content: center; }
   div.container section.menu h1.varieta {
-    font-size: 40px; }
+    font-size: 40px;
+    margin-top: 5vmax;
+    position: relative; }
   section.intro div.text h1 {
     font-size: 30px; }
   section.intro div.text p {
@@ -102,15 +253,8 @@
     font-size: 20px; }
   div.container section.menu div.galery div.img {
     width: 65%; }
-  div.container div.menu .imgIntro {
-    width: 70%; }
   div.container div.menu .imgIntro img {
     width: 100%; }
-  div.socialRed h1 {
-    font-size: 40px; }
-  div.socialRed div {
-    height: 40px;
-    width: 40px; }
   div.container section.menu div.galery {
     width: 100%;
     margin-bottom: 50px; }
@@ -141,7 +285,49 @@
   div.container div.slider ul li h1 {
     font-size: 100px; }
   div.slider ul li img {
-    height: 500px; } }
+    height: 500px; }
+  div.container footer.footerI div.socialRed h1 {
+    font-size: 1.2em; }
+  div.container footer.footerI div.socialRed div i {
+    height: 1.2em;
+    width: 1.2em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerP div.socialRed h1 {
+    font-size: 1.2em; }
+  div.container footer.footerP div.socialRed div i {
+    height: 1.2em;
+    width: 1.2em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerW div.socialRed h1 {
+    font-size: 1.2em; }
+  div.container footer.footerW div.socialRed div i {
+    height: 1.2em;
+    width: 1.2em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerN div.socialRed h1 {
+    font-size: 1.2em; }
+  div.container footer.footerN div.socialRed div i {
+    height: 1.2em;
+    width: 1.2em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerC div.socialRed h1 {
+    font-size: 1.2em; }
+  div.container footer.footerC div.socialRed div i {
+    height: 1.2em;
+    width: 1.2em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerCon div.socialRed h1 {
+    font-size: 1.2em; }
+  div.container footer.footerCon div.socialRed div i {
+    height: 1.2em;
+    width: 1.2em;
+    margin: auto;
+    padding: auto; } }
 
 /*Tablet*/
 @media (min-width: 823px) and (max-width: 1250px) {
@@ -159,6 +345,60 @@
     font-size: 60px; }
   div.container header.inicioCon div.slogan h1.slogantitle {
     font-size: 60px; }
+  header.inicio div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicio div.nav li ul a {
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center; }
+  header.inicioP div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioP div.nav li ul a {
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center; }
+  header.inicioW div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioW div.nav li ul a {
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center; }
+  header.inicioN div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioN div.nav li ul a {
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center; }
+  header.inicioC div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioC div.nav li ul a {
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center; }
+  header.inicioCon div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioCon div.nav li ul a {
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center; }
   aside.sloganFinal div.contSlogan h1 {
     font-size: 70px; }
   aside.sloganFinal div.contSlogan p {
@@ -172,10 +412,10 @@
   div.container section.menu div.forno p {
     font-size: 30px; }
   div.container section.menu h1.varieta {
-    font-size: 35px; }
+    font-size: 35px;
+    margin-top: 5vmax;
+    position: relative; }
   div.container section.menu .imgIntro {
-    width: 80%; }
-  div.container section.menu .imgIntro img {
     width: 100%;
     height: 100%; }
   div.container section.menu div.galery {
@@ -208,11 +448,51 @@
     border: none; }
   div.container div.slider ul li h1 {
     font-size: 80px; }
-  div.socialRed h1 {
-    font-size: 35px; }
-  div.socialRed div {
-    height: 35px;
-    width: 35px; } }
+  div.container footer.footerI div.socialRed h1 {
+    font-size: 1em; }
+  div.container footer.footerI div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerP div.socialRed h1 {
+    font-size: 1em; }
+  div.container footer.footerP div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerW div.socialRed h1 {
+    font-size: 1em; }
+  div.container footer.footerW div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerN div.socialRed h1 {
+    font-size: 1em; }
+  div.container footer.footerN div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerC div.socialRed h1 {
+    font-size: 1em; }
+  div.container footer.footerC div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerCon div.socialRed h1 {
+    font-size: 1em; }
+  div.container footer.footerCon div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
+  div.container footer {
+    height: 35vmax;
+    background-attachment: scroll; } }
 
 /*Mobile*/
 @media (min-width: 600px) and (max-width: 823px) {
@@ -232,9 +512,60 @@
     font-size: 35px; }
   div.logo {
     display: none; }
-  div.nav ul {
-    padding: auto;
-    margin: auto; }
+  header.inicio div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicio div.nav li ul a {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center; }
+  header.inicioP div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioP div.nav li ul a {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center; }
+  header.inicioW div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioW div.nav li ul a {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center; }
+  header.inicioN div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioN div.nav li ul a {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center; }
+  header.inicioC div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioC div.nav li ul a {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center; }
+  header.inicioCon div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioCon div.nav li ul a {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center; }
   div.container section.intro {
     display: flex;
     flex-direction: column;
@@ -268,14 +599,49 @@
   div.container section.menu div.forno p {
     font-size: 20px; }
   div.container section.menu h1.varieta {
-    font-size: 25px; }
-  div.socialRed h1 {
+    font-size: 25px;
+    margin-top: 4vmax;
+    position: relative; }
+  div.container footer div.socialRed h1 {
     display: none; }
-  div.socialRed div {
-    height: 50px;
-    width: 50px;
-    margin: 1px;
-    padding: 0; }
+  div.container footer.footerI div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerP div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerW div.socialRed h1 {
+    font-size: 1em; }
+  div.container footer.footerW div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerN div.socialRed h1 {
+    font-size: 1em; }
+  div.container footer.footerN div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerC div.socialRed h1 {
+    font-size: 1em; }
+  div.container footer.footerC div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerCon div.socialRed h1 {
+    font-size: 1em; }
+  div.container footer.footerCon div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
   div.rutas ul {
     margin: 0;
     padding: 0; }
@@ -331,9 +697,54 @@
     font-size: 35px; }
   div.logo {
     display: none; }
-  div.nav ul {
-    padding: auto;
-    margin: auto; }
+  header.inicio div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicio div.nav li ul a {
+    font-size: 1em;
+    display: flex;
+    justify-content: center; }
+  header.inicioP div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioP div.nav li ul a {
+    font-size: 1em; }
+  header.inicioW div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioW div.nav li ul a {
+    font-size: 1em; }
+  header.inicioN div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioN div.nav li ul a {
+    font-size: 1em;
+    display: flex;
+    justify-content: center; }
+  header.inicioC div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioC div.nav li ul a {
+    font-size: 1em; }
+  header.inicioCon div.nav li ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  header.inicioCon div.nav li ul a {
+    font-size: 1em;
+    display: flex;
+    justify-content: center; }
   div.container section.intro {
     display: flex;
     flex-direction: column;
@@ -367,13 +778,53 @@
   div.container section.menu div.forno p {
     font-size: 20px; }
   div.container section.menu h1.varieta {
-    font-size: 25px; }
-  div.socialRed h1 {
+    font-size: 25px;
+    margin-top: 4vmax;
+    position: relative; }
+  div.container footer div.socialRed h1 {
     display: none; }
-  div.socialRed div {
-    height: 50px;
-    width: 50px;
-    margin: 1px;
+  div.container footer.footerI div.socialRed div {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerI div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerP div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerW div.socialRed h1 {
+    font-size: 1em; }
+  div.container footer.footerW div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerN div.socialRed h1 {
+    font-size: 1em; }
+  div.container footer.footerN div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerC div.socialRed h1 {
+    font-size: 1em; }
+  div.container footer.footerC div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    padding: auto; }
+  div.container footer.footerCon div.socialRed h1 {
+    font-size: 1em; }
+  div.container footer.footerCon div.socialRed div i {
+    height: 1em;
+    width: 1em;
+    margin: auto;
     padding: auto; }
   div.rutas ul {
     margin: 0;
@@ -469,7 +920,9 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.1); }
     .inicio .nav li {
-      list-style-type: none; }
+      list-style-type: none;
+      display: flex;
+      justify-content: center; }
       .inicio .nav li a {
         color: white;
         font-size: 30px;
@@ -534,7 +987,9 @@ body::-webkit-scrollbar-thumb {
     justify-content: space-evenly;
     align-items: center; }
     .inicioP .nav li {
-      list-style-type: none; }
+      list-style-type: none;
+      display: flex;
+      justify-content: center; }
       .inicioP .nav li a {
         color: white;
         font-size: 30px;
@@ -583,7 +1038,8 @@ body::-webkit-scrollbar-thumb {
       width: 100%;
       display: flex;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      overflow: hidden; }
 
 .inicioW {
   display: grid;
@@ -594,7 +1050,7 @@ body::-webkit-scrollbar-thumb {
   grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: 13;
-  background-image: url("../../Multimedia/Vinos/vinos-family.jpg");
+  background-image: url("../Multimedia/Vinos/vinos-family.jpg");
   height: 47vmax;
   width: 100%;
   margin: 0;
@@ -623,7 +1079,9 @@ body::-webkit-scrollbar-thumb {
     justify-content: space-evenly;
     align-items: center; }
     .inicioW .nav li {
-      list-style-type: none; }
+      list-style-type: none;
+      display: flex;
+      justify-content: center; }
       .inicioW .nav li a {
         color: white;
         font-size: 30px;
@@ -664,7 +1122,7 @@ body::-webkit-scrollbar-thumb {
   grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: 13;
-  background-image: url("../../Multimedia/fondos/beneficios-de-los-jugos-naturales.jpg");
+  background-image: url("../Multimedia/fondos/beneficios-de-los-jugos-naturales.jpg");
   height: 40vmax;
   width: 100%;
   margin: 0;
@@ -693,7 +1151,9 @@ body::-webkit-scrollbar-thumb {
     justify-content: space-evenly;
     align-items: center; }
     .inicioN .nav li {
-      list-style-type: none; }
+      list-style-type: none;
+      display: flex;
+      justify-content: center; }
       .inicioN .nav li a {
         color: white;
         font-size: 30px;
@@ -734,7 +1194,7 @@ body::-webkit-scrollbar-thumb {
   grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: 13;
-  background-image: url("../../Multimedia/fondos/coffee.jpg");
+  background-image: url("../Multimedia/fondos/coffee.jpg");
   height: 47vmax;
   width: 100%;
   margin: 0;
@@ -763,7 +1223,9 @@ body::-webkit-scrollbar-thumb {
     justify-content: space-evenly;
     align-items: center; }
     .inicioC .nav li {
-      list-style-type: none; }
+      list-style-type: none;
+      display: flex;
+      justify-content: center; }
       .inicioC .nav li a {
         color: white;
         font-size: 30px;
@@ -795,6 +1257,78 @@ body::-webkit-scrollbar-thumb {
       text-align: center;
       z-index: 1; }
 
+.inicioCon {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 5px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  background-image: url("../Multimedia/fondos/coffee.jpg");
+  height: 47vmax;
+  width: 100%;
+  margin: 0;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  object-fit: cover;
+  box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3); }
+  .inicioCon .logo {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2; }
+    .inicioCon .logo:hover {
+      transform: rotate(360deg);
+      transition: 2s; }
+  .inicioCon .nav {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 13;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center; }
+    .inicioCon .nav li {
+      list-style-type: none;
+      display: flex;
+      justify-content: center; }
+      .inicioCon .nav li a {
+        color: white;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px white;
+        margin: 10px;
+        padding: 10px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        text-decoration: none; }
+      .inicioCon .nav li:hover {
+        text-shadow: 25px 25px 50px black;
+        border: solid white;
+        cursor: pointer;
+        transition: 1s;
+        border-radius: 25px; }
+  .inicioCon .slogan {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 12; }
+    .inicioCon .slogan .slogantitle {
+      color: white;
+      font-size: 75px;
+      font-family: 'Ms Madi', cursive;
+      font-weight: bold;
+      text-align: center;
+      z-index: 1; }
+
 .footerI {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -804,7 +1338,7 @@ body::-webkit-scrollbar-thumb {
   grid-row-end: 5;
   grid-column-start: 1;
   grid-column-end: 13;
-  background-image: url(../Multimedia/fondos/bar-photocredits-peter.jpg);
+  background-image: url("../Multimedia/fondos/bar-photocredits-peter.jpg");
   height: 50vmax;
   width: 100%;
   margin: 0;
@@ -853,7 +1387,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center; }
   .footerI .rutas {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 12vmax;
+    height: 16vmax;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -891,7 +1425,7 @@ body::-webkit-scrollbar-thumb {
   grid-row-end: 5;
   grid-column-start: 1;
   grid-column-end: 13;
-  background-image: url(../../Multimedia/fondos/piso-de-gente-cenando-pizza-con-vino-tinto-familia-o-amigos-por-plano-tomando-y-comiendo-varias-clases-bebiendo-sobre-mesa-172931154.jpg);
+  background-image: url("../Multimedia/fondos/piso-de-gente-cenando-pizza-con-vino-tinto-familia-o-amigos-por-plano-tomando-y-comiendo-varias-clases-bebiendo-sobre-mesa-172931154.jpg");
   height: 50vmax;
   width: 100%;
   margin: 0;
@@ -940,7 +1474,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center; }
   .footerP .rutas {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 12vmax;
+    height: 16vmax;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -978,7 +1512,7 @@ body::-webkit-scrollbar-thumb {
   grid-row-end: 5;
   grid-column-start: 1;
   grid-column-end: 13;
-  background-image: url(../../Multimedia/fondos/valle-de-uco.png);
+  background-image: url("../Multimedia/fondos/valle-de-uco.png");
   height: 50vmax;
   width: 100%;
   margin: 0;
@@ -1027,7 +1561,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center; }
   .footerW .rutas {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 12vmax;
+    height: 16vmax;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -1065,7 +1599,7 @@ body::-webkit-scrollbar-thumb {
   grid-row-end: 5;
   grid-column-start: 1;
   grid-column-end: 13;
-  background-image: url(../../Multimedia/fondos/jugos.jpg);
+  background-image: url("../Multimedia/fondos/jugos.jpg");
   height: 50vmax;
   width: 100%;
   margin: 0;
@@ -1114,7 +1648,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center; }
   .footerN .rutas {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 12vmax;
+    height: 16vmax;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -1152,7 +1686,7 @@ body::-webkit-scrollbar-thumb {
   grid-row-end: 5;
   grid-column-start: 1;
   grid-column-end: 13;
-  background-image: url(../../Multimedia/fondos/European-Specialty-Coffee-Market-by-Pointbleu-Design-Blog.jpg);
+  background-image: url("../Multimedia/fondos/European-Specialty-Coffee-Market-by-Pointbleu-Design-Blog.jpg");
   height: 50vmax;
   width: 100%;
   margin: 0;
@@ -1201,7 +1735,7 @@ body::-webkit-scrollbar-thumb {
       text-align: center; }
   .footerC .rutas {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 12vmax;
+    height: 16vmax;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -1281,7 +1815,7 @@ body::-webkit-scrollbar-thumb {
       text-align: center; }
   .footerCon .rutas {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 12vmax;
+    height: 16vmax;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;

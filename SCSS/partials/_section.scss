@@ -4,7 +4,7 @@
         @include centrado ();
         @include separador ();
         @include parrafo (white, 50px);
-    margin-top: 0; margin-bottom: 10vmax;}
+        margin-top: 0; margin-bottom: 10vmax;}
 
     .galery { display: flex;
         flex-wrap: wrap;

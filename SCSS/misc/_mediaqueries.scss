@@ -6,13 +6,24 @@
     div.container header.inicioW div.slogan h1.slogantitle  {font-size: 80px;}
     div.container header.inicioN div.slogan h1.slogantitle  {font-size: 80px;}
     div.container header.inicioCon div.slogan h1.slogantitle  {font-size: 80px;}
-    aside.sloganFinal div.contSlogan h1 {  font-size: 90px;}
+    aside.sloganFinal div.contSlogan h1 {font-size: 90px;}
     aside.sloganFinal div.contSlogan p { font-size: 40px;} 
-    div.container section.menu h1.varieta {font-size: 45px;}
+    header.inicio div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+    header.inicio div.nav li ul a {font-size: 1.5em; display: flex;  justify-content: center; }
+    header.inicioP div.nav li ul { padding: 0; margin: 0;  display: flex;  justify-content: center; }
+    header.inicioP div.nav li ul a {font-size: 1.5em; display: flex;  justify-content: center; }
+    header.inicioW div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+    header.inicioW div.nav li ul a {font-size: 1.5em; display: flex;  justify-content: center; }
+    header.inicioN div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+    header.inicioN div.nav li ul a {font-size: 1.5em; display: flex;  justify-content: center; }
+    header.inicioC div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+    header.inicioC div.nav li ul a {font-size: 1.5em; display: flex;  justify-content: center; }
+    header.inicioCon div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+    header.inicioCon div.nav li ul a {font-size: 1.5em; display: flex;  justify-content: center; }
+    div.container section.menu h1.varieta {font-size: 45px; margin-top: 5vmax; position: relative;}
     div.container section.intro div.text { h1 {font-size: 35px;} p { font-size: 25px;} }
     div.container section.menu div.forno h1 { font-size: 90px;}
     div.container section.menu div.forno p {font-size: 40px;}
-    div.container div.menu .imgIntro  {width: 60%;}
     div.container div.menu .imgIntro img {width: 100%;}
     div.container section.menu div.galery { width: 100%; margin-bottom: 100px;} 
     div.container section.menu div.galery div.leyenda {width: 25% ; height: 400px; margin:auto; }
@@ -21,9 +32,22 @@
              div.container aside.containerformu div.formulario form textarea { margin: auto; padding: auto;}
                 div.container aside.containerformu div.formulario form input { margin-bottom: 15px;
                     padding: 5px; box-sizing: border-box; font-size: 15px; border: none;}
-                    .socialRed { h1 {font-size: 45px;} div {height: 45px ; width: 45px ;}}
+                    div.container footer.footerI div.socialRed h1 {font-size: 1.2em;}
+                    div.container footer.footerI div.socialRed div i {height: 1.2em; width: 1.2em; margin: auto; padding:auto;}
+                    div.container footer.footerP div.socialRed h1 {font-size: 1.2em;}
+                    div.container footer.footerP div.socialRed div i {height: 1.2em; width: 1.2em; margin: auto; padding:auto;}
+                    div.container footer.footerW div.socialRed h1 {font-size: 1.2em;}
+                    div.container footer.footerW div.socialRed div i {height: 1.2em; width: 1.2em; margin: auto; padding:auto;}
+                    div.container footer.footerN div.socialRed h1 {font-size: 1.2em;}
+                    div.container footer.footerN div.socialRed div i {height: 1.2em; width: 1.2em; margin: auto; padding:auto;}
+                    div.container footer.footerC div.socialRed h1 {font-size: 1.2em;}
+                    div.container footer.footerC div.socialRed div i {height: 1.2em; width: 1.2em; margin: auto; padding:auto;}
+                    div.container footer.footerCon div.socialRed h1 {font-size: 1.2em;}
+                    div.container footer.footerCon div.socialRed div i {height: 1.2em; width: 1.2em; margin: auto; padding:auto;}
+                    div.rutas div i { font-size: 1.5em; display: flex;  justify-content: center;}
                     div.container div.slider ul li h1 {font-size: 150px;}
     }
+
   /*Notebook*/
 @media (min-width: 1250px) and (max-width: 1499px) {
     .container header.inicioP  {height: 100vmax; }
@@ -34,15 +58,25 @@
     div.container header.inicioCon div.slogan h1.slogantitle  {font-size: 70px;}
         aside.sloganFinal div.contSlogan h1 {  font-size: 80px; }
         aside.sloganFinal div.contSlogan p { font-size: 35px; } 
-        div.container section.menu h1.varieta {font-size: 40px;}
+        header.inicio div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+        header.inicio div.nav li ul a {font-size: 1.4em; display: flex;  justify-content: center; }
+        header.inicioP div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+        header.inicioP div.nav li ul a {font-size: 1.4em; display: flex;  justify-content: center; }
+        header.inicioW div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+        header.inicioW div.nav li ul a {font-size: 1.4em; display: flex;  justify-content: center; }
+        header.inicioN div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+        header.inicioN div.nav li ul a {font-size: 1.4em; display: flex;  justify-content: center; }
+        header.inicioC div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+        header.inicioC div.nav li ul a {font-size: 1.4em; display: flex;  justify-content: center; }
+        header.inicioCon div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+        header.inicioCon div.nav li ul a {font-size: 1.4em; display: flex;  justify-content: center; }
+        div.container section.menu h1.varieta {font-size: 40px; margin-top: 5vmax; position: relative;}
           section.intro div.text { h1 {font-size: 30px;} p { font-size: 20px;} }
           div.container section.menu div.forno h1 { font-size: 80px;}
           div.container section.menu div.forno p {font-size: 35px;}
           div.container section.menu .galery div.leyenda p { font-size: 20px;}
           div.container section.menu div.galery div.img { width: 65%;}
-          div.container div.menu .imgIntro {width: 70%;}
           div.container div.menu .imgIntro img {width: 100%;}
-          div.socialRed { h1 {font-size: 40px;} div {height: 40px ; width: 40px ;}}
           div.container section.menu div.galery { width: 100%; margin-bottom: 50px;}
         div.container section.menu div.galery { width: 100%; justify-content: center; align-items: center; margin-bottom: 100px;} 
         div.container section.menu div.galery div.img { width: 50%; margin: auto;}
@@ -50,10 +84,23 @@
              div.container aside.containerformu div.formulario    {width: 100%; margin: auto;}
              div.container aside.containerformu div.formulario form textarea { margin: auto; padding: auto;}
                 div.container aside.containerformu div.formulario form input { margin-bottom: 15px;
-                    padding: 5px; box-sizing: border-box; font-size: 15px; border: none;}
-                    div.container div.slider ul li h1 {font-size: 100px;}
-                    div.slider ul li img  {height: 500px;}        
+            padding: 5px; box-sizing: border-box; font-size: 15px; border: none;}
+            div.container div.slider ul li h1 {font-size: 100px;}
+            div.slider ul li img  {height: 500px;} 
+            div.container footer.footerI div.socialRed h1 {font-size: 1.2em;}
+            div.container footer.footerI div.socialRed div i {height: 1.2em; width: 1.2em; margin: auto; padding:auto;}
+            div.container footer.footerP div.socialRed h1 {font-size: 1.2em;}
+            div.container footer.footerP div.socialRed div i {height: 1.2em; width: 1.2em; margin: auto; padding:auto;}
+            div.container footer.footerW div.socialRed h1 {font-size: 1.2em;}
+            div.container footer.footerW div.socialRed div i {height: 1.2em; width: 1.2em; margin: auto; padding:auto;}
+            div.container footer.footerN div.socialRed h1 {font-size: 1.2em;}
+            div.container footer.footerN div.socialRed div i {height: 1.2em; width: 1.2em; margin: auto; padding:auto;}
+            div.container footer.footerC div.socialRed h1 {font-size: 1.2em;}
+            div.container footer.footerC div.socialRed div i {height: 1.2em; width: 1.2em; margin: auto; padding:auto;}
+            div.container footer.footerCon div.socialRed h1 {font-size: 1.2em;}
+            div.container footer.footerCon div.socialRed div i {height: 1.2em; width: 1.2em; margin: auto; padding:auto;}
 }
+
     /*Tablet*/
 
 @media (min-width: 823px) and (max-width: 1250px) {
@@ -64,14 +111,25 @@
     div.container header.inicioW div.slogan h1.slogantitle  {font-size: 60px;}
     div.container header.inicioN div.slogan h1.slogantitle  {font-size: 60px;}
     div.container header.inicioCon div.slogan h1.slogantitle  {font-size: 60px;}
+    header.inicio div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+    header.inicio div.nav li ul a {font-size: 1.3em; display: flex;  justify-content: center; }
+    header.inicioP div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+    header.inicioP div.nav li ul a {font-size: 1.3em; display: flex;  justify-content: center; }
+    header.inicioW div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+    header.inicioW div.nav li ul a {font-size: 1.3em; display: flex;  justify-content: center; }
+    header.inicioN div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+    header.inicioN div.nav li ul a {font-size: 1.3em; display: flex;  justify-content: center; }
+    header.inicioC div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+    header.inicioC div.nav li ul a {font-size: 1.3em; display: flex;  justify-content: center; }
+    header.inicioCon div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+    header.inicioCon div.nav li ul a {font-size: 1.3em; display: flex;  justify-content: center; }
         aside.sloganFinal div.contSlogan h1 {  font-size: 70px; }
         aside.sloganFinal div.contSlogan p { font-size: 30px; } 
            section.intro div.text { h1 {font-size: 25px;} p { font-size: 15px;} }
            div.container section.menu div.forno h1 { font-size: 70px;}
            div.container section.menu div.forno p {font-size: 30px;}
-           div.container section.menu h1.varieta  {font-size: 35px;}
-           div.container section.menu .imgIntro  {width: 80%;}
-           div.container section.menu .imgIntro img {width: 100%; height: 100%;}
+           div.container section.menu h1.varieta  {font-size: 35px; margin-top: 5vmax;position: relative;}
+           div.container section.menu .imgIntro {width: 100%; height: 100%;}
            div.container section.menu div.galery{ width: 100%; justify-content: center; align-items: center; margin-bottom: 100px;} 
            div.container section.menu div.galery div.img { width: 100% ; margin: auto;}
            div.container section.menu div.galery div.img { width: 100%; justify-content: center; align-items: center; }
@@ -81,7 +139,19 @@
        div.container aside.containerformu div.formulario form input { margin-bottom: 15px;
            padding: 5px; box-sizing: border-box; font-size: 15px; border: none;} 
            div.container div.slider ul li h1 {font-size: 80px;}
-           div.socialRed { h1 {font-size: 35px;} div {height: 35px ; width: 35px ;} }
+           div.container footer.footerI div.socialRed h1 {font-size: 1em;}
+           div.container footer.footerI div.socialRed div i {height: 1em; width: 1em; margin: auto; padding: auto;}
+           div.container footer.footerP div.socialRed h1 {font-size: 1em;}
+            div.container footer.footerP div.socialRed div i {height: 1em; width: 1em; margin: auto; padding:auto;}
+            div.container footer.footerW div.socialRed h1 {font-size: 1em;}
+            div.container footer.footerW div.socialRed div i {height: 1em; width: 1em; margin: auto; padding:auto;}
+            div.container footer.footerN div.socialRed h1 {font-size: 1em;}
+            div.container footer.footerN div.socialRed div i {height: 1em; width: 1em; margin: auto; padding:auto;}
+            div.container footer.footerC div.socialRed h1 {font-size: 1em;}
+            div.container footer.footerC div.socialRed div i {height: 1em; width: 1em; margin: auto; padding:auto;}
+            div.container footer.footerCon div.socialRed h1 {font-size: 1em;}
+            div.container footer.footerCon div.socialRed div i {height: 1em; width: 1em; margin: auto; padding:auto;}
+           div.container footer { height: 35vmax; background-attachment: scroll;}
 }
       /*Mobile*/
 
@@ -94,7 +164,18 @@
         div.container header.inicioN div.slogan h1.slogantitle  {font-size: 35px;}
         div.container header.inicioCon div.slogan h1.slogantitle {font-size: 35px;}
         div.logo   {display: none;}
-        div.nav { ul { padding: auto; margin: auto;}}
+        header.inicio div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+        header.inicio div.nav li ul a {font-size: 1.2em; display: flex;  justify-content: center; }
+        header.inicioP div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+        header.inicioP div.nav li ul a {font-size: 1.2em; display: flex;  justify-content: center; }
+        header.inicioW div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+        header.inicioW div.nav li ul a {font-size: 1.2em; display: flex;  justify-content: center; }
+        header.inicioN div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+        header.inicioN div.nav li ul a {font-size: 1.2em; display: flex;  justify-content: center; }
+        header.inicioC div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+        header.inicioC div.nav li ul a {font-size: 1.2em; display: flex;  justify-content: center; }
+        header.inicioCon div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+        header.inicioCon div.nav li ul a {font-size: 1.2em; display: flex;  justify-content: center; }
         div.container section.intro { display: flex; flex-direction: column; background-attachment: inherit;}
         aside.sloganFinal div.contSlogan h1 {  font-size: 35px; }
         aside.sloganFinal div.contSlogan p { font-size: 25px; } 
@@ -105,8 +186,18 @@
         div.container section.intro div.text { h1 {font-size: 25px;} p { font-size: 20px;  } }
         div.container section.menu div.forno h1 { font-size: 35px;}
         div.container section.menu div.forno p {font-size: 20px;}
-        div.container section.menu h1.varieta {font-size: 25px;}
-        div.socialRed { h1 {display: none;} div {height: 50px ; width: 50px; margin:1px; padding:0;}}
+        div.container section.menu h1.varieta {font-size: 25px; margin-top: 4vmax; position: relative;}
+        div.container footer div.socialRed h1 {display: none;}
+        div.container footer.footerI div.socialRed div i {height: 1em; width: 1em; margin: auto; padding:auto;}
+            div.container footer.footerP div.socialRed div i {height: 1em; width: 1em; margin: auto; padding:auto;}
+            div.container footer.footerW div.socialRed h1 {font-size: 1em;}
+            div.container footer.footerW div.socialRed div i {height: 1em; width: 1em; margin: auto; padding:auto;}
+            div.container footer.footerN div.socialRed h1 {font-size: 1em;}
+            div.container footer.footerN div.socialRed div i {height: 1em; width: 1em; margin: auto; padding:auto;}
+            div.container footer.footerC div.socialRed h1 {font-size: 1em;}
+            div.container footer.footerC div.socialRed div i {height: 1em; width: 1em; margin: auto; padding:auto;}
+            div.container footer.footerCon div.socialRed h1 {font-size: 1em;}
+            div.container footer.footerCon div.socialRed div i {height: 1em; width: 1em; margin: auto; padding:auto;}
         div.rutas { ul { margin: 0; padding: 0;}}
         div.container section.menu div.galery { width: 100%; justify-content: center; align-items: center; margin-bottom: 100px;} 
         div.container section.menu div.galery div.img { width: 250px; height: 250px; margin: auto;}
@@ -118,10 +209,9 @@
            div.container aside.containerformu div.formulario form input { margin-bottom: 15px;
                padding: 5px; box-sizing: border-box; font-size: 15px; border: none;}
                 div.container div.slider ul li h1 {font-size: 60px;}
-               div.container footer { height: 35vmax; background-attachment: scroll;}
-        
-        
+               div.container footer { height: 35vmax; background-attachment: scroll;}  
     }
+
 @media (min-width: 300px) and (max-width: 600px) {
     div.container header.inicioP  {height: 145vmax;}
     span.offdisplay {display: none;}
@@ -131,10 +221,21 @@
     div.container header.inicioN div.slogan h1.slogantitle  {font-size: 35px;}
     div.container header.inicioCon div.slogan h1.slogantitle {font-size: 35px;}
     div.logo   {display: none;}
-    div.nav { ul { padding: auto; margin: auto;}}
+    header.inicio div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+    header.inicio div.nav li ul a {font-size: 1em; display: flex;  justify-content: center; }
+    header.inicioP div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+    header.inicioP div.nav li ul a {font-size: 1em;}
+    header.inicioW div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+    header.inicioW div.nav li ul a {font-size: 1em;  }
+    header.inicioN div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+    header.inicioN div.nav li ul a {font-size: 1em; display: flex;  justify-content: center; }
+    header.inicioC div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center; }
+    header.inicioC div.nav li ul a {font-size: 1em;} 
+    header.inicioCon div.nav li ul { padding: 0; margin: 0; display: flex;  justify-content: center;} 
+    header.inicioCon div.nav li ul a {font-size: 1em; display: flex;  justify-content: center;}
     div.container section.intro { display: flex; flex-direction: column; background-attachment: inherit;}
-    aside.sloganFinal div.contSlogan h1 {  font-size: 35px; }
-    aside.sloganFinal div.contSlogan p { font-size: 25px; } 
+    aside.sloganFinal div.contSlogan h1 {  font-size: 35px;}
+    aside.sloganFinal div.contSlogan p { font-size: 25px;} 
     div.container section.intro {position: relative;height: 400vmax; width: 100%;}
     div.container section.intro div.text {height: 50vmax; width: 100%;}
     div.container section.intro div {  height: 50vmax; background-attachment: scroll; width: 100%; margin: auto; padding: auto;}
@@ -142,8 +243,19 @@
     div.container section.intro div.text { h1 {font-size: 20px;} p { font-size: 10px;  } }
     div.container section.menu div.forno h1 { font-size: 35px;}
     div.container section.menu div.forno p {font-size: 20px;}
-    div.container section.menu h1.varieta {font-size: 25px;}
-    div.socialRed { h1 {display: none;} div {height: 50px ; width: 50px; margin:1px; padding:auto;}}
+    div.container section.menu h1.varieta {font-size: 25px; margin-top: 4vmax; position: relative;}
+    div.container footer div.socialRed h1 {display: none;}
+    div.container footer.footerI div.socialRed div {height: 1em; width: 1em; margin: auto; padding:auto;}
+    div.container footer.footerI div.socialRed div i {height: 1em; width: 1em; margin: auto; padding:auto;}
+            div.container footer.footerP div.socialRed div i {height: 1em; width: 1em; margin: auto; padding:auto;}
+            div.container footer.footerW div.socialRed h1 {font-size: 1em;}
+            div.container footer.footerW div.socialRed div i {height: 1em; width: 1em; margin: auto; padding:auto;}
+            div.container footer.footerN div.socialRed h1 {font-size: 1em;}
+            div.container footer.footerN div.socialRed div i {height: 1em; width: 1em; margin: auto; padding:auto;}
+            div.container footer.footerC div.socialRed h1 {font-size: 1em;}
+            div.container footer.footerC div.socialRed div i {height: 1em; width: 1em; margin: auto; padding:auto;}
+            div.container footer.footerCon div.socialRed h1 {font-size: 1em;}
+            div.container footer.footerCon div.socialRed div i {height: 1em; width: 1em; margin: auto; padding:auto;}
     div.rutas { ul { margin: 0; padding: 0;}}
     div.container section.menu div.galery { width: 100%; justify-content: center; align-items: center; margin-bottom: 100px;} 
     div.container section.menu div.galery div.img { width: 250px; height: 250px; margin: auto;}
@@ -155,7 +267,5 @@
        div.container aside.containerformu div.formulario form input { margin-bottom: 15px;
            padding: 5px; box-sizing: border-box; font-size: 15px; border: none;}
             div.container div.slider ul li h1 {font-size: 60px;}
-           div.container footer { height: 35vmax; background-attachment: scroll;}
-    
-    
+           div.container footer { height: 35vmax; background-attachment: scroll;} 
 }
