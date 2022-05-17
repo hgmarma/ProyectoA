@@ -233,8 +233,8 @@
   div.logo {
     display: none; }
   div.nav ul {
-    padding: 0;
-    margin: 1px; }
+    padding: auto;
+    margin: auto; }
   div.container section.intro {
     display: flex;
     flex-direction: column;
@@ -242,7 +242,7 @@
   aside.sloganFinal div.contSlogan h1 {
     font-size: 35px; }
   aside.sloganFinal div.contSlogan p {
-    font-size: 15px; }
+    font-size: 25px; }
   div.container section.intro {
     position: relative;
     height: 400vmax;
@@ -332,8 +332,8 @@
   div.logo {
     display: none; }
   div.nav ul {
-    padding: 0;
-    margin: 1px; }
+    padding: auto;
+    margin: auto; }
   div.container section.intro {
     display: flex;
     flex-direction: column;
@@ -341,7 +341,7 @@
   aside.sloganFinal div.contSlogan h1 {
     font-size: 35px; }
   aside.sloganFinal div.contSlogan p {
-    font-size: 15px; }
+    font-size: 25px; }
   div.container section.intro {
     position: relative;
     height: 400vmax;
@@ -374,7 +374,7 @@
     height: 50px;
     width: 50px;
     margin: 1px;
-    padding: 0; }
+    padding: auto; }
   div.rutas ul {
     margin: 0;
     padding: 0; }
@@ -624,18 +624,24 @@ body::-webkit-scrollbar-thumb {
     align-items: center; }
     .inicioW .nav li {
       list-style-type: none; }
-    .inicioW .nav li a {
-      color: white;
-      font-size: 30px;
-      text-shadow: 1px 1px 1px white;
-      margin: 10px;
-      padding: 10px;
-      letter-spacing: 2px;
-      word-spacing: 4px;
-      text-align: center;
-      font-family: 'Oswald', sans-serif;
-      font-weight: bold;
-      text-decoration: none; }
+      .inicioW .nav li a {
+        color: white;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px white;
+        margin: 10px;
+        padding: 10px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        text-decoration: none; }
+      .inicioW .nav li:hover {
+        text-shadow: 25px 25px 50px black;
+        border: solid white;
+        cursor: pointer;
+        transition: 1s;
+        border-radius: 25px; }
   .inicioW .slogan {
     grid-row-start: 3;
     grid-row-end: 4;
@@ -812,8 +818,8 @@ body::-webkit-scrollbar-thumb {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: black;
-    height: 7vmax;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 8vmax;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -846,7 +852,8 @@ body::-webkit-scrollbar-thumb {
     font-weight: bold;
     text-align: center; }
   .footerI .rutas {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 12vmax;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -898,8 +905,8 @@ body::-webkit-scrollbar-thumb {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: black;
-    height: 7vmax;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 8vmax;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -932,7 +939,8 @@ body::-webkit-scrollbar-thumb {
     font-weight: bold;
     text-align: center; }
   .footerP .rutas {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 12vmax;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -984,8 +992,8 @@ body::-webkit-scrollbar-thumb {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: black;
-    height: 7vmax;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 8vmax;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -1018,7 +1026,8 @@ body::-webkit-scrollbar-thumb {
     font-weight: bold;
     text-align: center; }
   .footerW .rutas {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 12vmax;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -1070,8 +1079,8 @@ body::-webkit-scrollbar-thumb {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: black;
-    height: 7vmax;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 8vmax;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -1104,7 +1113,8 @@ body::-webkit-scrollbar-thumb {
     font-weight: bold;
     text-align: center; }
   .footerN .rutas {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 12vmax;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -1156,8 +1166,8 @@ body::-webkit-scrollbar-thumb {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: black;
-    height: 7vmax;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 8vmax;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -1190,7 +1200,8 @@ body::-webkit-scrollbar-thumb {
       font-weight: bold;
       text-align: center; }
   .footerC .rutas {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 12vmax;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -1235,8 +1246,8 @@ body::-webkit-scrollbar-thumb {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: black;
-    height: 7vmax;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 8vmax;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -1269,7 +1280,8 @@ body::-webkit-scrollbar-thumb {
       font-weight: bold;
       text-align: center; }
   .footerCon .rutas {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 12vmax;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -1316,8 +1328,8 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    height: 7vmax;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 8vmax;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;

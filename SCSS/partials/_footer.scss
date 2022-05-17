@@ -17,13 +17,14 @@
     
     div {  @include titleSlogan1 (white, 50px); }
 
-    .rutas { background-color: black;
+    .rutas {background-color: rgba(0, 0, 0, 0.5); height: 12vmax;
         @include flex (row, nowrap, space-evenly, center);
 
        
     li {list-style-type: none; justify-content: center; align-items: center;
         a { @include parrafo (white, 25px, 1px 1px 1px white, 10px, 10px);} 
-        &:hover {@include textshadow (); border: solid white; cursor: pointer; transition: 1s; border-radius: 25px;}
+        &:hover {@include textshadow (); border: solid white; cursor: pointer; 
+            transition: 1s; border-radius: 25px;}
     }
     }
 }
@@ -46,7 +47,7 @@
     
     div {  @include titleSlogan1 (white, 50px); }
 
-    .rutas { background-color: black;
+    .rutas {background-color: rgba(0, 0, 0, 0.5); height: 12vmax;
         @include flex (row, nowrap, space-evenly, center);
 
        
@@ -78,7 +79,7 @@
     
     div {  @include titleSlogan1 (white, 50px); }
 
-    .rutas { background-color: black;
+    .rutas { background-color: rgba(0, 0, 0, 0.5); height: 12vmax;
         @include flex (row, nowrap, space-evenly, center);
 
        
@@ -110,7 +111,7 @@
     
     div {  @include titleSlogan1 (white, 50px); }
 
-    .rutas { background-color: black;
+    .rutas { background-color: rgba(0, 0, 0, 0.5); height: 12vmax;
         @include flex (row, nowrap, space-evenly, center);
 
        
@@ -143,7 +144,7 @@
 
             } 
     
-        .rutas { background-color: black;
+        .rutas { background-color: rgba(0, 0, 0, 0.5); height: 12vmax;
             @include flex (row, nowrap, space-evenly, center);
     
            
@@ -152,7 +153,6 @@
             &:hover {@include textshadow (); border: solid white; cursor: pointer; transition: 1s; border-radius: 25px;}
         }
         }
-    
     }
 
     .footerCon { 
@@ -172,17 +172,17 @@
                   h1 { @include titleSlogan1 (white, 50px);} 
                
         
-               div {  @include titleSlogan1 (white, 50px); }
+               div {  @include titleSlogan1 (white, 50px);}
             } 
     
-            .rutas { background-color: black;
+            .rutas { background-color: rgba(0, 0, 0, 0.5); height: 12vmax;
                 @include flex (row, nowrap, space-evenly, center);
    
-            li {list-style-type: none; justify-content: center; align-items: center;
-                a { @include parrafo (white, 25px, 1px 1px 1px white, 10px, 10px);} 
-                &:hover {@include textshadow (); border: solid white; cursor: pointer; transition: 1s; border-radius: 25px;}
-            }
-        }
+                li {list-style-type: none; justify-content: center; align-items: center;
+                    a { @include parrafo (white, 25px, 1px 1px 1px white, 10px, 10px);} 
+                    &:hover {@include textshadow (); border: solid white; cursor: pointer; transition: 1s; border-radius: 25px;}
+                }
+              }
     }
 
 
