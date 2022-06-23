@@ -1,89 +1,61 @@
-/*
-let ingreseVariedad = prompt("Ingrese variedad: 1-Margharite 2-Quattro Formaggi  3-Funghi  4-Provollone  5-Della Casa  6-Veggie 7-ESC");
-let ingreseCantidad = Number(prompt ("Ingrese Cantidad")); 
+const productosContainer = document.querySelector('#contenedor-productosP')
+const item = menuPizza [0]
+const pedido = []
+const pedidoContenedor = document.querySelector('#pedido-contenedor')
+const contadorPedido = document.querySelector ('#contador-pedido')
+const precioTotal = document.querySelector ('#precio-total')
 
- 
-    switch(ingreseVariedad) {
-        case "1":
-          alert("Usted eligio: " + ingreseCantidad +  " Margherite  " + " y debera abonar: $" + (ingreseCantidad*1250));
-          break;
-        case "2": 
-            alert(" Usted eligio: " + ingreseCantidad + " Quattro Formaggi  " + " y debera abonar: $" + (ingreseCantidad*1350));
-          break;
-        case "3":
-            alert(" Usted eligio: " + ingreseCantidad  + " Funghi " + " y debera abonar: $" + (ingreseCantidad*1450));
-          break;
-          case "4":
-            alert(" Usted eligio: " + ingreseCantidad + " Provolone " + " y debera abonar: $" + (ingreseCantidad*1550));
-          break;
-        case "5":
-            alert(" Usted eligio: " + ingreseCantidad  + " Della Casa " + " y debera abonar: $" + (ingreseCantidad*1650));
-         break;
-         case "6":
-            alert(" Usted eligio: " + ingreseCantidad  + " Veggie "+ " y debera abonar: $" + (ingreseCantidad*1750));
-         break;
-        default:
-            alert ("No tenemos esa variedad");  
-            break;
-} 
+menuPizza.forEach((producto) => {
+  const div = document.createElement('div')
+  div.classList.add('leyenda')
+  div.innerHTML = `
+  <img src="${producto.imagen}" alt="">
+  <h1>${producto.nombre}</h1>
+  <p>${producto.descrip}</p> 
+  <p class="precioProducto"> VALOR $ ${producto.precio}</p>
+  <button onclick="agregarPedido(${producto.id})" class="boton-pedidoAgregar">PEDIR
+  <i class="fa-solid fa-cash-register"></i></button> 
+  ` 
+   productosContainer.append(div)
+})
 
-alert("GRAZIE PER AVERCI SCELTO BUON APPETITO");
+const agregarPedido = (id) => {
+  const item = menuPizza.find ((producto) => producto.id === id)
+  pedido.push(item)
 
---------------------------------------------------------------------------------------------------------------
-
-*/
-
-
-let variedad = prompt("Ingrese Variedad deseada:  Margharite / Quattro Formaggi  / Funghi  / Provollone  / Della Casa  / Veggie");
-let cantidad = Number(prompt("Ingrese Cantidad"));
-let valor = 1500;
-let descuento = 1.2
-
-
-for (let index = 0; index <= 1; index++) {
-
-    if (cantidad>=3){
-        alert("Usted eligio" + " " +  cantidad + " " +  variedad + "abonara =" + (cantidad*valor)/descuento);
-        break;
-    }
-    else (cantidad<=1);{
-        alert("Usted eligio" + " " + cantidad + " " +  variedad + "abonara =" + valor);
-        break;
-    }
-    alert("GRAZIE PER AVERCI SCELTO BUON APPETITO");
+  console.log(pedido)
+  renderPedido()
+  renderCantidad()
+  renderTotal()
 }
 
+const renderPedido = () => {
 
+  pedidoContenedor.innerHTML= ``
 
+  pedido.forEach ((item) => {
+    const div = document.createElement ('div')
+    div.classList.add('productoencarrito')
 
+    div.innerHTML = `
+    <p>${item.nombre}</p>
+    <p>$ ${item.precio}</p>
+    <button class="btn-eliminar"> X Sustraer </button>
+    `
+    pedidoContenedor.append(div)
+  }) 
+}
 
+const renderCantidad = () => {
+  contadorPedido.innerText = pedido.length
+}
 
+const renderTotal = () => {
 
+let total = 0 
+pedido.forEach((producto) =>{
+    total += producto.precio
+})
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-  
-
-  
-
-
-
-
-
-  
+  precioTotal.innerText = total 
+}

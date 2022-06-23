@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-
 <html lang="es">
   <head>
     <meta charset="UTF-8">
     <title>ANECDOTAS GOURMET & WINES</title>
-    <meta name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="Shortcut icon" type="image/x-icon" href="../Multimedia/LOGOS/ANECDOTAS.jpg" style="border-radius: 100%;">
     <link rel="stylesheet" href="../CSS/main.css">
     <script src="https://kit.fontawesome.com/e7e352d968.js" crossorigin="anonymous"></script>
+    <script defer src="../JS/modal.js"></script>
+    <script defer src="../JS/data.js"></script>
+		<script defer src="../JS/app.js"></script>
   </head>
 
   <body >
@@ -17,7 +18,6 @@
         <div class="logo"> <img class="imgChica" src="../Multimedia/LOGOS/ANECDOTAS.jpg" alt="LOGO"
             style="width: 150px; height: 150px; border-radius: 100%; border-width: 1px; border-color: black;"> 
         </div>
-    
         <div class="nav">
           <li>
             <ul>
@@ -41,7 +41,6 @@
               </a>
             </ul>
           </li> 
-
           <li>
             <ul><a href="coffe.html"><i class="fa-solid fa-mug-saucer"></i>
               <span class="offdisplay"> <br> COFFEE</span></a>
@@ -66,7 +65,7 @@
            </div>
          </div>
      </header> 
-     <section class="menu">
+     <section id="contenedor-productosP" class="menu">
        <div class="bandera"></div>
          <div class="forno">
            <h1>Forno a legna</h1>
@@ -76,46 +75,30 @@
            <img src="../Multimedia/PIZZAS/shutterstock_1732731302.jpg" alt="">
         </div>
         <h1 class="varieta"> V A R I E T A </h1>
-        <div class="galery"> 
-         <div class="img"><img src="../Multimedia/PIZZAS/margarita.jpg" alt=""></div> 
-          <div class="leyenda"> 
-            <h1>MARGARITE</h1>
-            <p> Ingredienti: Bocconcino Fior di latte, pomodore, albahaca, olio d'oliva, albahaca. </p> <p> VALOR $1450.- </p>
+        <button id="open-modal" class="openmodal"> ABRIR PEDIDO</button>
+        <div id="modal-container" class="modal-container">
+          <div id="contador">
+            <button id="btn-carrito">
+              <span id="contador-pedido">0</span>
+            </button>
           </div>
-         <div class="img">
-           <img src="../Multimedia/PIZZAS/17431-pizza-suprema-ai-formaggi-K-20220125.jpg" alt="">
-          </div>
-         <div class="leyenda">
-           <h1>QUATTRO QUESOS</h1>
-           <p> Ingredienti: Bocconcino Fior di latte, Roquefort, Provolone, Reggianite olio d'oliva, salsa bianca. </p> <p> VALOR $1650.- </p>
-          </div>
-         <div class="img">
-           <img src="../Multimedia/PIZZAS/istockphoto-1350259421-612x612.jpg" alt="">
-         </div>
-         <div class="leyenda">
-           <h1>FUNGHI</h1> 
-           <p> Ingredienti: Bocconcino Fior di latte, Funghi Portobello, olio d'oliva.</p> <p> VALOR $1550.- </p>
-          </div>
-         <div class="img">
-           <img src="../Multimedia/PIZZAS/provo.jpg" alt="">
-          </div>
-         <div class="leyenda"> 
-           <h1>PROVOLONE</h1>
-           <p> Ingredienti: Bocconcino Fior di latte, Provolone, olive, olio d'oliva, pesto alla genovese. </p> <p> VALOR $1650.- </p>
-          </div>
-         <div class="img">
-           <img src="../Multimedia/PIZZAS/istockphoto-474338200-612x612.jpg" alt="">
-          </div>
-         <div class="leyenda"> 
-           <h1>DELLA CASA</h1>
-           <p> Ingredienti: Bocconcino Fior di latte, Reggianite, Funghi Portobello, Cipolla caramellata, Albahaca, olio d'oliva.</p> <p> VALOR $1850.- </p>
-          </div>
-         <div class="img">
-           <img src="../Multimedia/PIZZAS/pizza-napoletana-vegana-3.jpg" alt="">
-          </div>
-         <div class="leyenda">
-           <h1>VEGGIE</h1> 
-           <p> Ingredienti: Farina di riso, Queso Paparella, Pomodore, albahaca, rúcula, hongos, olio d'oliva. </p> <p>VALOR $1700.-</p>
+          <div id="modal" class="modal">
+            <button id="close-modal">X</button> 
+             <hr>
+            <h2>MI PEDIDO</h2> 
+              <div id="pedido-contenedor">
+                <div class="productoPedido">
+                  <p></p>
+                  <p></p>
+                  <button class="btn-eliminar"> X Sustraer </button>
+                </div>
+                <hr>
+                <p class="precio-producto">Precio Total <br>
+                  <span id="precio-total">0</span></p>
+                  <hr>
+            </div>
+           
+    
           </div>
         </div>
      </section> 
@@ -129,10 +112,8 @@
             </div>
             <div><i class="fa-brands fa-facebook"></i>
             </div>
-
             <div><i class="fa-brands fa-twitter-square"></i>
             </div>
-
             <div><i class="fa-brands fa-whatsapp"></i>
             </div>
           </div>
@@ -148,7 +129,7 @@
               </a>
             </ul>
             </li>
-            <li>
+             <li>
               <ul>
                 <a href="naturaljuice.html">
                   <i class="fa-solid fa-glass-water">
@@ -168,7 +149,7 @@
               <ul>
                 <a href="contact.html">
                   <i class="fa-solid fa-location-dot">
-                  </i> <span class="offdisplay"> <br>LOCATION & CONTACT</span>
+                  </i><span class="offdisplay"><br>LOCATION & CONTACT</span>
                 </a>
               </ul>
             </li>
