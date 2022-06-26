@@ -7,43 +7,18 @@
         margin-top: 0; margin-bottom: 10vmax;}
 
     .galery { display: flex;
-        flex-wrap: wrap;
         width: 90%;
         height: 100%;
         margin: auto;
         justify-content: space-around;
+        flex-flow: column wrap;
+        position: relative;
+        height: 500px;
+        margin-bottom: 100px;
+        justify-content: start;
+        align-items: center;
         border-radius: 3px; 
-        object-fit: cover;
-
-        .leyenda {@include centrado (15%);
-            @include parrafo (black,20px);
-            display: flex;
-            flex-flow: column wrap;
-            position: relative;
-            height: 500px;
-            margin-bottom: 100px;
-            justify-content: start;
-            align-items: center;
-            &:hover {  @include textshadow ();
-                @include artShadowFx ();
-                transition: 1s;
-                border: solid black;
-                border-radius: 10px;
-                font-size: 22px;
-            }
-        }
-        
-        .img { @include centrado (25%);
-           position: relative;
-           height: 500px;
-           margin-bottom: 25px;
-           
-          img {@include artShadowFx ();
-              height: 100%;
-              object-fit: cover;
-              border-radius: 5%;
-            } 
-        }   
+        object-fit: cover;    
     }
 }
 
