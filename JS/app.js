@@ -1,6 +1,6 @@
 const productosContainer = document.querySelector('#contenedor-productosP')
 const item = menuPizza [0]
-const pedido = []
+let pedido = []
 const pedidoContenedor = document.querySelector('#pedido-contenedor')
 const contadorPedido = document.querySelector ('#contador-pedido')
 const precioTotal = document.querySelector ('#precio-total')
@@ -19,23 +19,25 @@ menuPizza.forEach((producto) => {
   <button onclick="agregarPedido(${producto.id})" class="boton-pedidoAgregar">PEDIR
   <i class="fa-solid fa-cash-register"></i></button> 
   ` 
-  productosContainer.appendChild(div)
+  contenedorClass.appendChild(div)
 })
 
+
+contenedorClass.className= ('galery')
 
 
 
 
 // SELECCION DEL PRODUCTO
 const agregarPedido = (id) => {
-  const item = menuPizza.find ((producto) => producto.id === id)
-  
+  let item = menuPizza.find ((producto) => producto.id === id)
+
   pedido.push(item)
   console.log(pedido)
 
   renderPedido()
   renderCantidad()
-  renderTotal()
+ 
 }
 
 //RENDERIZADO DEL PRODUCTO SELECCIONADO EN CARRITO 
@@ -50,26 +52,35 @@ const renderPedido = () => {
     div.innerHTML = `
     <p>${item.nombre}</p>
     <p>$ ${item.precio}</p>
-    <button class="btn-eliminar"> X Sustraer </button>
+    <button id= "eliminar${item.id}" class="btn-eliminar"> X Sustraer </button>
     `
-    pedidoContenedor.append(div)
+    
+    pedidoContenedor.appendChild(div)
+
+    eliminarDelCarrito(item)
+    
   }) 
 }
 
 //RENDERIZADO DE LA CANTIDAD SELECCIONADA EN CARRITO
 const renderCantidad = () => {
   contadorPedido.innerText = pedido.length
+  precioTotal.innerText = pedido.reduce((acc, el)=> acc + el.precio , 0);
 }
 
-// SUMA TOTAL DEL PEDIDO
-const renderTotal = () => {
-console.log("renderTotal")
-console.log(pedido)
 
-let total = 0 
-pedido.forEach((producto) =>{
-    total += producto.precio
-})
+function eliminarDelCarrito(item){
+  let btnEliminar = document.getElementById(`eliminar${item.id}`);
+  
+  btnEliminar.addEventListener('click', ()=> {
+      btnEliminar.parentElement.remove();
+      pedido= pedido.filter(elemento=> elemento.id !== item.id);
+      renderPedido();
+      renderCantidad();
 
-  precioTotal.innerText = total 
+      console.log(pedido)
+      //parent element me muestra al padre del elemento que tomo con id, y al hacer el remove, logro sacar al padre
+      //del contenedor de ese producto, en este caso, quien contiene mi producto es productoencarrito.
+  })
+  
 }
