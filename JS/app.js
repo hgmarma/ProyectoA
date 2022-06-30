@@ -1,11 +1,10 @@
-const productosContainer = document.querySelector('#contenedor-productosP')
+const productosContainer = document.querySelector('#contenedor-productosP') 
 const item = menuPizza [0]
 let pedido = []
 const pedidoContenedor = document.querySelector('#pedido-contenedor')
 const contadorPedido = document.querySelector ('#contador-pedido')
 const precioTotal = document.querySelector ('#precio-total')
 const contenedorClass = document.querySelector ('#contenedor-menu')
-
 
 // CREACION DE PRODUCTOS EN JS
 
@@ -21,14 +20,15 @@ menuPizza.forEach((producto) => {
   <i class="fa-solid fa-cash-register"></i></button> 
   ` 
   contenedorClass.appendChild(div)
+  
 })
 
 // SELECCION DEL PRODUCTO
 const agregarPedido = (id) => {
   let item = menuPizza.find ((producto) => producto.id === id)
 
-  // localStorage.setItem ('pedido', JSON.stringify(pedido))
-  
+  localStorage.setItem ('pedido', JSON.stringify(pedido))
+
   pedido.push(item)
 
   renderPedido()
@@ -40,7 +40,6 @@ const agregarPedido = (id) => {
 
 const renderCantidad = () => {
   contadorPedido.innerText = pedido.length
-  
 }
 
 const renderTotal = () => {
@@ -48,13 +47,18 @@ const renderTotal = () => {
 }
 
 const removePedido = (id) => { 
-const item = pedido.find ( (producto) => producto.id === id);
-const indice = pedido.indexOf(item);
-pedido.splice=(indice, 1);
+const item = pedido.find((element) => element.id === id);
+const indice = pedido.indexOf(item)
+
+pedido.splice(indice, 1)
+
+console.log(pedido)
 
 renderPedido()
 renderCantidad()
 renderTotal()
+
+localStorage.setItem ('pedido', JSON.stringify(pedido))
 }
 
 //RENDERIZADO DEL PRODUCTO SELECCIONADO EN CARRITO 
@@ -63,20 +67,38 @@ const renderPedido = () => {
 
   pedidoContenedor.innerHTML= ``
 
-  pedido.forEach ((producto) => {
+  pedido.forEach ((item) => {
 
     const div = document.createElement ('div')
 
     div.classList.add('productoencarrito')
+
     div.innerHTML = `
     <p>${item.nombre}</p>
     <p>$ ${item.precio}</p>
     <button onclick="removePedido(${item.id})" class="btn-eliminar"> X Sustraer </button>
     `
     pedidoContenedor.appendChild(div)
-    // localStorage.setItem ('pedido', JSON.stringify(pedido))
+    
   }) 
 }
+
+// LOCAL STORAGE - JSON
+
+let local
+const pedidoenLS = JSON.parse(localStorage.getItem('pedido'))
+if (pedidoenLS) { 
+  local = pedidoenLS
+
+  renderCantidad()
+  renderTotal()
+  removePedido(item)
+}
+else {
+ local = []
+}
+
+
 
 // function eliminarDelCarrito(item){
 //   let btnEliminar = document.getElementById(`eliminar${item.id}`);
@@ -88,22 +110,7 @@ const renderPedido = () => {
 //       renderCantidad();
 //       renderTotal();
 
-//      localStorage.setItem ('pedido', JSON.stringify(pedido))
 //       //parent element me muestra al padre del elemento que tomo con id, y al hacer el remove, logro sacar al padre
 //       //del contenedor de ese producto, en este caso, quien contiene mi producto es productoencarrito.
 //   })
-// }
-
-// LOCAL STORAGE - JSON
-
-// let local
-// const pedidoenLS = JSON.parse(localStorage.getItem('pedido'))
-// if (pedidoenLS) { 
-//   local = pedidoenLS
-// renderPedido()
-// renderCantidad()
-// eliminarDelCarrito(item)
-// }
-// else {
-//  local = []
 // }
