@@ -1,6 +1,6 @@
 const productosContainer = document.querySelector('#contenedor-productosP') 
 const item = menuWine [0]
-let pedido = []
+let pedido 
 const pedidoContenedor = document.querySelector('#pedido-contenedor')
 const contadorPedido = document.querySelector ('#contador-pedido')
 const precioTotal = document.querySelector ('#precio-total')
@@ -54,11 +54,12 @@ pedido.splice(indice, 1)
 
 console.log(pedido)
 
+localStorage.setItem ('pedido', JSON.stringify(pedido))
+
 renderPedido()
 renderCantidad()
 renderTotal()
 
-localStorage.setItem ('pedido', JSON.stringify(pedido))
 }
 
 //RENDERIZADO DEL PRODUCTO SELECCIONADO EN CARRITO 
@@ -85,17 +86,17 @@ const renderPedido = () => {
 
 // LOCAL STORAGE - JSON
 
-let local
 const pedidoenLS = JSON.parse(localStorage.getItem('pedido'))
 if (pedidoenLS) { 
-  local = pedidoenLS
-
+  pedido = pedidoenLS
+ 
+  renderPedido()
   renderCantidad()
   renderTotal()
-  removePedido(item)
+
 }
 else {
- local = []
+ pedido = []
 }
 
 
