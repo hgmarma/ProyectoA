@@ -1,5 +1,5 @@
 const productosContainer = document.querySelector('#contenedor-productosP') 
-const item = menuWine [0]
+const item = menuNaturalJuice[0]
 let pedido = []
 const pedidoContenedor = document.querySelector('#pedido-contenedor')
 const contadorPedido = document.querySelector ('#contador-pedido')
@@ -8,7 +8,7 @@ const contenedorClass = document.querySelector ('#contenedor-menu')
 
 // CREACION DE PRODUCTOS EN JS
 
-menuWine.forEach((producto) => {
+menuNaturalJuice.forEach((producto) => {
   const div = document.createElement('div')
   div.classList.add= ('galery')
   div.innerHTML = `
@@ -25,7 +25,7 @@ menuWine.forEach((producto) => {
 
 // SELECCION DEL PRODUCTO
 const agregarPedido = (id) => {
-  let item = menuWine.find ((producto) => producto.id === id)
+  let item = menuNaturalJuice.find ((producto) => producto.id === id)
 
   localStorage.setItem ('pedido', JSON.stringify(pedido))
 

@@ -24,6 +24,7 @@ menuPizza.forEach((producto) => {
 })
 
 // SELECCION DEL PRODUCTO
+
 const agregarPedido = (id) => {
   let item = menuPizza.find ((producto) => producto.id === id)
 
