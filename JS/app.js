@@ -1,6 +1,6 @@
 const productosContainer = document.querySelector('#contenedor-productosP') 
 const item = menuPizza [0]
-let pedido = []
+let pedido = JSON.parse(localStorage.getItem('pedido')) || []
 const pedidoContenedor = document.querySelector('#pedido-contenedor')
 const contadorPedido = document.querySelector ('#contador-pedido')
 const precioTotal = document.querySelector ('#precio-total')
@@ -86,19 +86,11 @@ const renderPedido = () => {
 
 // LOCAL STORAGE - JSON
 
-const pedidoenLS = JSON.parse(localStorage.getItem('pedido'))
-
-if (pedidoenLS) { 
-  pedido = pedidoenLS
-  renderPedido()
-  renderCantidad()
-  renderTotal()
-}
-else {
- pedido = []
-}
 
 
+renderPedido()
+renderCantidad()
+renderTotal()
 
 // function eliminarDelCarrito(item){
 //   let btnEliminar = document.getElementById(`eliminar${item.id}`);
