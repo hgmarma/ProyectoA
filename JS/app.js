@@ -31,6 +31,8 @@ menuPizza.forEach((producto) => {
 const agregarPedido = (id) => {
   let item = menuPizza.find ((producto) => producto.id === id)
 
+  mensajeAlert(item.nombre)
+  
   localStorage.setItem ('pedido', JSON.stringify(pedido))
   
 
@@ -91,7 +93,17 @@ renderPedido()
 renderCantidad()
 renderTotal()
 
-swal.fire ('Hola')
+const mensajeAlert = (producto) => {
+  Toastify({
+    duration: 3000,
+    text: `Se agrego ${producto} al pedido`,
+    gravity: 'bottom',
+    position: 'left',
+    style: {
+        background: 'linear-gradient(to right, #00b09b, #96c92d)'
+    }
+}).showToast();
+}
 
 // LOCAL STORAGE - JSON
 
