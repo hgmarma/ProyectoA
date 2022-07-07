@@ -1,6 +1,6 @@
 const productosContainer = document.querySelector('#contenedor-productosP') 
 const item = menuPizza [0]
-let pedido = JSON.parse(localStorage.getItem('pedido')) || []
+const pedido = JSON.parse(localStorage.getItem('pedido')) || []
 const pedidoContenedor = document.querySelector('#pedido-contenedor')
 const contadorPedido = document.querySelector ('#contador-pedido')
 const precioTotal = document.querySelector ('#precio-total')
@@ -22,6 +22,9 @@ menuPizza.forEach((producto) => {
   contenedorClass.appendChild(div)
   
 })
+
+
+
 
 // SELECCION DEL PRODUCTO
 
@@ -84,13 +87,26 @@ const renderPedido = () => {
   }) 
 }
 
-// LOCAL STORAGE - JSON
-
-
-
 renderPedido()
 renderCantidad()
 renderTotal()
+
+swal.fire ('Hola')
+
+// LOCAL STORAGE - JSON
+
+// const pedidoenLS = JSON.parse(localStorage.getItem('pedido'))
+
+// if (pedidoenLS) { 
+//   pedido = pedidoenLS
+
+// }
+// else {
+//  pedido = []
+// }
+
+
+
 
 // function eliminarDelCarrito(item){
 //   let btnEliminar = document.getElementById(`eliminar${item.id}`);
